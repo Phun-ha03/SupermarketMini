@@ -24,3 +24,7 @@
 - **Quản lý mã nguồn:** Git
 
 ## 📸 Giao diện minh họa
+https://prnt.sc/r6v9RCHZ1bKe
+https://prnt.sc/-KfIo86pKahH
+https://prnt.sc/n-RQn9YzJOV8
+https://prnt.sc/scZNsJG55zDz
