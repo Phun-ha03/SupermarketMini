@@ -1,0 +1,113 @@
+﻿@using CMS.BaseModels.Common
+@using CMS.Models.Supermarket.Customers;
+@using CMS.Utilities.Helpers
+@model PagedResult<CustomerViewModel>
+@{
+    ViewData["Title"] = "Danh sách khách hàng";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    int count = 0;
+}
+<div class="card mt-3 mb-3">
+    <div class="row g-3">
+        <div class="col-xxl-2 col-xl-3">
+            <div class="card scrollbar shadow-none shadow-show-xl">
+                <div class="card-header bg-body-tertiary d-none d-xl-block">
+                    <h5 class="mb-0">Lọc khách hàng</h5>
+                </div>
+                <div class="card-body">
+                    <form method="get" asp-controller="Customer" asp-action="Index">
+
+                        <div class="mb-3">
+                            <label class="mb-1">Lọc theo khách hàng</label>
+                            <input type="text" class="form-control form-control-sm" name="keyword" placeholder="Nhập tên ..." value="@ViewBag.Keyword">
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Lọc</button>
+                    </form>
+                </div>
+                <div class="card-footer border-top border-200 py-x1"></div>
+            </div>
+        </div>
+        <div class="col-xxl-10 col-xl-9">
+    <div class="card-header">
+        <div class="row flex-between-end">
+            <div class="col-auto align-self-center">
+                <span class="fs-1 fw-semi-bold">@ViewData["Title"]</span>
+                <span>(<span style="font-size:15px; color:gray;"><font style="color:orange;">@Model.TotalRecords</font> records</span>)</span>
+            </div>
+            <div class="col-auto ms-auto">
+                <button class="btn btn-sm btn-falcon-default me-2" onclick="openRemoteModal('@Url.Action("Create", "Customer")', 'Thêm khách hàng', '800px', '650px')"><span class="fas fa-plus me-2"></span>Thêm khách hàng mới</button>
+            </div>
+        </div>
+    </div>
+    <div class="card-body pt-0">
+        <div id="tableExample2">
+            <div class="table-responsive scrollbar" style="max-height: calc(100vh - 12.5rem) !important;">
+                <table class="table table-bordered table-striped table-hover overflow-hidden fs--1 mb-0">
+                    <thead class="bg-200">
+                        <tr>
+                            <th class="text-nowrap" scope="col">Tên khách hàng</th>
+                            <th class="text-nowrap" scope="col">Số điện thoại</th>
+                            <th class="text-nowrap" scope="col">Email</th>
+                            <th class="text-nowrap" scope="col">Địa chỉ</th>
+                            <th class="text-nowrap" scope="col">Tích điểm</th>
+                            <th class="text-nowrap" scope="col">Ngày tạo</th>
+                        </tr>
+                    </thead>
+                    <tbody class="list">
+                        @if (!string.IsNullOrEmpty(ViewBag.Error))
+                        {
+                            <tr class="align-middle">
+                                <td colspan="6" class="text-danger">@ViewBag.Error</td>
+                            </tr>
+                        }
+                        else if (Model == null || Model.Items == null || Model.Items.Count <= 0)
+                        {
+                            <tr class="align-middle hover-actions-trigger">
+                                <td colspan="6" class="text-nowrap p-2 ps-3 text-danger">
+                                    Chưa có bản ghi
+                                </td>
+                            </tr>
+                        }
+                        else foreach (var item in Model.Items)
+                            {
+                                count++;
+                                <tr class="align-middle hover-actions-trigger">
+                                    <td class="text-nowrap">
+                                        @Html.DisplayFor(modelItem => item.Name)
+                                    </td>
+                                    <td class="text-nowrap position-relative">
+                                        @Html.DisplayFor(modelItem => item.Email)
+                                       
+                                    </td>
+                                    <td class="text-nowrap position-relative">
+                                        @Html.DisplayFor(modelItem => item.Phone)
+
+                                    </td>
+                                    <td class="text-nowrap position-relative">
+                                        @Html.DisplayFor(modelItem => item.Address)
+
+                                    </td>
+                                    <td class="text-nowrap position-relative">
+                                        @Html.DisplayFor(modelItem => item.LoyalPoints)
+
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.CreateAt)
+                                        <div class="hover-actions end-0 top-50 h-100 ps-3 pe-3 translate-middle-y bg-danger">
+                                            <button onclick="openRemoteModal('@Url.Action("Edit", "Customer", new {id = item.CustomerID})', 'Cập nhật khách hàng', '800px', '300px')" class="btn p-0 me-2" type="button" data-bs-toggle="" data-bs-placement="top" title="Sửa"><span class="text-white fas fa-edit"></span></button>
+                                            <button onclick="openRemoteModal('@Url.Action("Delete", "Customer", new {id = item.CustomerID})', 'Xóa loại khách hàng', '500px', '130px')" class="btn p-0" type="button" data-bs-toggle="" data-bs-placement="top" title="Xóa"><span class="text-white fas fa-trash-alt"></span></button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                    </tbody>
+                </table>
+            </div>
+            <div class="d-flex justify-content-center mt-3">
+                @await Component.InvokeAsync("Pager", Model)
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>

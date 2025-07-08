@@ -1,0 +1,50 @@
+﻿@using CMS.Models.Authen.Roles
+@using CMS.Utilities.Helpers
+@model RoleDeleteRequest;
+@{
+    Layout = "~/Views/Shared/_LayoutConfirm.cshtml";
+}
+<main class="main card-bg" id="top">
+    <div class="container-fluid" data-layout="container-fluid">
+        <div class="content pb-0">
+            <form asp-action="delete" asp-controller="role" method="post">
+                @if (!string.IsNullOrEmpty(ViewBag.Error))
+                {
+                    <div class="alert alert-danger pt-2 pb-2 mt-1 mb-2" role="alert">
+                        @ViewBag.Error
+                    </div>
+                }
+                else if (!string.IsNullOrEmpty(ViewBag.Message))
+                {
+
+                    if (ViewBag.Message.Equals(ConstantHelper.UpdateSuccess)
+                    || ViewBag.Message.Equals(ConstantHelper.InsertSuccess)
+                    || ViewBag.Message.Equals(ConstantHelper.DeleteSuccess))
+                    {
+                        <script type="text/javascript">
+                            window.parent.closeDialog(true);
+                        </script>
+                    }
+                    else
+                    {
+                        <div class="alert alert-success pt-2 pb-2 mt-1 mb-2" role="alert">
+                            @ViewBag.Message
+                        </div>
+                    }
+                }
+                <div class="pt-4 pb-4">
+                    Bạn thực sự muốn xóa action @Model.Name ?
+                </div>
+                <input type="hidden" asp-for="Id" />
+                <input type="hidden" asp-for="Name" />
+                <input type="hidden" asp-for="Description" />
+                <div class="row position-fixed bottom-0 bg-light w-100 pt-2">
+                    <div class="col d-flex justify-content-end align-items-center p-0 pt-2 pb-2 pe-3">
+                        <div class="col-auto btn btn-danger" onclick="onCancel_Click()">Hủy</div>
+                        <input class="col-auto btn btn-primary ms-2" type="submit" value="Xóa">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>

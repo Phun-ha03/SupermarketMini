@@ -1,0 +1,296 @@
+﻿@model CMS.Models.Supermarket.Homes.DashboardReportViewModel
+@using System.Text.Json
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<div class="card mt-3 mb-3">
+    <div class="card-header px-3 py-0">
+        <div class="row flex-between-end border-bottom border-bottom-1 pt-3 pb-1">
+            <div class="col-auto align-self-center">
+
+                <h2 class="mb-4">📊 Tổng quan báo cáo</h2>
+
+                <form method="get" class="mb-3">
+                    Từ ngày: <input type="date" name="fromDate" value="@Model.FromDate.ToString("yyyy-MM-dd")" />
+                    Đến ngày: <input type="date" name="toDate" value="@Model.ToDate.ToString("yyyy-MM-dd")" />
+                    <select name="filterType">
+                        <option value="day">Ngày</option>
+                        <option value="week">Tuần</option>
+                        <option value="month">Tháng</option>
+                        <option value="year">Năm</option>
+                    </select>
+                    <button type="submit" class="btn btn-primary btn-sm">Lọc</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-0 mx-2 mt-2">
+        <div class="row g-3 mb-3">
+            <div class="card-body p-0">
+                <div class="card h-lg-100 overflow-hidden">
+            <div class="card h-100">
+                <!-- DOANH THU -->
+                <div class="card-header">
+                    <h3>💰 Doanh thu theo ngày</h3>
+                </div>
+                <div class="mb-4">
+                    <canvas id="revenueChart" height="100"></canvas>
+                </div>
+                <div class="row g-0 justify-content-end">
+                    <table class="table table-striped border-bottom">
+                        <thead class="bg-200">
+                            <tr>
+                                <th class="text-900 border-0">Ngày</th>
+                                <th class="text-900 border-0">Số đơn</th>
+                                <th class="text-900 border-0">Doanh thu</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.RevenueReports)
+                            {
+                                <tr>
+                                    <td>@item.Date.ToString("dd/MM/yyyy")</td>
+                                    <td>@item.OrderCount</td>
+                                    <td>@item.TotalRevenue.ToString("N0") ₫</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <script>
+                    const labels = @Html.Raw(Json.Serialize(Model.RevenueReports.Select(x => x.Date.ToString("dd/MM"))));
+                    const revenues = @Html.Raw(Json.Serialize(Model.RevenueReports.Select(x => x.TotalRevenue)));
+                    const orders = @Html.Raw(Json.Serialize(Model.RevenueReports.Select(x => x.OrderCount)));
+
+                    const ctx = document.getElementById('revenueChart').getContext('2d');
+                    const chart = new Chart(ctx, {
+                        type: 'bar',
+                        data: {
+                            labels: labels,
+                            datasets: [
+                                {
+                                    label: 'Doanh thu',
+                                    data: revenues,
+                                    backgroundColor: 'rgba(54, 162, 235, 0.6)',
+                                    yAxisID: 'y',
+                                },
+                                {
+                                    label: 'Số đơn hàng',
+                                    data: orders,
+                                    type: 'line',
+                                    borderColor: 'orange',
+                                    backgroundColor: 'orange',
+                                    yAxisID: 'y1',
+                                }
+                            ]
+                        },
+                        options: {
+                            interaction: { mode: 'index', intersect: false },
+                            responsive: true,
+                            scales: {
+                                y: { beginAtZero: true, title: { display: true, text: 'Doanh thu' } },
+                                y1: {
+                                    beginAtZero: true,
+                                    position: 'right',
+                                    grid: { drawOnChartArea: false },
+                                    title: { display: true, text: 'Số đơn' }
+                                }
+                            }
+                        }
+                    });
+                    document.querySelector("select[name='filterType']").value = "@Model.FilterType";
+                </script>
+
+                <hr />
+            </div>
+            </div> 
+            </div>
+            @* <div class="col-lg-6">
+                <div class="card h-100">
+                    <!-- DOANH THU -->
+                    <div class="card-header">
+                        <h3>💰 Doanh thu theo ngày</h3>
+                    </div>
+                    <div class="mb-4">
+                    <canvas id="revenueChart" height="100"></canvas>
+                    </div>
+                    <div class="row g-0 justify-content-end">
+                        <table class="table table-striped border-bottom">
+                            <thead class="bg-200">
+                            <tr>
+                                    <th class="text-900 border-0">Ngày</th>
+                                    <th class="text-900 border-0">Số đơn</th>
+                                    <th class="text-900 border-0">Doanh thu</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.RevenueReports)
+                            {
+                                <tr>
+                                    <td>@item.Date.ToString("dd/MM/yyyy")</td>
+                                    <td>@item.OrderCount</td>
+                                    <td>@item.TotalRevenue.ToString("N0") ₫</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    </div>
+                    <script>
+                        const labels = @Html.Raw(Json.Serialize(Model.RevenueReports.Select(x => x.Date.ToString("dd/MM"))));
+                        const revenues = @Html.Raw(Json.Serialize(Model.RevenueReports.Select(x => x.TotalRevenue)));
+                        const orders = @Html.Raw(Json.Serialize(Model.RevenueReports.Select(x => x.OrderCount)));
+
+                        const ctx = document.getElementById('revenueChart').getContext('2d');
+                        const chart = new Chart(ctx, {
+                            type: 'bar',
+                            data: {
+                                labels: labels,
+                                datasets: [
+                                    {
+                                        label: 'Doanh thu',
+                                        data: revenues,
+                                        backgroundColor: 'rgba(54, 162, 235, 0.6)',
+                                        yAxisID: 'y',
+                                    },
+                                    {
+                                        label: 'Số đơn hàng',
+                                        data: orders,
+                                        type: 'line',
+                                        borderColor: 'orange',
+                                        backgroundColor: 'orange',
+                                        yAxisID: 'y1',
+                                    }
+                                ]
+                            },
+                            options: {
+                                interaction: { mode: 'index', intersect: false },
+                                responsive: true,
+                                scales: {
+                                    y: { beginAtZero: true, title: { display: true, text: 'Doanh thu' } },
+                                    y1: {
+                                        beginAtZero: true,
+                                        position: 'right',
+                                        grid: { drawOnChartArea: false },
+                                        title: { display: true, text: 'Số đơn' }
+                                    }
+                                }
+                            }
+                        });
+                        document.querySelector("select[name='filterType']").value = "@Model.FilterType";
+                    </script>
+
+                    <hr />
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card h-100">
+                    <!-- TOP SP BÁN CHẠY -->
+                    <div class="card-header">
+                        <h3>🧑‍💼 Doanh thu theo tài khoản bán hàng</h3>
+                    </div>
+                    <div class="table-responsive fs-10">
+                        <table class="table table-striped border-bottom">
+                            <thead class="bg-200">
+                            <tr>
+                                    <th class="text-900 border-0">STT</th>
+                                    <th class="text-900 border-0">Nhân viên</th>
+                                    <th class="text-900 border-0">Số đơn</th>
+                                    <th class="text-900 border-0">Doanh thu</th>
+                            </tr>
+                        </thead>
+                            <tbody>
+                                @if (Model.UserRevenues != null && Model.UserRevenues.Any())
+                                {
+                                    int stt = 1;
+                                    foreach (var item in Model.UserRevenues)
+                                    {
+                                        <tr>
+                                            <td>@stt++</td>
+                                            <td>@item.UserName</td>
+                                            <td>@item.TotalOrders</td>
+                                            <td>@item.TotalRevenue.ToString("N0") đ</td>
+                                        </tr>
+                                    }
+                                }
+                                else
+                                {
+                                    <tr><td colspan="4" class="text-center">Không có dữ liệu</td></tr>
+                                }
+                            </tbody>
+                    </table>
+                    </div>
+                    <hr />
+                </div>
+            </div> *@
+        </div>
+    </div>
+    <div class="card-body p-0 mx-2 mt-2">
+        <div class="row g-3 mb-3">
+            <div class="col-lg-6">
+                <div class="card h-100">
+                    <!-- SP SẮP HẾT HẠN -->
+                    <div class="card-header">
+                        <h3>⏰ Sản phẩm sắp hết hạn</h3>
+                    </div>
+                    <div class="table-responsive fs-10">
+                        <table class="table table-striped border-bottom">
+                            <thead class="bg-200">
+                            <tr>
+                                <th class ="text-900 border-0">STT</th>
+                                <th class="text-900 border-0">Tên sản phẩm</th>
+                                <th class="text-900 border-0">Ngày hết hạn</th>
+                                <th class="text-900 border-0">Tồn kho</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                int idx = 1;
+                                foreach (var p in Model.ProductsExpireSoon)
+                                {
+                                    <tr>
+                                        <td>@idx++</td>
+                                        <td>@p.ProductName</td>
+                                        <td>@p.ExpirationDate.ToString("dd/MM/yyyy")</td>
+                                        <td>@p.StockQuantity</td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                    </div>
+                    <hr />
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card h-100">
+                    <!-- SP TỒN KHO THẤP -->
+                    <div class="card-header">
+                        <h3>📉 Sản phẩm tồn kho thấp</h3>
+                    </div>
+                    <div class="table-responsive fs-10">
+                        <table class="table table-striped border-bottom">
+                            <thead class="bg-200">
+                            <tr>
+                                <th class ="text-900 border-0">STT</th>
+                                <th class="text-900 border-0">Tên sản phẩm</th>
+                                <th class="text-900 border-0">Tồn kho</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                int i = 1;
+                                foreach (var p in Model.ProductsLowStock)
+                                {
+                                    <tr>
+                                        <td>@i++</td>
+                                        <td>@p.ProductName</td>
+                                        <td>@p.StockQuantity</td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,57 @@
+﻿@using CMS.Models.Authen.Users
+@model LoginRequest
+@{
+
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+<div class="row flex-center min-vh-100 py-6">
+    <div class="col-sm-10 col-md-8 col-lg-6 col-xl-5 col-xxl-4">
+        <a class="d-flex flex-center mb-4 text-decoration-none" href="javascript:void(0)">
+            <img class="me-2" src="/assets/img/icons/spot-illustrations/chatbot.png" alt="" width="58" />
+            <span class="font-sans-serif fw-bolder fs-5 d-inline-block">Supermarket</span></a>
+        <div class="card" id="loginForm">
+            <div class="card-body p-4 p-sm-5">
+                <div class="row flex-between-center mb-2">
+                    <div class="col-auto">
+                        <h5>Đăng nhập</h5>
+                    </div>
+                    <div class="col-auto fs--1 text-600">
+                        <!--<span class="mb-0 undefined">or</span> <span><a href="pages/authentication/simple/register.html">Create an account</a></span>-->
+                    </div>
+                </div>
+                <form asp-action="login" asp-controller="account" method="post">
+                    <input type="hidden" asp-for="ReturnUrl" value="@ViewBag.ReturnUrl" />
+                    <div class="mb-3">
+                        <input class="form-control" asp-for="UserName" type="text" placeholder="Tên đăng nhập" />
+                        <span asp-validation-for="UserName" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <input class="form-control" asp-for="Password" type="password" placeholder="Mật khẩu" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="row flex-between-center">
+                        <div class="col-auto">
+                            <div class="form-check mb-0">
+                                <input class="form-check-input yellow_checkbox" asp-for="RememberMe" type="checkbox" id="basic-checkbox" checked="checked" />
+                                <label class="form-check-label mb-0" for="basic-checkbox">Ghi nhớ</label>
+                            </div>
+                        </div>
+                        <div class="col-auto"><a class="fs--1" href="@Url.Action("forgotpassword", "account")">Quên mật khẩu?</a></div>
+                    </div>
+                    <div class="mb-3">
+                        <button class="btn btn-primary fw-semi-bold d-block w-100 mt-3" type="submit" name="submit">Đăng nhập</button>
+                    </div>
+                </form>
+                <!--<div class="position-relative mt-4">
+                  <hr class="bg-300" />
+                  <div class="divider-content-center">or log in with</div>
+                </div>
+                <div class="row g-2 mt-2">
+                  <div class="col-sm-6"><a class="btn btn-outline-google-plus btn-sm d-block w-100" href="#"><span class="fab fa-google-plus-g me-2" data-fa-transform="grow-8"></span> google</a></div>
+                  <div class="col-sm-6"><a class="btn btn-outline-facebook btn-sm d-block w-100" href="#"><span class="fab fa-facebook-square me-2" data-fa-transform="grow-8"></span> facebook</a></div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+</div>

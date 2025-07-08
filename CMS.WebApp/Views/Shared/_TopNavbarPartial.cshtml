@@ -1,0 +1,47 @@
+﻿@using CMS.Models.Authen.Users
+@using CMS.Utilities.Helpers
+@using CMS.WebApp.Models;
+@{
+    var controllerName = this.ViewContext.RouteData.Values["controller"].ToString();
+    var partialName = "~/Views/Shared/SearchPartials/_" + controllerName + "SearchPartial.cshtml";
+    UserViewModel userViewModel = new UserViewModel();
+    if (ViewBag.User != null) userViewModel = ViewBag.User as UserViewModel;
+}
+@if (!string.Equals(controllerName, "TRAINING", StringComparison.OrdinalIgnoreCase))
+{
+    <nav class="navbar navbar-light navbar-glass navbar-top navbar-expand py-0 mh-0">
+
+        <button class="btn navbar-toggler-humburger-icon navbar-toggler me-1 me-sm-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalCollapse" aria-controls="navbarVerticalCollapse" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
+        <a class="navbar-brand me-1 me-sm-3" href="@Url.Action("index","camsim")">
+            <div class="d-flex align-items-center">
+                <img class="me-2" src="../assets/img/icons/spot-illustrations/falcon.png" alt="" width="40" />
+                <span class="font-sans-serif yellow_text">Supermarket</span>
+            </div>
+        </a>
+        <ul class="navbar-nav navbar-nav-icons ms-auto flex-row align-items-center">
+            <li class="nav-item dropdown">
+                <a class="nav-link pe-0 d-flex align-items-center" id="navbarDropdownUser" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="avatar avatar-xl">
+                        @if (!string.IsNullOrEmpty(userViewModel.Avatar))
+                        {
+                            <img class="rounded-circle" src="@("/" + ConstantHelper.AvatarPath.Replace("\\", "/") + userViewModel.Avatar.Replace("\\", "/"))" alt="" />
+                        }
+                        else
+                        {
+                            <div class="avatar-name rounded-circle"><span>@StringHelper.GetFullnamePrefix(userViewModel.FullName)</span></div>
+                        }
+                    </div>
+                </a>
+                <div class="dropdown-menu dropdown-menu-end py-0" aria-labelledby="navbarDropdownUser">
+                    <div class="bg-white dark__bg-1000 rounded-2 py-2">
+                        <a class="dropdown-item" href="javascript:void(0)">Xin chào, @userViewModel.FullName</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="javascript:openRemoteModal('@Url.Action("ChangePassword", "User")', 'Đổi mật khẩu', '600px', '300px')">Đổi mật khẩu</a>
+                        <a class="dropdown-item" href="@Url.Action("UpdateProfile","User")">Thông tin cá nhân</a>
+                        <a class="dropdown-item" href="@Url.Action("logout","account")">Đăng xuất</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+}

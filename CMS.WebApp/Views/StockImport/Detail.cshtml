@@ -1,0 +1,52 @@
+﻿@using CMS.BaseModels.Common
+@using CMS.Models.Supermarket.StockImports;
+@using CMS.Models.Supermarket.Suppliers
+@using CMS.Utilities.Helpers
+@model StockImportViewModel
+@{
+    ViewData["Title"] = "Danh sách sản phẩm";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+<div class="card mb-3">
+    <div class="container p-5 my-5 border">
+    <div class="card-header">
+        <h3>Chi tiết phiếu nhập #@Model.StockImportID</h3>
+    </div>
+    <div class="card-body p-0 pb-3">
+        <div class="row g-3">
+            <div class="mb-4">
+                <p>Nhà cung cấp: @Model.SupplierName</p>
+                <p>Ngày nhập: @Model.ImportDate?.ToString("dd/MM/yyyy")</p>
+                <p>Tổng tiền: @Model.TotalCost?.ToString("N0") ₫</p>
+            </div>
+            <div class="mb-4">
+                <div class="table-responsive fs-10">
+                    <table class="table table-striped border-bottom">
+                        <thead class="bg-200">
+
+                            <tr>
+                                <th class="text-900 border-0">Sản phẩm</th>
+                                <th class="text-900 border-0">Số lượng</th>
+                                <th class="text-900 border-0">Giá nhập</th>
+                                <th class="text-900 border-0">Hạn sử dụng</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var detail in Model.StockImportDetails)
+                            {
+                                <tr>
+                                    <td>@detail.Name</td>
+                                    <td>@detail.Quantity</td>
+                                    <td>@detail.CostPrice.ToString("N0") ₫</td>
+                                    <td>@detail.ExpirationDate?.ToString("dd/MM/yyyy")</td>
+                                </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>

@@ -1,0 +1,117 @@
+﻿@using CMS.BaseModels.Common
+@using CMS.Utilities.Helpers
+@using CMS.Models.Authen.Users
+@using CMS.Models.Authen.UserStatuses
+@model PagedResult<UserViewModel>
+
+@{
+    ViewData["Title"] = "List User";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    int count = 0;
+    List<UserStatusViewModel> userStatuses = new List<UserStatusViewModel>();
+    if (ViewBag.UserStatuses != null) userStatuses = (List<UserStatusViewModel>)ViewBag.UserStatuses;
+}
+<div class="card mt-3 mb-3">
+    <div class="card-header">
+        <div class="row flex-between-end">
+            <div class="col-auto align-self-center">
+                <span class="fs-1 fw-semi-bold">@ViewData["Title"]</span>
+                <span>(<span style="font-size:15px; color:gray;"><font style="color:orange;">@Model.TotalRecords</font> records</span>)</span>
+            </div>
+            <div class="col-auto ms-auto">
+                <button class="btn btn-sm btn-falcon-default me-2" onclick="openRemoteModal('@Url.Action("Create", "User")', 'Thêm người dùng', '800px', '90%')"><span class="fas fa-plus me-2"></span>Thêm người dùng</button>
+            </div>
+        </div>
+    </div>
+    <div class="card-body pt-0">
+        <div id="tableExample2">
+            <div class="table-responsive scrollbar" style="max-height: calc(100vh - 12.5rem) !important;">
+                <table class="table table-bordered table-striped table-hover overflow-hidden fs--1 mb-0">
+                    <thead class="bg-200">
+                        <tr>
+                            <th class="text-nowrap" scope="col">Họ tên</th>
+                            <th class="text-nowrap" scope="col">Tên đăng nhập</th>
+                            <th class="text-nowrap" scope="col">Email</th>
+                            <th class="text-nowrap" scope="col">Quyền</th>
+                            @*<th class="text-nowrap" scope="col">Chức năng</th>*@
+                            <th class="text-nowrap" scope="col">Trạng thái</th>
+                        </tr>
+                    </thead>
+                    <tbody class="list">
+                        @if (!string.IsNullOrEmpty(ViewBag.Error))
+                        {
+                            <tr class="align-middle">
+                                <td colspan="6" class="text-danger">@ViewBag.Error</td>
+                            </tr>
+                        }
+                        else if (Model == null || Model.Items == null || Model.Items.Count <= 0)
+                        {
+                            <tr class="align-middle hover-actions-trigger">
+                                <td colspan="6" class="text-nowrap p-2 ps-3 text-danger">
+                                    Chưa có người dùng
+                                </td>
+                            </tr>
+                        }
+                        else foreach (var item in Model.Items)
+                        {
+                            count++;
+                            <tr class="align-middle hover-actions-trigger">
+                                <td class="text-nowrap p-2 ps-3">
+                                    <div class="d-flex align-items-center">
+                                        @if (!string.IsNullOrEmpty(item.Avatar))
+                                        {
+                                            <div class="avatar avatar-xl">
+                                                <img class="rounded-circle" style="border: 2px solid @(string.IsNullOrEmpty(item.Background) ? "#fff" : item.Background) !important;" src="@("/" + ConstantHelper.AvatarPath.Replace("\\", "/") + item.Avatar.Replace("\\", "/"))" alt="" />
+                                            </div>
+                                        }
+                                        else
+                                        {
+                                            <div class="avatar avatar-xl">
+                                                <div class="avatar-name rounded-circle" style="border: 2px solid @(string.IsNullOrEmpty(item.Background) ? "#fff" : item.Background) !important;"><span>@StringHelper.GetFullnamePrefix(item.FullName)</span></div>
+                                            </div>
+                                        }
+                                        <div class="ms-2">@item.FullName</div>
+                                    </div>
+                                </td>
+                                <td class="text-nowrap">
+                                    @Html.DisplayFor(modelItem => item.UserName)
+                                </td>
+                                <td class="text-nowrap">
+                                    @Html.DisplayFor(modelItem => item.Email)
+                                </td>
+                                <td class="text-nowrap">
+                                    <a href="javascript:openRemoteModal('@Url.Action("AssignRole", "User", new {id = item.Id})', 'View/Assign roles', '1000px', '300px')">
+                                        view/assign
+                                    </a>
+                                </td>
+                               @* <td class="text-nowrap">
+                                    <a href="javascript:openRemoteModal('@Url.Action("AssignFunction", "User", new {id = item.Id})', 'View/Assign functions', '1000px', '90%')">
+                                        view/assign
+                                    </a>
+                                </td>*@
+                                <td class="text-nowrap position-relative">
+                                    @{
+                                        var status = userStatuses.Find(m => m.UserStatusId == item.UserStatusId);
+                                        if (status == null) status = new UserStatusViewModel();
+                                    }
+                                    <span class="badge rounded-pill py-1 px-2 fs--2" style="background-color: @(string.IsNullOrEmpty(status.BackgroundColor) ? "var(--falcon-300)" : status.BackgroundColor) !important; color: @(string.IsNullOrEmpty(status.Color) ? "var(--falcon-1000)" : status.Color) !important;">
+                                        @(status.UserStatusName)
+                                    </span>
+                                    <div class="hover-actions end-0 top-50 h-100 ps-3 pe-3 translate-middle-y bg-danger">
+                                        <button onclick="openRemoteModal('@Url.Action("Edit", "User", new {id = item.Id})', 'Cập nhật thông tin người dùng', '800px', '90%')" class="btn p-0 me-2" type="button" data-bs-toggle="" data-bs-placement="top" title="Sửa"><span class="text-white fas fa-edit"></span></button>
+                                        <button onclick="openRemoteModal('@Url.Action("ResetPassword", "User", new {id = item.Id})', 'Đặt lại mật khẩu', '500px', '300px')" class="btn p-0 me-2" type="button" data-bs-toggle="" data-bs-placement="top" title="Đặt lại mật khẩu"><span class="text-white fas fa-key"></span></button>
+                                        <button onclick="openRemoteModal('@Url.Action("Delete", "User", new {id = item.Id})', 'Xóa người dùng', '500px', '130px')" class="btn p-0" type="button" data-bs-toggle="" data-bs-placement="top" title="Xóa"><span class="text-white fas fa-trash-alt"></span></button>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <div class="d-flex justify-content-center mt-3">
+                @await Component.InvokeAsync("Pager", Model)
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,89 @@
+﻿@using CMS.Models.Authen.Icons
+@using CMS.Utilities.Helpers
+@model IconCreateRequest;
+@{
+    Layout = "~/Views/Shared/_LayoutConfirm.cshtml";
+}
+<main class="main card-bg" id="top">
+    <div class="container-fluid" data-layout="container-fluid">
+        <div class="content pb-2">
+            <form method="post" asp-action="create" asp-controller="icons">
+                @if (!string.IsNullOrEmpty(ViewBag.Error))
+                {
+                    <div class="alert alert-danger pt-2 pb-2 mt-1 mb-2" role="alert">
+                        @ViewBag.Error
+                    </div>
+                }
+                else if (!string.IsNullOrEmpty(ViewBag.Message))
+                {
+
+                    if (ViewBag.Message.Equals(ConstantHelper.UpdateSuccess)
+                    || ViewBag.Message.Equals(ConstantHelper.InsertSuccess)
+                    || ViewBag.Message.Equals(ConstantHelper.DeleteSuccess))
+                    {
+                        <script type="text/javascript">
+                            window.parent.closeDialog(true);
+                        </script>
+                    }
+                    else
+                    {
+                        <div class="alert alert-success pt-2 pb-2 mt-1 mb-2" role="alert">
+                            @ViewBag.Message
+                        </div>
+                    }
+                }
+                @* <input asp-for="StatusId" type="hidden" value="1" /> *@
+                <div class="mb-2 mt-1">
+                    <label class="form-label mb-1" asp-for="IconCode"></label>
+                    <input class="form-control" asp-for="IconCode" type="text" placeholder="Icon Code" autocomplete="off" />
+                    <span asp-validation-for="IconCode" class="text-danger"></span>
+                </div>
+                <div class="mb-2">
+                    <label class="form-label" asp-for="IconTypeId"></label>
+                    <input class="form-control" asp-for="IconTypeId" type="number" placeholder="Icon Type Id" autocomplete="off" />
+                    <span asp-validation-for="IconTypeId" class="text-danger"></span>
+                </div>
+                <div class="mb-2">
+                    <label class="form-label mb-1" asp-for="IconTypeCode"></label>
+                    <input class="form-control" asp-for="IconTypeCode" type="text" placeholder="Icon Type Code" autocomplete="off" />
+                    <span asp-validation-for="IconTypeCode" class="text-danger"></span>
+                </div>
+                <div class="mb-2">
+                    <label class="form-label mb-1" asp-for="StatusId"></label>
+                    <select class="form-select" asp-for="StatusId" aria-label="Status select example">
+                        <option selected="selected" value="1">Active</option>
+                        <option value="0">Deactive</option>
+                    </select>
+                    <span asp-validation-for="StatusId" class="text-danger"></span>
+                </div>
+                <div class="mt-5"></div>
+                <div class="row position-fixed bottom-0 bg-light w-100 pt-2">
+                    <div class="col d-flex justify-content-end align-items-center p-0 pe-3">
+                        <div class="col-auto btn btn-danger" onclick="onCancel_Click()">Hủy</div>
+                        <input class="col-auto btn btn-primary ms-2" type="submit" value="Thêm"></input>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
+<script type="text/javascript">
+    function selectIcon(icon) {
+        $('#btnSelectIcon').html('<span class="' + icon + ' fs-1 text-800"></span>');
+        $('#Icon').val(icon);
+    }
+
+    $('#txtIconSearch').on("keypress", function (e) {
+        if (e.keyCode == 13) {
+            $("#iconsContainer>li").each(function (index) {
+                if ($(this).attr("id").indexOf($('#txtIconSearch').val()) >= 0) {
+                    $(this).removeClass('d-none');
+                }
+                else {
+                    $(this).addClass('d-none');
+                }
+            });
+            return false;
+        }
+    });
+</script>

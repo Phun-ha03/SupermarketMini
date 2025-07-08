@@ -1,0 +1,14 @@
+D:\ĐATN\SPMKMN\DATN\CMS.BaseModels\bin\Debug\net8.0\CMS.BaseModels.deps.json
+D:\ĐATN\SPMKMN\DATN\CMS.BaseModels\bin\Debug\net8.0\CMS.BaseModels.runtimeconfig.json
+D:\ĐATN\SPMKMN\DATN\CMS.BaseModels\bin\Debug\net8.0\CMS.BaseModels.dll
+D:\ĐATN\SPMKMN\DATN\CMS.BaseModels\bin\Debug\net8.0\CMS.BaseModels.pdb
+D:\ĐATN\SPMKMN\DATN\CMS.BaseModels\obj\Debug\net8.0\CMS.BaseModels.csproj.AssemblyReference.cache
+D:\ĐATN\SPMKMN\DATN\CMS.BaseModels\obj\Debug\net8.0\CMS.BaseModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\ĐATN\SPMKMN\DATN\CMS.BaseModels\obj\Debug\net8.0\CMS.BaseModels.AssemblyInfoInputs.cache
+D:\ĐATN\SPMKMN\DATN\CMS.BaseModels\obj\Debug\net8.0\CMS.BaseModels.AssemblyInfo.cs
+D:\ĐATN\SPMKMN\DATN\CMS.BaseModels\obj\Debug\net8.0\CMS.BaseModels.csproj.CoreCompileInputs.cache
+D:\ĐATN\SPMKMN\DATN\CMS.BaseModels\obj\Debug\net8.0\CMS.BaseModels.dll
+D:\ĐATN\SPMKMN\DATN\CMS.BaseModels\obj\Debug\net8.0\refint\CMS.BaseModels.dll
+D:\ĐATN\SPMKMN\DATN\CMS.BaseModels\obj\Debug\net8.0\CMS.BaseModels.pdb
+D:\ĐATN\SPMKMN\DATN\CMS.BaseModels\obj\Debug\net8.0\CMS.BaseModels.genruntimeconfig.cache
+D:\ĐATN\SPMKMN\DATN\CMS.BaseModels\obj\Debug\net8.0\ref\CMS.BaseModels.dll

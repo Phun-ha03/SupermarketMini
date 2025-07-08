@@ -1,0 +1,68 @@
+﻿@using CMS.Models.Supermarket.Categories;
+@using CMS.Utilities.Helpers
+@model CategoryEditRequest
+@{
+    ViewData["Title"] = "Edit Product";
+    Layout = "~/Views/Shared/_LayoutConfirm.cshtml";
+}
+
+<main class="main card-bg" id="top">
+    <div class="container-fluid" data-layout="container-fluid">
+        <div class="content pb-2">
+            <form asp-action="edit" class="col-12">
+                @if (!string.IsNullOrEmpty(ViewBag.Error))
+                {
+                    <div class="alert alert-danger pt-2 pb-2 mt-1 mb-2" role="alert">
+                        @ViewBag.Error
+                    </div>
+                }
+                else if (!string.IsNullOrEmpty(ViewBag.Message))
+                {
+
+                    if (ViewBag.Message.Equals(ConstantHelper.UpdateSuccess)
+                    || ViewBag.Message.Equals(ConstantHelper.InsertSuccess)
+                    || ViewBag.Message.Equals(ConstantHelper.DeleteSuccess))
+                    {
+                        <script type="text/javascript">
+                            window.parent.closeDialog(true);
+                        </script>
+                    }
+                    else
+                    {
+                        <div class="alert alert-success pt-2 pb-2 mt-1 mb-2" role="alert">
+                            @ViewBag.Message
+                        </div>
+                    }
+                }
+                <input type="hidden" asp-for="CategoryID" />
+                <div class="mb-2 mt-1">
+                    <label asp-for="CategoryName" class="control-label"></label>
+                    <input asp-for="CategoryName" class="form-control" type="text" placeholder="" />
+                    <span asp-validation-for="CategoryName" class="text-danger"></span>
+                </div>
+                <div class="mb-2">
+                    <label asp-for="Description" class="control-label"></label>
+                    <input asp-for="Description" class="form-control" placeholder="" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="mb-2">
+                    <label asp-for="CreateAt" class="control-label"></label>
+                    <input asp-for="CreateAt" class="form-control" type="datetime-local" placeholder="Select date and time" data-options='{"dateFormat":"d/m/Y"}' />
+                    <span asp-validation-for="CreateAt" class="text-danger"></span>
+                </div>
+                <div class="mb-2">
+                    <label asp-for="UpdateAt" class="control-label"></label>
+                    <input asp-for="UpdateAt" class="form-control" type="datetime-local" placeholder="Select date and time" data-options='{"dateFormat":"d/m/Y"}' />
+                    <span asp-validation-for="UpdateAt" class="text-danger"></span>
+                </div>
+                <div class="mt-5"></div>
+                <div class="row position-fixed bottom-0 bg-light w-100 pt-2">
+                    <div class="col d-flex justify-content-end align-items-center p-0 pe-3">
+                        <input type="button" value="Hủy" onclick="return onCancel_Click();" class="col-auto btn btn-danger" style="margin-left:10px !important; padding-left:30px; padding-right:30px;" />
+                        <input type="submit" value="Cập nhật" class="col-auto btn btn-primary ms-2" style="margin-left:10px !important; padding-left:30px; padding-right:30px;" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>

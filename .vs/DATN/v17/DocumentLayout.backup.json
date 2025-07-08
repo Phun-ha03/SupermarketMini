@@ -1,0 +1,321 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0110ATN\\SPMKMN\\DATN\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{466B8A4B-B8F8-47C1-9EF5-ADBFECFB270D}|CMS.Services\\CMS.Services.csproj|d:\\\u0111atn\\spmkmn\\datn\\cms.services\\supermarket\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466B8A4B-B8F8-47C1-9EF5-ADBFECFB270D}|CMS.Services\\CMS.Services.csproj|solutionrelative:cms.services\\supermarket\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA449F2-E45F-44D0-8694-581CAE2A5856}|CMS.WebApp\\CMS.WebApp.csproj|d:\\\u0111atn\\spmkmn\\datn\\cms.webapp\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FA449F2-E45F-44D0-8694-581CAE2A5856}|CMS.WebApp\\CMS.WebApp.csproj|solutionrelative:cms.webapp\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466B8A4B-B8F8-47C1-9EF5-ADBFECFB270D}|CMS.Services\\CMS.Services.csproj|d:\\\u0111atn\\spmkmn\\datn\\cms.services\\supermarket\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466B8A4B-B8F8-47C1-9EF5-ADBFECFB270D}|CMS.Services\\CMS.Services.csproj|solutionrelative:cms.services\\supermarket\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466B8A4B-B8F8-47C1-9EF5-ADBFECFB270D}|CMS.Services\\CMS.Services.csproj|d:\\\u0111atn\\spmkmn\\datn\\cms.services\\supermarket\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466B8A4B-B8F8-47C1-9EF5-ADBFECFB270D}|CMS.Services\\CMS.Services.csproj|solutionrelative:cms.services\\supermarket\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466B8A4B-B8F8-47C1-9EF5-ADBFECFB270D}|CMS.Services\\CMS.Services.csproj|d:\\\u0111atn\\spmkmn\\datn\\cms.services\\supermarket\\homeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466B8A4B-B8F8-47C1-9EF5-ADBFECFB270D}|CMS.Services\\CMS.Services.csproj|solutionrelative:cms.services\\supermarket\\homeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA449F2-E45F-44D0-8694-581CAE2A5856}|CMS.WebApp\\CMS.WebApp.csproj|d:\\\u0111atn\\spmkmn\\datn\\cms.webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA449F2-E45F-44D0-8694-581CAE2A5856}|CMS.WebApp\\CMS.WebApp.csproj|solutionrelative:cms.webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFB6977B-BDBE-4374-B5B1-D3AB2031FD7E}|CMS.Models\\CMS.Models.csproj|d:\\\u0111atn\\spmkmn\\datn\\cms.models\\supermarket\\homes\\dashboardreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB6977B-BDBE-4374-B5B1-D3AB2031FD7E}|CMS.Models\\CMS.Models.csproj|solutionrelative:cms.models\\supermarket\\homes\\dashboardreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFB6977B-BDBE-4374-B5B1-D3AB2031FD7E}|CMS.Models\\CMS.Models.csproj|d:\\\u0111atn\\spmkmn\\datn\\cms.models\\supermarket\\homes\\userrevenueviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB6977B-BDBE-4374-B5B1-D3AB2031FD7E}|CMS.Models\\CMS.Models.csproj|solutionrelative:cms.models\\supermarket\\homes\\userrevenueviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9459C89-8AEE-41B1-89DD-C157E5DE66BE}|CMS.Data\\CMS.Data.csproj|d:\\\u0111atn\\spmkmn\\datn\\cms.data\\configuration\\supermarket\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9459C89-8AEE-41B1-89DD-C157E5DE66BE}|CMS.Data\\CMS.Data.csproj|solutionrelative:cms.data\\configuration\\supermarket\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9459C89-8AEE-41B1-89DD-C157E5DE66BE}|CMS.Data\\CMS.Data.csproj|d:\\\u0111atn\\spmkmn\\datn\\cms.data\\entities\\supermarket\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9459C89-8AEE-41B1-89DD-C157E5DE66BE}|CMS.Data\\CMS.Data.csproj|solutionrelative:cms.data\\entities\\supermarket\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9459C89-8AEE-41B1-89DD-C157E5DE66BE}|CMS.Data\\CMS.Data.csproj|d:\\\u0111atn\\spmkmn\\datn\\cms.data\\entities\\authen\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9459C89-8AEE-41B1-89DD-C157E5DE66BE}|CMS.Data\\CMS.Data.csproj|solutionrelative:cms.data\\entities\\authen\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466B8A4B-B8F8-47C1-9EF5-ADBFECFB270D}|CMS.Services\\CMS.Services.csproj|d:\\\u0111atn\\spmkmn\\datn\\cms.services\\supermarket\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466B8A4B-B8F8-47C1-9EF5-ADBFECFB270D}|CMS.Services\\CMS.Services.csproj|solutionrelative:cms.services\\supermarket\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA449F2-E45F-44D0-8694-581CAE2A5856}|CMS.WebApp\\CMS.WebApp.csproj|d:\\\u0111atn\\spmkmn\\datn\\cms.webapp\\controllers\\stockimportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA449F2-E45F-44D0-8694-581CAE2A5856}|CMS.WebApp\\CMS.WebApp.csproj|solutionrelative:cms.webapp\\controllers\\stockimportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA449F2-E45F-44D0-8694-581CAE2A5856}|CMS.WebApp\\CMS.WebApp.csproj|d:\\\u0111atn\\spmkmn\\datn\\cms.webapp\\views\\stockimport\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FA449F2-E45F-44D0-8694-581CAE2A5856}|CMS.WebApp\\CMS.WebApp.csproj|solutionrelative:cms.webapp\\views\\stockimport\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466B8A4B-B8F8-47C1-9EF5-ADBFECFB270D}|CMS.Services\\CMS.Services.csproj|d:\\\u0111atn\\spmkmn\\datn\\cms.services\\supermarket\\stockimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466B8A4B-B8F8-47C1-9EF5-ADBFECFB270D}|CMS.Services\\CMS.Services.csproj|solutionrelative:cms.services\\supermarket\\stockimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA449F2-E45F-44D0-8694-581CAE2A5856}|CMS.WebApp\\CMS.WebApp.csproj|d:\\\u0111atn\\spmkmn\\datn\\cms.webapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA449F2-E45F-44D0-8694-581CAE2A5856}|CMS.WebApp\\CMS.WebApp.csproj|solutionrelative:cms.webapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA449F2-E45F-44D0-8694-581CAE2A5856}|CMS.WebApp\\CMS.WebApp.csproj|d:\\\u0111atn\\spmkmn\\datn\\cms.webapp\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FA449F2-E45F-44D0-8694-581CAE2A5856}|CMS.WebApp\\CMS.WebApp.csproj|solutionrelative:cms.webapp\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9459C89-8AEE-41B1-89DD-C157E5DE66BE}|CMS.Data\\CMS.Data.csproj|d:\\\u0111atn\\spmkmn\\datn\\cms.data\\entities\\supermarket\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9459C89-8AEE-41B1-89DD-C157E5DE66BE}|CMS.Data\\CMS.Data.csproj|solutionrelative:cms.data\\entities\\supermarket\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 219,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.Services\\Supermarket\\Interfaces\\IOrderService.cs",
+              "RelativeDocumentMoniker": "CMS.Services\\Supermarket\\Interfaces\\IOrderService.cs",
+              "ToolTip": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.Services\\Supermarket\\Interfaces\\IOrderService.cs",
+              "RelativeToolTip": "CMS.Services\\Supermarket\\Interfaces\\IOrderService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:53:58.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.Services\\Supermarket\\ProductService.cs",
+              "RelativeDocumentMoniker": "CMS.Services\\Supermarket\\ProductService.cs",
+              "ToolTip": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.Services\\Supermarket\\ProductService.cs",
+              "RelativeToolTip": "CMS.Services\\Supermarket\\ProductService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:07:08.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.WebApp\\Views\\Home\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "CMS.WebApp\\Views\\Home\\Dashboard.cshtml",
+              "ToolTip": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.WebApp\\Views\\Home\\Dashboard.cshtml",
+              "RelativeToolTip": "CMS.WebApp\\Views\\Home\\Dashboard.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAIwGcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T19:18:52.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderConfiguration.cs",
+              "DocumentMoniker": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.Data\\Configuration\\Supermarket\\OrderConfiguration.cs",
+              "RelativeDocumentMoniker": "CMS.Data\\Configuration\\Supermarket\\OrderConfiguration.cs",
+              "ToolTip": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.Data\\Configuration\\Supermarket\\OrderConfiguration.cs",
+              "RelativeToolTip": "CMS.Data\\Configuration\\Supermarket\\OrderConfiguration.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA0wBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:30:46.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.Data\\Entities\\Authen\\User.cs",
+              "RelativeDocumentMoniker": "CMS.Data\\Entities\\Authen\\User.cs",
+              "ToolTip": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.Data\\Entities\\Authen\\User.cs",
+              "RelativeToolTip": "CMS.Data\\Entities\\Authen\\User.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:25:04.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.Data\\Entities\\Supermarket\\Order.cs",
+              "RelativeDocumentMoniker": "CMS.Data\\Entities\\Supermarket\\Order.cs",
+              "ToolTip": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.Data\\Entities\\Supermarket\\Order.cs",
+              "RelativeToolTip": "CMS.Data\\Entities\\Supermarket\\Order.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:24:10.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.WebApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CMS.WebApp\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.WebApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CMS.WebApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:18:01.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeService.cs",
+              "DocumentMoniker": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.Services\\Supermarket\\HomeService.cs",
+              "RelativeDocumentMoniker": "CMS.Services\\Supermarket\\HomeService.cs",
+              "ToolTip": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.Services\\Supermarket\\HomeService.cs",
+              "RelativeToolTip": "CMS.Services\\Supermarket\\HomeService.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAYwLgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:16:02.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.Services\\Supermarket\\OrderService.cs",
+              "RelativeDocumentMoniker": "CMS.Services\\Supermarket\\OrderService.cs",
+              "ToolTip": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.Services\\Supermarket\\OrderService.cs",
+              "RelativeToolTip": "CMS.Services\\Supermarket\\OrderService.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAuwBYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:49:56.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRevenueViewModel.cs",
+              "DocumentMoniker": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.Models\\Supermarket\\Homes\\UserRevenueViewModel.cs",
+              "RelativeDocumentMoniker": "CMS.Models\\Supermarket\\Homes\\UserRevenueViewModel.cs",
+              "ToolTip": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.Models\\Supermarket\\Homes\\UserRevenueViewModel.cs",
+              "RelativeToolTip": "CMS.Models\\Supermarket\\Homes\\UserRevenueViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:15:27.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DashboardReportViewModel.cs",
+              "DocumentMoniker": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.Models\\Supermarket\\Homes\\DashboardReportViewModel.cs",
+              "RelativeDocumentMoniker": "CMS.Models\\Supermarket\\Homes\\DashboardReportViewModel.cs",
+              "ToolTip": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.Models\\Supermarket\\Homes\\DashboardReportViewModel.cs",
+              "RelativeToolTip": "CMS.Models\\Supermarket\\Homes\\DashboardReportViewModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:14:52.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.Data\\Entities\\Supermarket\\Product.cs",
+              "RelativeDocumentMoniker": "CMS.Data\\Entities\\Supermarket\\Product.cs",
+              "ToolTip": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.Data\\Entities\\Supermarket\\Product.cs",
+              "RelativeToolTip": "CMS.Data\\Entities\\Supermarket\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T18:57:48.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.WebApp\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "CMS.WebApp\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.WebApp\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "CMS.WebApp\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAkBAAAAAAAAAAAIwHABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T18:02:08.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.Services\\Supermarket\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "CMS.Services\\Supermarket\\Interfaces\\IProductService.cs",
+              "ToolTip": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.Services\\Supermarket\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "CMS.Services\\Supermarket\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T17:55:02.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.WebApp\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "CMS.WebApp\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.WebApp\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "CMS.WebApp\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAALcAAAAAAAAAAAAAAHIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T17:29:58.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StockImportController.cs",
+              "DocumentMoniker": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.WebApp\\Controllers\\StockImportController.cs",
+              "RelativeDocumentMoniker": "CMS.WebApp\\Controllers\\StockImportController.cs",
+              "ToolTip": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.WebApp\\Controllers\\StockImportController.cs",
+              "RelativeToolTip": "CMS.WebApp\\Controllers\\StockImportController.cs",
+              "ViewState": "AgIAAPkAAAAAAAAAAAAswP8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T15:59:01.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StockImportService.cs",
+              "DocumentMoniker": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.Services\\Supermarket\\StockImportService.cs",
+              "RelativeDocumentMoniker": "CMS.Services\\Supermarket\\StockImportService.cs",
+              "ToolTip": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.Services\\Supermarket\\StockImportService.cs",
+              "RelativeToolTip": "CMS.Services\\Supermarket\\StockImportService.cs",
+              "ViewState": "AgIAAAwBAAAAAAAAAADwvxgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T15:58:56.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.WebApp\\Views\\StockImport\\Create.cshtml",
+              "RelativeDocumentMoniker": "CMS.WebApp\\Views\\StockImport\\Create.cshtml",
+              "ToolTip": "D:\\\u0110ATN\\SPMKMN\\DATN\\CMS.WebApp\\Views\\StockImport\\Create.cshtml",
+              "RelativeToolTip": "CMS.WebApp\\Views\\StockImport\\Create.cshtml",
+              "ViewState": "AgIAALcAAAAAAAAAAADwv9YAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T15:40:57.649Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

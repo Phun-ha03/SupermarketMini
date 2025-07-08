@@ -1,0 +1,259 @@
+﻿@using CMS.Utilities.Helpers;
+<!DOCTYPE html>
+<html class="navbar-vertical-collapsed" lang="en-US" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>CMS - Supermarket Content Managerment System</title>
+
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="/assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="/assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+    <script src="/assets/js/config.js"></script>
+    <script src="/vendors/overlayscrollbars/OverlayScrollbars.min.js"></script>
+
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link href="/vendors/glightbox/glightbox.min.css?v=@(AppSettings.StaticFileVersion)" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700%7cPoppins:300,400,500,600,700,800,900&amp;display=swap"
+        rel="stylesheet">
+    <link href="/vendors/overlayscrollbars/OverlayScrollbars.min.css?v=@(AppSettings.StaticFileVersion)"
+        rel="stylesheet">
+    <link href="/assets/css/theme-rtl.min.css?v=@(AppSettings.StaticFileVersion)" rel="stylesheet" id="style-rtl">
+    <link href="/assets/css/theme.min.css?v=@(AppSettings.StaticFileVersion)" rel="stylesheet" id="style-default">
+    <link href="/assets/css/user-rtl.min.css?v=@(AppSettings.StaticFileVersion)" rel="stylesheet" id="user-style-rtl">
+    <link href="/assets/css/user.min.css?v=@(AppSettings.StaticFileVersion)" rel="stylesheet" id="user-style-default">
+    <link href="/assets/css/select2.min.css?v=@(AppSettings.StaticFileVersion)" rel="stylesheet" />
+    <link href="/vendors/flatpickr/flatpickr.min.css?v=@(AppSettings.StaticFileVersion)" rel="stylesheet" />
+    <link href="/assets/css/style.css?v=@(AppSettings.StaticFileVersion)" rel="stylesheet" id="user-style-default">
+    <script src="/assets/js/jQuery.js?v=@(AppSettings.StaticFileVersion)"></script>
+    <script src="/vendors/tinymce/tinymce.min.js?v=@(AppSettings.StaticFileVersion)"></script>
+    <script src="/assets/js/utils.js?v=@(AppSettings.StaticFileVersion)"></script>
+    <script>
+        var isRTL = JSON.parse(localStorage.getItem('isRTL'));
+        if (isRTL) {
+            var linkDefault = document.getElementById('style-default');
+            var userLinkDefault = document.getElementById('user-style-default');
+            linkDefault.setAttribute('disabled', true);
+            userLinkDefault.setAttribute('disabled', true);
+            document.querySelector('html').setAttribute('dir', 'rtl');
+        } else {
+            var linkRTL = document.getElementById('style-rtl');
+            var userLinkRTL = document.getElementById('user-style-rtl');
+            linkRTL.setAttribute('disabled', true);
+            userLinkRTL.setAttribute('disabled', true);
+        }
+    </script>
+</head>
+
+
+<body>
+
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main class="main" id="top">
+        <div class="container-fluid" data-layout="container-fluid">
+            <script>
+                var isFluid = JSON.parse(localStorage.getItem('isFluid'));
+                if (isFluid) {
+                    var container = document.querySelector('[data-layout]');
+                    if (container != null) {
+                        container.classList.remove('container');
+                        container.classList.add('container-fluid');
+                    }
+                }
+            </script>
+            <nav class="navbar navbar-light navbar-vertical navbar-expand-xl">
+                <script>
+                    var navbarStyle = localStorage.getItem("navbarStyle");
+                    if (navbarStyle && navbarStyle !== 'transparent') {
+                        document.querySelector('.navbar-vertical').classList.add(`navbar-${navbarStyle}`);
+                    }
+                </script>
+                <partial name="_SlideNavbarPartial" model="null" />
+            </nav>
+            <div class="content pb-0">
+                <partial name="_TopNavbarPartial" model="null" />
+                @RenderBody()
+                @await RenderSectionAsync("Scripts", required: false)
+            </div>
+        </div>
+    </main>
+    <div class="modal fade" id="remoteModel" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="dialog" id="remoteModelContainer">
+            <div class="modal-content position-relative">
+                <div class="position-absolute top-0 end-0 mt-2 me-2 z-index-1">
+                    <button class="btn-close btn btn-sm btn-circle d-flex flex-center transition-base"
+                        data-bs-dismiss="modal" aria-label="Close" id="close_btn"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <div class="rounded-top-lg py-3 ps-3 pe-6 bg-light">
+                        <span class="mb-1 fs-1 fw-semi-bold" id="remoteModelTitle"></span>
+                    </div>
+                    <div class="p-0 pb-0" id="remoteModelContent">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="alertModel">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="alertTitle"></h6>
+                    <button type="button" class="close border-0" data-dismiss="modal" aria-label="Close"
+                        onclick="closeAlertModal()">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id="alertMessage"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                        onclick="closeAlertModal()">Đóng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="confirmModel">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title">Xác nhận</h6>
+                    <button type="button" class="close border-0" data-dismiss="modal" aria-label="Close"
+                        onclick="closeConfirmModal()">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id="confirmMessage"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                        onclick="closeConfirmModal()">Đóng</button>
+                    <button type="button" class="btn btn-danger" id="confirmModelButton"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex position-sticky bottom-0 end-0">
+        <div id="toast" class="toast align-items-center text-white border-0 position-absolute bottom-2 end-1"
+            role="alert" data-bs-autohide="true" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body text-bg-primary" id="toast-body">
+                </div>
+                <button class="btn-close btn-close-white me-2 m-auto" type="button" data-bs-dismiss="toast"
+                    aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script src="/vendors/popper/popper.min.js?v=@(AppSettings.StaticFileVersion)"></script>
+    <script src="/vendors/bootstrap/bootstrap.min.js?v=@(AppSettings.StaticFileVersion)"></script>
+    <script src="/vendors/anchorjs/anchor.min.js?v=@(AppSettings.StaticFileVersion)"></script>
+    <script src="/vendors/is/is.min.js?v=@(AppSettings.StaticFileVersion)"></script>
+    <script src="/vendors/glightbox/glightbox.min.js?v=@(AppSettings.StaticFileVersion)"></script>
+    <script src="/vendors/draggable/draggable.bundle.legacy.js?v=@(AppSettings.StaticFileVersion)"></script>
+    <script src="/vendors/fontawesome/all.min.js?v=@(AppSettings.StaticFileVersion)"></script>
+    <script src="/vendors/lodash/lodash.min.js?v=@(AppSettings.StaticFileVersion)"></script>
+    <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?version=3.111.0&features=Window%2Csmoothscroll"></script>
+    <script src="/vendors/list.js/list.min.js?v=@(AppSettings.StaticFileVersion)"></script>
+    <script src="/assets/js/theme.js?v=@(AppSettings.StaticFileVersion)"></script>
+    <script src="/assets/js/select2.min.js?v=@(AppSettings.StaticFileVersion)"></script>
+    <script src="/vendors/dayjs/dayjs.min.js?v=@(AppSettings.StaticFileVersion)"></script>
+    <script src="/vendors/echarts/echarts.min.js?v=@(AppSettings.StaticFileVersion)"></script>
+    <script src="/assets/js/flatpickr.js?v=@(AppSettings.StaticFileVersion)"></script>
+    <script>
+        /*$(document).ready(function () {
+            $(".select2").select2({ width: '100%' });
+        });
+
+        function openRemoteModal(page, title, width, height) {
+            if (width.indexOf('%') >= 0) {
+                let widthInt = screen.width;
+                var percent = parseInt(width.replace('%', ''));
+                width = widthInt * percent / 100 + "px";
+            }
+            if (height.indexOf('%') >= 0) {
+                let heightInt = screen.height - 150;
+                var percent = parseInt(height.replace('%', ''));
+                height = heightInt * percent / 100 + "px";
+            }
+
+            $('#remoteModelContent').html("");
+            $('#remoteModelContainer').css("max-width", width);
+            $('#remoteModelContainer').css("width", width);
+            $('#remoteModelContainer').css("max-height", height);
+            $('#remoteModelContainer').css("height", height);
+
+            $('#remoteModelTitle').text(title);
+            $('#remoteModelContent').html('<iframe style="border: 0px; margin:0px; padding:0px;" src="' + page + '" width=100%" height="' + height + '"></iframe>');
+
+            $("#remoteModel").modal('show');
+        }
+        function closeDialog(reload) {
+            $('#remoteModelTitle').text('');
+            $('#remoteModelContent').html('');
+            $("#remoteModel").modal('hide');
+            console.log('closeDialog');
+            if (reload) {
+                window.location.reload();
+            }
+        }
+
+        function makeToast(type, message) {
+            var bg = '';
+            if (type.toLowerCase() == 'error') {
+                bg = 'danger';
+            }
+            else if (type.toLowerCase() == 'warning') {
+                bg = 'warning';
+            }
+            else if (type.toLowerCase() == 'info') {
+                bg = 'info';
+            }
+            else {
+                bg = 'success';
+            }
+
+            $('#toast').addClass('bg-' + bg);
+            $('#toast-body').text(message);
+            $('#toast').show("slow", "swing");
+
+            setTimeout(() => {
+                $('#toast').removeClass('bg-' + bg);
+                $('#toast-body').text('');
+                $('#toast').hide("slow", "swing");
+            }, 3000);
+        }*/
+    </script>
+</body>
+
+</html>

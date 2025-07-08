@@ -1,0 +1,160 @@
+﻿@using CMS.Models.Authen.Functions
+@using CMS.Models.Authen.Icons
+@using CMS.Utilities.Helpers
+@model FunctionCreateRequest;
+@{
+    Layout = "~/Views/Shared/_LayoutConfirm.cshtml";
+}
+<main class="main card-bg" id="top">
+    <div class="container-fluid" data-layout="container-fluid">
+        <div class="content pb-2">
+            <form method="post" asp-action="create" asp-controller="function">
+                @if (!string.IsNullOrEmpty(ViewBag.Error))
+                {
+                    <div class="alert alert-danger pt-2 pb-2 mt-1 mb-2" role="alert">
+                        @ViewBag.Error
+                    </div>
+                }
+                else if (!string.IsNullOrEmpty(ViewBag.Message))
+                {
+
+                    if (ViewBag.Message.Equals(ConstantHelper.UpdateSuccess)
+                    || ViewBag.Message.Equals(ConstantHelper.InsertSuccess)
+                    || ViewBag.Message.Equals(ConstantHelper.DeleteSuccess))
+                    {
+                        <div class="alert alert-success pt-2 pb-2 mt-1 mb-2" role="alert">
+                            @ViewBag.Message
+                        </div>
+                        @* <script type="text/javascript">
+                            window.parent.closeDialog(true);
+                        </script> *@
+                    }
+                    else
+                    {
+                        <div class="alert alert-success pt-2 pb-2 mt-1 mb-2" role="alert">
+                            @ViewBag.Message
+                        </div>
+                    }
+                }
+                <input asp-for="Icon" type="hidden" />
+                <div class="mb-2">
+                    <label class="form-label mb-1" asp-for="ParentFunctionId"></label>
+                    @Html.DropDownListFor(
+                    m => m.ParentFunctionId,
+                    ViewBag.Functions as SelectList,
+                    new { @class = "form-control select2" }
+                    )
+                    <span asp-validation-for="ParentFunctionId" class="text-danger"></span>
+                </div>
+                <div class="mb-2 mt-1">
+                    <label class="form-label mb-1" asp-for="Name"></label>
+                    <input class="form-control" asp-for="Name" type="text" placeholder="Name=Controler-Action" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="mb-2">
+                    <label class="form-label" asp-for="Description"></label>
+                    <input class="form-control" asp-for="Description" type="text" placeholder="Description" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="mb-2 row">
+                    <div class="col-6">
+                        <label class="form-label mb-1" asp-for="Controler"></label>
+                        <input class="form-control" asp-for="Controler" type="text" placeholder="Controller" />
+                        <span asp-validation-for="Controler" class="text-danger"></span>
+                    </div>
+                    <div class="col-6">
+                        <label class="form-label mb-1" asp-for="Action"></label>
+                        <input class="form-control" asp-for="Action" type="text" placeholder="Action" />
+                        <span asp-validation-for="Action" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="mb-2">
+                    <label class="form-label mb-1" asp-for="SortOrder"></label>
+                    <input class="form-control" asp-for="SortOrder" type="number" placeholder="SortOrder" />
+                    <span asp-validation-for="SortOrder" class="text-danger"></span>
+                </div>
+                <div class="mb-2">
+                    <div class="row">
+                        <div class="col-2">
+                            <label class="form-label mb-1" asp-for="Icon"></label>
+                        </div>
+                        <div class="col">
+                            <div class="dropdown dropend">
+                                <a class="rounded-circle border border-300 d-flex justify-content-center align-items-center" style="width:40px !important; height: 40px !important;" id="btnSelectIcon" href="#" role="button" data-bs-toggle="dropdown">
+                                    <span class="text-800">...</span>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <h6 class="dropdown-header py-0 px-3 mb-0">Select icon</h6>
+                                    <div class="dropdown-divider"></div>
+                                    <div class="px-3 mb-2">
+                                        <input id="txtIconSearch" class="form-control form-control-sm search" type="text" placeholder="Search icon" autocomplete="off" />
+                                    </div>
+                                    <ul id="iconsContainer" class="list-unstyled list mb-0 scrollbar" style="max-height:200px !important;">
+                                        <li id='none' class="hover-bg-100 py-2 px-3 cursor-pointer border-bottom" onclick="selectIcon('')"><span class="me-2 fs-1 text-800">...</span> <span class="fs-0 text-800">None</span></li>
+                                        @if (ViewBag.Icons != null)
+                                        {
+                                            List<IconViewModel> icons = (List<IconViewModel>)ViewBag.Icons;
+                                            foreach (var icon in icons)
+                                            {
+                                                <li id='@icon.IconCode.Replace(" ", "_")' class="hover-bg-100 py-2 px-3 cursor-pointer border-bottom" onclick="selectIcon('@(icon.IconCode)')"><span class="@icon.IconCode me-2 fs-1 text-800"></span> <span class="fs-0 text-800">@icon.IconCode</span></li>
+                                            }
+                                        }
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <span asp-validation-for="Icon" class="text-danger"></span>
+                </div>
+                <div class="mb-2">
+                    <div class="row">
+                        <div class="col-2">
+                            <label class="form-label mb-1" asp-for="IsShow"></label>
+                        </div>
+                        <div class="col">
+                            <div class="form-check form-switch">
+                                <input asp-for="IsShowBoolean" class="form-check-input check-item" type="checkbox" />
+                            </div>
+                        </div>
+                    </div>
+                    <span asp-validation-for="IsShow" class="text-danger"></span>
+                </div>
+                <div class="mb-2">
+                    <label class="form-label mb-1" asp-for="StatusId"></label>
+                    <select class="form-select" asp-for="StatusId" aria-label="Status select example">
+                        <option selected="selected" value="1">Active</option>
+                        <option value="0">Deactive</option>
+                    </select>
+                    <span asp-validation-for="StatusId" class="text-danger"></span>
+                </div>
+                <div class="mt-5"></div>
+                <div class="row position-fixed bottom-0 bg-light w-100 pt-2">
+                    <div class="col d-flex justify-content-end align-items-center p-0 pe-3">
+                        <div class="col-auto btn btn-danger" onclick="onCancel_Click()">Hủy</div>
+                        <input class="col-auto btn btn-primary ms-2" type="submit" value="Thêm"></input>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
+<script type="text/javascript">
+    function selectIcon(icon) {
+        $('#btnSelectIcon').html('<span class="' + icon + ' fs-1 text-800"></span>');
+        $('#Icon').val(icon);
+    }
+
+    $('#txtIconSearch').on("keypress", function (e) {
+        if (e.keyCode == 13) {
+            $("#iconsContainer>li").each(function (index) {
+                if ($(this).attr("id").indexOf($('#txtIconSearch').val()) >= 0) {
+                    $(this).removeClass('d-none');
+                }
+                else {
+                    $(this).addClass('d-none');
+                }
+            });
+            return false;
+        }
+    });
+</script>

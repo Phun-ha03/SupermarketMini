@@ -1,0 +1,268 @@
+﻿@using CMS.BaseModels.Common
+@using CMS.Data.Enums
+@using CMS.Models.Authen.UserLogs;
+@using CMS.Models.Authen.Users
+@using CMS.Utilities.Helpers
+@using Newtonsoft.Json
+@model PagedResult<UserLogViewModel>
+@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    int counter = 0;
+    var users = new List<UserViewModel>();
+
+    if (ViewBag.UserList != null)
+    {
+        users = ViewBag.UserList as List<UserViewModel>;
+    }
+
+    if (Model.TotalRecords > 0 && Model.PageSize > 0)
+    {
+        counter = Model.PageSize - Model.TotalRecords % Model.PageSize;
+    }
+}
+<div class="card mt-2 mb-3">
+    <div class="card-header px-3 py-0">
+        <div class="row flex-between-end border-bottom border-bottom-1 py-2">
+            <div class="col-auto align-self-center">
+                <span class="fs-1 fw-semi-bold">Logs</span>
+            </div>
+            <div class="col-auto ms-auto">
+                @* <button class="btn btn-sm btn-falcon-default me-2" onclick="openRemoteModal('@Url.Action("Create", "CustomerPackage")', 'Cấp gói cho khách hàng', '600px','450px')"><span class="fas fa-plus me-2"></span>Thêm khách hàng</button> *@
+            </div>
+        </div>
+        <form asp-action="index" asp-controller="Logs" method="get" class="row gx-0">
+            <div class="col-12 col-md-6 col-xl-3 mt-3 pe-2 did-floating-label-content">
+                <input class="form-control did-floating-input" name="keyword"
+                       value='@(ViewBag.Keyword == null ? string.Empty : ViewBag.Keyword)' type="search"
+                       placeholder="Từ khóa..." aria-label="Search" autocomplete="off" />
+                <label class="did-floating-label">Từ khóa</label>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 pe-2 mt-3">
+                <button class="btn btn-secondary" type="submit">Tìm kiếm</button>
+            </div>
+        </form>
+    </div>
+    <div class="card-body p-0 mt-2">
+        <div id="tableExample2">
+            <div class="table-responsive scrollbar" style="max-height: calc(100vh - 13.5rem) !important;">
+                <table class="table table-striped table-hover overflow-scroll mb-0">
+                    <thead class="text-900 shadow-sm position-sticky card-bg top-0 z-index-1">
+                        <tr>
+                            <th class="text-nowrap text-center" scope="col">
+                                #/<span class="fw-bold">@Model.TotalRecords</span>
+                            </th>
+                            <th class="text-nowrap " scope="col">Bảng dữ liệu</th>
+                            <th class="text-nowrap " scope="col">Dòng dữ liệu</th>
+                            <th class="text-nowrap " scope="col">Hành động</th>
+                            <th class="text-nowrap text-center" scope="col">Ngày tạo</th>
+                            <th class="text-nowrap text-center" scope="col">Người tạo</th>
+                            <th class="text-nowrap " scope="col">Trạng thái</th>
+
+                        </tr>
+                    </thead>
+                    <tbody class="list">
+                        @if (!string.IsNullOrEmpty(ViewBag.Error))
+                        {
+                            <tr class="align-middle">
+                                <td colspan="6" class="text-danger">@ViewBag.Error</td>
+                            </tr>
+                        }
+                        else if (Model == null || Model.Items == null || Model.Items.Count <= 0)
+                        {
+                            <tr class="align-middle hover-actions-trigger">
+                                <td colspan="6" class="text-nowrap p-2 ps-3 text-danger">
+                                    Chưa có khách hàng.
+                                </td>
+                            </tr>
+                        }
+                        else
+                        {
+                            if (Model.PageIndex == Model.PageCount)
+                            {
+                                counter = Model.Items.Count;
+                            }
+                            else
+                            {
+                                counter = Model.Items.Count - counter;
+                            }
+                            foreach (var item in Model.Items)
+                            {
+                                <tr class="align-middle hover-actions-trigger">
+                                    <td class="text-nowrap text-center" valign="top">
+                                        @((Model.PageCount - Model.PageIndex) * Model.PageSize + counter--)
+
+                                    </td>
+                                    <td class="text-nowrap " valign="top">
+                                        @item.TableName
+                                    </td>
+                                    <td class="text-nowrap " valign="top">
+                                        @item.TableRowId
+                                    </td>
+                                    <td class="text-nowrap " valign="top">
+                                        @{
+                                            var myAction = item.ActionId!.Value.GetUserLogActionEnum();
+                                            var strAction = "<span class='text-700'></span> <span class='badge rounded-pill px-3 " + @myAction.GetCssClass() + "'>" + @myAction.GetDisplayName() + "</span>";
+                                        }  @Html.Raw(strAction)
+                                    </td>
+                                    <td class="text-nowrap text-center" valign="top">
+                                        @item.CrDateTime
+                                    </td>
+                                    <td class="text-nowrap text-center " valign="top">
+                                        @{
+                                            var crUser = users?.Find(m => m.Id == item.UserId);
+                                            var strUser = "Null";
+                                            if (crUser != null && !string.IsNullOrEmpty(crUser.Avatar))
+                                            {
+                                                strUser = "<div class='avatar avatar-xl' role='button' data-bs-toggle='tooltip' title='" + @crUser.FullName + "'>" + "<img class='rounded-circle' style='border: 2px solid " + (string.IsNullOrEmpty(crUser.Background) ? "#fff" : crUser.Background) + "!important;' src='" + ("/" + ConstantHelper.AvatarPath.Replace("\\", "/") + crUser.Avatar.Replace("\\", "/")) + "' alt='' /> </div>";
+                                            }
+                                            else
+                                            {
+                                                strUser = "<div class='avatar avatar-xl' role='button' data-bs-toggle='tooltip' title='" + @crUser?.FullName + "'><div class='avatar-name rounded-circle' style='border: 2px solid " + (string.IsNullOrEmpty(crUser?.Background) ? "fff" : crUser?.Background) + " !important;'><span>" + CMS.Utilities.Helpers.StringHelper.GetFullnamePrefix(crUser?.FullName) + "</span></div></div>";
+                                            }
+                                                    @Html.Raw(strUser)
+                                        }
+                                    </td>
+
+                                    <td class="text-nowrap position-relative" valign="top">
+                                        @{
+                                            var myEnum = item.StatusId!.Value.GetUserLogStatusEnum();
+                                            var strStatus = "<span class='text-700'></span> <span class='badge rounded-pill px-3 " + @myEnum.GetCssClass() + "'>" + @myEnum.GetDisplayName() + "</span>";
+                                        }
+                                        @Html.Raw(strStatus)
+                                        <div class="hover-actions end-0 top-50 h-100 ps-3 pe-3 translate-middle-y bg-danger">
+                                            <button onclick='openModal(@Html.Raw(Json.Serialize(item)),"@strAction.ToString()","@strStatus.ToString()", "@strUser.ToString()")' class="btn p-0 me-2" type="button" data-bs-toggle="" data-bs-placement="top" title="Chi tiết">
+                                                <span class="text-white fas fa-info-circle"></span>
+                                            </button>
+                                            @* <button onclick="openRemoteModal('@Url.Action("Delete", "CustomerPackage", new {id = item.CustomerPackageId})', 'Xóa thông tin gói', '500px', '250px')" class="btn p-0" type="button" data-bs-toggle="" data-bs-placement="top" title="Xóa">
+                                    <span class="text-white fas fa-trash-alt"></span>
+                                    </button> *@
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <div class="d-flex justify-content-center my-2">
+                @await Component.InvokeAsync("Pager", Model)
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .flex {
+        display: flex;
+    }
+
+    .align-items-center {
+        align-items: center;
+    }
+</style>
+<div class="modal" tabindex="-1" role="dialog" id="editParamModel">
+    <div class="modal-dialog modal-dialog-centered" role="document" id="editParamContainer" style="max-width:1200px !important;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title">Chi tiết Log</h6>
+                <button type="button" class="close border-0" data-dismiss="modal" aria-label="Close" onclick="openModal()">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="openModal(null,null,null,null)">Đóng</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function FormatDateTime(strDatetime) {
+        var dateTimeString = strDatetime;
+        var dateTime = new Date(dateTimeString);
+
+        // Lấy thông tin về ngày, tháng và năm
+        var year = dateTime.getFullYear();
+        var month = dateTime.getMonth() + 1; // Lưu ý: Tháng bắt đầu từ 0 (0 là tháng 1)
+        var day = dateTime.getDate();
+
+        // Lấy thông tin về giờ, phút và giây
+        var hours = dateTime.getHours();
+        var minutes = dateTime.getMinutes();
+        var seconds = dateTime.getSeconds();
+
+        // Định dạng ngày tháng năm giờ phút giây theo dạng "YYYY-MM-DD HH:MM:SS"
+        var formattedDateTime =
+            (day < 10 ? "0" : "") +
+            day +
+            "/" +
+            (month < 10 ? "0" : "") +
+            month +
+            "/" +
+            year +
+            "   " +
+            (hours < 10 ? "0" : "") +
+            hours +
+            ":" +
+            (minutes < 10 ? "0" : "") +
+            minutes +
+            ":" +
+            (seconds < 10 ? "0" : "") +
+            seconds;
+
+        return formattedDateTime.toString();
+    }
+    function openModal(data, action, status, user) {
+
+        $("#editParamModel").toggleClass("d-block");
+        if (data) {
+            
+            var strTable = `<div class="table-responsive scrollbar" style="max-height: calc(50vh) !important;">
+                                            <table class="table table-striped table-hover overflow-scroll mb-0">
+                                                <thead class="text-900 shadow-sm position-sticky card-bg top-0 z-index-1">
+                                                    <tr>
+                                                                <th class="text-nowrap text-center" scope="col">#/<span class="fw-bold">${data.userLogDetails.length}</span></th>
+                                                        <th class="text-nowrap " scope="col">Dữ liệu gốc</th>
+                                                        <th class="text-nowrap " scope="col">Dữ liệu mới</th>
+                                                        <th class="text-nowrap " scope="col">Lỗi xảy ra</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class='list'>`;
+            if (data.userLogDetails.length > 0) {
+                data.userLogDetails.forEach((x, i) => {
+                    strTable += `<tr class="align-middle hover-actions-trigger">
+                                                                    <td   class="text-nowrap " valign="top"> ${i+1}</td>
+                                                                    <td   class="text-nowrap " valign="top">
+                                                                        <pre>${x.originData!=null?JSON.stringify(JSON.parse(x.originData), undefined, 2):""}</pre>
+                                                                    </td>
+                                                                    <td   class="text-nowrap " valign="top">
+                                                                            <pre>${x.newData != null? JSON.stringify(JSON.parse(x.newData), undefined, 2):""}</pre>
+                                                                    </td>
+                                                                    <td   class="text-nowrap " valign="top">
+                                                                            <pre>${x.actionMessage != null ? (x.actionMessage) : ""}</pre>.
+                                                                    </td>
+                                                                </tr>`;
+                });
+            }
+            else {
+                strTable += `<tr class="align-middle hover-actions-trigger">
+                                                                <td colspan="6" class="text-nowrap p-2 ps-3 text-danger">
+                                                                    Không có thông tin chi tiết.
+                                                                </td>
+                                                            </tr>`;
+            }
+            strTable += "</tbody></table>";
+            var str = "<div class=''>"
+                + "<div class='py-2'> Bảng dữ liệu: " + data.tableName + "</div>"
+                + "<div class='py-2'> Dòng dữ liệu: " + data.tableRowId + "</div>"
+                + "<div class='py-2'> Hành động: " + action + "</div>"
+                + "<div class='py-2'> Ngày tạo: " + FormatDateTime(data.crDateTime) + "</div>"
+                + "<div class='py-2 flex align-items-center'> Người  tạo:  " + user + "</div>"
+                + "<div class='py-2'> Trạng thái: " + status + "</div>"
+                + "</div><div class=''>Chi tiết</div>" + strTable;
+            $(".modal-body").html(str);
+        }
+        else return;
+    }
+
+</script>

@@ -1,0 +1,79 @@
+﻿@using CMS.Models.Authen.Functions
+@using CMS.Utilities.Helpers
+@model List<FunctionViewModel>
+@{
+    ViewData["Title"] = "System functions";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    var count = 0;
+    var size = Model.Count();
+}
+<div class="card mt-3 mb-3">
+    <div class="card-header">
+        <div class="row flex-between-end">
+            <div class="col-auto align-self-center">
+                <span class="fs-1 fw-semi-bold">System functions</span>
+                <span>(<span class="text-warning">@size</span> records)</span>
+            </div>
+            <div class="col-auto ms-auto">
+                <button class="btn btn-sm btn-falcon-default me-2" onclick="openRemoteModal('@Url.Action("Create", "Function")', 'Thêm chức năng', '800px', '550px')"><span class="fas fa-plus me-2"></span>Thêm chức năng</button>
+            </div>
+        </div>
+    </div>
+    <div class="card-body pt-0">
+        <div id="tableExample2">
+            <div class="table-responsive scrollbar" style="max-height: calc(100vh - 9.6rem) !important;">
+                <table style="width:100%" class="table table-bordered table-striped table-hover overflow-hidden fs--1 mb-0">
+                    <thead class="bg-200">
+                        <tr>
+                            <th style="width:5%" class="text-nowrap text-center" scope="col">#</th>
+                            <th style="width:30%" class="text-nowrap" scope="col">Mô tả</th>
+                            <th style="width:30%" class="text-nowrap" scope="col">Tên</th>
+                            <th style="width:5%" class="text-nowrap text-center" scope="col">Icon</th>
+                            <th style="width:20%" class="text-nowrap" scope="col">Controller</th>
+                            <th style="width:20%" class="text-nowrap" scope="col">Action</th>
+                            <th style="width:5%" class="text-nowrap text-center" scope="col">Hiển thị</th>
+                            <th style="width:15%" class="text-nowrap text-center" scope="col">Trạng thái</th>
+                        </tr>
+                    </thead>
+                    <tbody class="list">
+                        @foreach (var item in Model)
+                        {
+                            count++;
+                            <tr class="align-middle hover-actions-trigger">
+                                <td class="text-nowrap text-center" style="font-weight:@CSSHelper.BoldTextAdder(item.LevelId);">
+                                    @item.SortOrder
+                                </td>
+                                <td class="text-wrap-anywhere" style="padding-left:@CSSHelper.IndentAdder(item.LevelId); font-weight:@CSSHelper.BoldTextAdder(item.LevelId); font-style:@CSSHelper.FontStyleAdder(item.LevelId);">
+                                    @StringHelper.removeSpacer(item.Description)
+                                </td>
+                                <td class="text-wrap-anywhere">@StringHelper.removeSpacer(item.Name)</td>
+                                <td class="text-nowrap text-center">
+                                    @if (!string.IsNullOrEmpty(item.Icon))
+                                    {
+                                        <span class="@item.Icon fs-1 text-800"></span>
+                                    }
+                                    else
+                                    {
+                                        <span class="text-800"></span>
+                                    }
+                                </td>
+                                <td class="text-nowrap">@item.Controler</td>
+                                <td class="text-nowrap">@item.Action</td>
+                                <td class="text-nowrap text-center">
+                                    <i class="fa fa-@(item.IsShow == 1 ? "eye" : "eye-slash")" style="color:@(item.IsShow == 1 ? "gray" : "lightgray")"></i>
+                                </td>
+                                <td class="position-relative">
+                                    <span class="badge badge rounded-pill d-block p-2 @(item.StatusId == 1 ? "badge-soft-success" : "badge-soft-danger")">@(item.StatusId == 1 ? "Active" : "Suspended")<span class="ms-1 @(item.StatusId == 1 ? "fas fa-check" : "fas fa-ban")" data-fa-transform="shrink-2"></span></span>
+                                    <div class="hover-actions end-0 top-0 h-100 ps-3 pe-3 bg-danger">
+                                        <button onclick="openRemoteModal('@Url.Action("Edit", "Function", new {id=@item.FunctionId})', 'Cập nhật chức năng', '800px', '550px')" class="btn p-0 me-2" type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Sửa"><span class="text-white fas fa-edit"></span></button>
+                                        <button onclick="openRemoteModal('@Url.Action("Delete", "Function", new {id=@item.FunctionId})', 'Xóa chức năng', '500px', '130px')" class="btn p-0" type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Xóa"><span class="text-white fas fa-trash-alt"></span></button>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

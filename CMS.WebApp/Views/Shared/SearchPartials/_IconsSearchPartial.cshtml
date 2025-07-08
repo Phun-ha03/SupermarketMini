@@ -1,0 +1,8 @@
+﻿<form asp-action="index" asp-controller="Icons" method="get">
+    <div class="search-box">
+        <div class="position-relative" data-bs-toggle="search" data-bs-display="static">
+            <input class="form-control search-input fuzzy-search" name="keyword" value='@(ViewBag.Keyword == null ? string.Empty : ViewBag.Keyword)' type="search" placeholder="Search..." aria-label="Search" autocomplete="off" />
+            <span class="fas fa-search search-box-icon"></span>
+        </div>
+    </div>
+</form>

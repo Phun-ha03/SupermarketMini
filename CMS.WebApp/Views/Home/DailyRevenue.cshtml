@@ -1,0 +1,118 @@
+﻿@using System.Text.Json
+
+@model List<CMS.Models.Supermarket.Homes.DailyRevenueReportViewModel>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div class="card mt-3 mb-3">
+    <div class="row g-3">
+
+<h2>Thống kê doanh thu theo ngày</h2>
+
+        <form method="get">
+            Từ ngày: <input type="date" name="fromDate" value="@ViewBag.FromDate.ToString("yyyy-MM-dd")" />
+            Đến ngày: <input type="date" name="toDate" value="@ViewBag.ToDate.ToString("yyyy-MM-dd")" />
+            <select name="filterType">
+                <option value="day">Ngày</option>
+                <option value="week">Tuần</option>
+                <option value="month">Tháng</option>
+                <option value="year">Năm</option>
+            </select>
+            <button type="submit">Lọc</button>
+        </form>
+
+
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Ngày</th>
+                    <th>Số đơn</th>
+                    <th>Tổng doanh thu</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Any())
+                {
+                    foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Date.ToString("dd/MM/yyyy")</td>
+                            <td>@item.OrderCount</td>
+                            <td>@item.TotalRevenue.ToString("N0") ₫</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr><td colspan="3">Không có dữ liệu</td></tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="mb-4">
+        <canvas id="dailyRevenueChart" height="100"></canvas>
+    </div>
+
+    <script>
+        const labels = @Html.Raw(Json.Serialize(Model.Select(x => x.Date.ToString("dd/MM"))));
+        const revenues = @Html.Raw(Json.Serialize(Model.Select(x => x.TotalRevenue)));
+        const orderCounts = @Html.Raw(Json.Serialize(Model.Select(x => x.OrderCount)));
+
+        const ctx = document.getElementById('dailyRevenueChart').getContext('2d');
+        const dailyRevenueChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [
+                    {
+                        label: 'Doanh thu (VNĐ)',
+                        data: revenues,
+                        backgroundColor: 'rgba(54, 162, 235, 0.6)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 1,
+                        yAxisID: 'y',
+                    },
+                    {
+                        label: 'Số đơn hàng',
+                        data: orderCounts,
+                        backgroundColor: 'rgba(255, 206, 86, 0.6)',
+                        borderColor: 'rgba(255, 206, 86, 1)',
+                        borderWidth: 1,
+                        type: 'line',
+                        yAxisID: 'y1',
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                interaction: {
+                    mode: 'index',
+                    intersect: false,
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        position: 'left',
+                        title: {
+                            display: true,
+                            text: 'Doanh thu'
+                        }
+                    },
+                    y1: {
+                        beginAtZero: true,
+                        position: 'right',
+                        grid: {
+                            drawOnChartArea: false,
+                        },
+                        title: {
+                            display: true,
+                            text: 'Số đơn hàng'
+                        }
+                    }
+                }
+            }
+        });
+        document.querySelector("select[name='filterType']").value = "@ViewBag.FilterType";
+    </script>
+
+</div>

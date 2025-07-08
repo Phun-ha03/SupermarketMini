@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CMS.BaseModels\CMS.BaseModels.csproj" />
+    <ProjectReference Include="..\CMS.Data\CMS.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Supermarket\ProductUnits\Validators\" />
+    <Folder Include="Supermarket\StockImports\Validators\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+D:\ĐATN\SPMKMN\DATN\CMS.Utilities\bin\Debug\net8.0\CMS.Utilities.deps.json
+D:\ĐATN\SPMKMN\DATN\CMS.Utilities\bin\Debug\net8.0\CMS.Utilities.dll
+D:\ĐATN\SPMKMN\DATN\CMS.Utilities\bin\Debug\net8.0\CMS.Utilities.pdb
+D:\ĐATN\SPMKMN\DATN\CMS.Utilities\obj\Debug\net8.0\CMS.Utilities.csproj.AssemblyReference.cache
+D:\ĐATN\SPMKMN\DATN\CMS.Utilities\obj\Debug\net8.0\CMS.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\ĐATN\SPMKMN\DATN\CMS.Utilities\obj\Debug\net8.0\CMS.Utilities.AssemblyInfoInputs.cache
+D:\ĐATN\SPMKMN\DATN\CMS.Utilities\obj\Debug\net8.0\CMS.Utilities.AssemblyInfo.cs
+D:\ĐATN\SPMKMN\DATN\CMS.Utilities\obj\Debug\net8.0\CMS.Utilities.csproj.CoreCompileInputs.cache
+D:\ĐATN\SPMKMN\DATN\CMS.Utilities\obj\Debug\net8.0\CMS.Utilities.dll
+D:\ĐATN\SPMKMN\DATN\CMS.Utilities\obj\Debug\net8.0\refint\CMS.Utilities.dll
+D:\ĐATN\SPMKMN\DATN\CMS.Utilities\obj\Debug\net8.0\CMS.Utilities.pdb
+D:\ĐATN\SPMKMN\DATN\CMS.Utilities\obj\Debug\net8.0\ref\CMS.Utilities.dll

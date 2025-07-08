@@ -1,0 +1,71 @@
+﻿@using CMS.Models.Authen.Users
+@using CMS.Utilities.Helpers
+@model UserDeleteRequest
+@{
+    ViewData["Title"] = "Delete User";
+    Layout = "~/Views/Shared/_LayoutConfirm.cshtml";
+}
+
+<main class="main card-bg" id="top">
+    <div class="container-fluid" data-layout="container-fluid">
+        <div class="content pb-0">
+            <form asp-action="Delete" asp-controller="User" method="post">
+                @if (!string.IsNullOrEmpty(ViewBag.Error))
+                {
+                    <div class="alert alert-danger pt-2 pb-2 mt-1 mb-2" role="alert">
+                        @ViewBag.Error
+                    </div>
+                }
+                else if (!string.IsNullOrEmpty(ViewBag.Message))
+                {
+
+                    if (ViewBag.Message.Equals(ConstantHelper.UpdateSuccess)
+                    || ViewBag.Message.Equals(ConstantHelper.InsertSuccess)
+                    || ViewBag.Message.Equals(ConstantHelper.DeleteSuccess))
+                    {
+                        <script type="text/javascript">
+                            window.parent.closeDialog(true);
+                        </script>
+                    }
+                    else
+                    {
+                        <div class="alert alert-success pt-2 pb-2 mt-1 mb-2" role="alert">
+                            @ViewBag.Message
+                        </div>
+                    }
+                }
+                <div class="pt-4 pb-4">
+                    
+                    @if (!Model.Deleteable)
+                    {
+                        <div class="fs-0">
+                            Tài khoản <b>@Model.UserName</b> đã có hợp đồng/thực hiện giao dịch. <br />
+                            Bạn phải hủy tất cả các hợp đồng/giao dịch của tài khoản này trước khi xóa.
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="fs-0">Bạn muốn xóa tài khoản <b>@Model.UserName</b>?</div>
+                    }
+                </div>
+                <input type="hidden" asp-for="Id" />
+                <input type="hidden" asp-for="UserName" />
+                <input type="hidden" asp-for="FullName" />
+                <input type="hidden" asp-for="Deleteable" />
+                <div class="row position-fixed bottom-0 bg-light w-100 pt-2">
+                    <div class="col d-flex justify-content-end align-items-center p-0 pe-3">
+                        @if (!Model.Deleteable)
+                        {
+                            <input type="button" value="Đóng" onclick="return onCancel_Click();" class="col-auto btn btn-danger" style="margin-left:10px !important; padding-left:30px; padding-right:30px;" />
+                        }
+                        else
+                        {
+                            <input type="button" value="Hủy" onclick="return onCancel_Click();" class="col-auto btn btn-danger" style="margin-left:10px !important; padding-left:30px; padding-right:30px;" />
+                            <input type="submit" value="Xóa" onlick="return onDone_Click();" class="col-auto btn btn-primary ms-2r" style="margin-left:10px !important; padding-left:30px; padding-right:30px;" />
+                        }
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>

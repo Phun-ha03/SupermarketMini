@@ -1,0 +1,89 @@
+﻿@using CMS.BaseModels.Common
+@using CMS.Models.Supermarket.OrderDetails;
+@using CMS.Utilities.Helpers
+@model PagedResult<OrderDetailViewModel>
+@{
+    ViewData["Title"] = "Danh mục hàng hóa";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    int count = 0;
+}
+<div class="card mt-3 mb-3">
+    <div class="card-header">
+        <div class="row flex-between-end">
+            <div class="col-auto align-self-center">
+                <span class="fs-1 fw-semi-bold">@ViewData["Title"]</span>
+                <span>(<span style="font-size:15px; color:gray;"><font style="color:orange;">@Model.TotalRecords</font> records</span>)
+            </div>
+            @* <div class="col-auto ms-auto">
+                <button class="btn btn-sm btn-falcon-default me-2" onclick="openRemoteModal('@Url.Action("", "Order")', 'Thêm loại sản phẩm', '800px', '300px')"><span class="fas fa-plus me-2"></span>Thêm sản phẩm</button>
+            </div> *@
+        </div>
+    </div>
+    <div class="card-body pt-0">
+        <div id="tableExample2">
+            <div class="table-responsive scrollbar" style="max-height: calc(100vh - 12.5rem) !important;">
+                <table class="table table-bordered table-striped table-hover overflow-hidden fs--1 mb-0">
+                    <thead class="bg-200">
+                        <tr>
+                            <th class="text-nowrap" scope="col">ID</th>
+                            <th class="text-nowrap" scope="col">Đơn hàng</th>
+                            <th class="text-nowrap" scope="col">Sản phẩm</th>
+                            <th class="text-nowrap" scope="col">Số lượng</th>
+                            <th class="text-nowrap" scope="col">Tổng tiền</th>
+                        </tr>
+                    </thead>
+                    <tbody class="list">
+                        @if (!string.IsNullOrEmpty(ViewBag.Error))
+                        {
+                            <tr class="align-middle">
+                                <td colspan="4" class="text-danger">@ViewBag.Error</td>
+                            </tr>
+                        }
+                        else if (Model == null || Model.Items == null || Model.Items.Count <= 0)
+                        {
+                            <tr class="align-middle hover-actions-trigger">
+                                <td colspan="4" class="text-nowrap p-2 ps-3 text-danger">
+                                    Chưa có bản ghi
+                                </td>
+                            </tr>
+                        }
+                        else foreach (var item in Model.Items)
+                            {
+                                count++;
+                                <tr class="align-middle hover-actions-trigger">
+                                    <td class="text-nowrap">
+                                        @Html.DisplayFor(modelItem => item.OrderDetailID)
+                                    </td>
+                                    <td class="text-nowrap position-relative">
+                                        @Html.DisplayFor(modelItem => item.OrderID)
+
+                                    </td>
+                                    
+                                     <td class="text-nowrap position-relative">
+                                        @Html.DisplayFor(modelItem => item.ProductID)
+
+                                    </td>
+                                    <td class="text-nowrap position-relative">
+                                        @Html.DisplayFor(modelItem => item.Quantity)
+
+                                    </td>
+
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.UnitPrice)
+                                        <div class="hover-actions end-0 top-50 h-100 ps-3 pe-3 translate-middle-y bg-danger">
+                                            <button onclick="openRemoteModal('@Url.Action("Edit", "OrderDetail", new {id = item.OrderID})', 'Cập nhật chi tiết đơn hàng', '800px', '300px')" class="btn p-0 me-2" type="button" data-bs-toggle="" data-bs-placement="top" title="Sửa"><span class="text-white fas fa-edit"></span></button>
+                                            <button onclick="openRemoteModal('@Url.Action("Delete", "OrderDetail", new {id = item.OrderID})', 'Xóa chi tiết đơn hàng', '500px', '130px')" class="btn p-0" type="button" data-bs-toggle="" data-bs-placement="top" title="Xóa"><span class="text-white fas fa-trash-alt"></span></button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                    </tbody>
+                </table>
+            </div>
+            <div class="d-flex justify-content-center mt-3">
+                @await Component.InvokeAsync("Pager", Model)
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,1 @@
+﻿[ {"GenderId":"1","GenderName":"Male","GenderDesc":"Nam"}, {"GenderId":"2","GenderName":"Female","GenderDesc":"Nữ"}]

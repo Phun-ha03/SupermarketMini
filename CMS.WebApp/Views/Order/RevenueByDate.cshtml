@@ -1,0 +1,87 @@
+﻿
+@model List<CMS.Models.Supermarket.Reports.RevenueByDateDto>
+
+
+<h2>Thống kê doanh thu theo ngày</h2>
+
+<form method="get">
+    <label>Từ ngày:</label>
+    <input type="date" name="from" value="@ViewBag.FromDate.ToString("yyyy-MM-dd")" />
+    <label>Đến ngày:</label>
+    <input type="date" name="to" value="@ViewBag.ToDate.ToString("yyyy-MM-dd")" />
+    <button type="submit">Lọc</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ngày</th>
+            <th>Số đơn</th>
+            <th>Tổng doanh thu</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Date.ToString("dd/MM/yyyy")</td>
+                <td>@item.TotalOrders</td>
+                <td>@item.TotalRevenue.ToString("N0")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<canvas id="revenueChart" width="100%" height="40"></canvas>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const ctx = document.getElementById('revenueChart').getContext('2d');
+
+        const chart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: @Html.Raw(Json.Serialize(Model.Select(x => x.Date.ToString("dd/MM")))),
+                datasets: [{
+                    label: 'Doanh thu (VNĐ)',
+                    data: @Html.Raw(Json.Serialize(Model.Select(x => x.TotalRevenue))),
+                    backgroundColor: 'rgba(54, 162, 235, 0.7)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function(value) {
+                                return value.toLocaleString('vi-VN') + ' ₫';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+}
+<table class="table mt-4">
+    <thead>
+        <tr>
+            <th>Ngày</th>
+            <th>Số đơn</th>
+            <th>Tổng doanh thu</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Date.ToString("dd/MM/yyyy")</td>
+                <td>@item.TotalOrders</td>
+                <td>@item.TotalRevenue.ToString("N0") ₫</td>
+            </tr>
+        }
+    </tbody>
+</table>

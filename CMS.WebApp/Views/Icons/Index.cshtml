@@ -1,0 +1,100 @@
+﻿@using CMS.BaseModels.Common
+@using CMS.Models.Authen.Icons
+@using CMS.Models.Authen.Roles
+@using CMS.Models.Authen.UserStatuses
+@using CMS.Utilities.Helpers
+@model PagedResult<IconViewModel>
+@{
+    ViewData["Title"] = "Quản lý Icons";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    List<UserStatusViewModel> userStatuses = new List<UserStatusViewModel>();
+    if (ViewBag.UserStatuses != null) userStatuses = (List<UserStatusViewModel>)ViewBag.UserStatuses;
+    int counter = 0;
+}
+@* @model IEnumerable<CMS.Data.Entities.Authen.Icon> *@
+<div class="card mt-3 mb-3">
+    <div class="card-header">
+        <div class="row flex-between-end">
+            <div class="col-auto align-self-center">
+                <span class="fs-1 fw-semi-bold">Quản lý Icons</span>
+                <span>(<span class="text-warning">@Model.TotalRecords</span> records)</span>
+            </div>
+            <div class="col-auto ms-auto">
+                <button class="btn btn-sm btn-falcon-default me-2" onclick="openRemoteModal('@Url.Action("Create", "Icons")', 'Thêm Icons', '800px','400px')"><span class="fas fa-plus me-2"></span>Thêm Icons</button>
+            </div>
+        </div>
+    </div>
+    <div class="card-body pt-0">
+        <div id="tableExample2">
+            <div class="table-responsive scrollbar" style="max-height: calc(100vh - 12.5rem) !important;">
+                <table style="width:100%" class="table table-bordered table-striped table-hover overflow-hidden fs--1 mb-0">
+                    <thead class="bg-200">
+                        <tr>
+                            <th class="text-nowrap text-center" style="width:5%;" scope="col">#</th>
+                            <th class="text-nowrap text-center" style="width:5%" scope="col">Icon</th>
+                            <th class="text-nowrap" style="width:25%;" scope="col">Tên icon</th>
+                            <th class="text-nowrap" style="width:10%;" scope="col">Loại icon</th>
+                            <th class="text-nowrap text-center" style="width:5.0%;" scope="col">Trạng thái</th>
+                        </tr>
+                    </thead>
+                    <tbody class="list">
+                        @if (!string.IsNullOrEmpty(ViewBag.Error))
+                        {
+                            <tr class="align-middle">
+                                <td colspan="6" class="text-danger">@ViewBag.Error</td>
+                            </tr>
+                        }
+                        else if (Model == null || Model.Items == null || Model.Items.Count <= 0)
+                        {
+                            <tr class="align-middle hover-actions-trigger">
+                                <td colspan="6" class="text-nowrap p-2 ps-3 text-danger">
+                                    Chưa có icon.
+                                </td>
+                            </tr>
+                        }
+                        else foreach (var item in Model.Items)
+                            {
+                                counter++;
+                                <tr class="align-middle hover-actions-trigger">
+                                    <td class="text-nowrap text-center">
+                                        @((Model.PageIndex - 1) * Model.PageSize + counter)
+                                    </td>
+
+                                    <td class="text-nowrap text-center">
+                                        @if (!string.IsNullOrEmpty(item.IconCode))
+                                        {
+                                            <span class="@item.IconCode fs-1 text-800"></span>
+                                        }
+                                        else
+                                        {
+                                            <span class="text-800"></span>
+                                        }
+                                    </td>
+
+                                    <td class="text-nowrap">
+                                        @item.IconCode
+                                    </td>
+                                    <td class="text-nowrap">
+                                        @item.IconTypeCode
+                                    </td>
+                                    <td class="text-nowrap text-center position-relative">
+                                        <span class="badge badge rounded-pill d-block p-2 @(item.StatusId == 1 ? "badge-soft-success" : "badge-soft-danger")">@(item.StatusId == 1 ? "Active" : "Suspended")<span class="ms-1 @(item.StatusId == 1 ? "fas fa-check" : "fas fa-ban")" data-fa-transform="shrink-2"></span></span>
+                                        <div class="hover-actions end-0 top-50 h-100 ps-3 pe-3 translate-middle-y bg-danger">
+                                            <button onclick="openRemoteModal('@Url.Action("Edit", "Icons", new {id = @item.IconId})', 'Cập nhật Icon', '800px', '40%')" class="btn p-0 me-2" type="button" data-bs-toggle="" data-bs-placement="top" title="Sửa"><span class="text-white fas fa-edit"></span></button>
+                                            <button onclick="openRemoteModal('@Url.Action("Delete", "Icons", new {id = item.IconId})', 'Xóa Icons', '500px', '130px')" class="btn p-0" type="button" data-bs-toggle="" data-bs-placement="top" title="Xóa"><span class="text-white fas fa-trash-alt"></span></button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                    </tbody>
+                </table>
+            </div>
+            <div class="d-flex justify-content-center mt-3">
+                @await Component.InvokeAsync("Pager", Model)
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,3825 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\Uploads\\Avatars\\2025\\03\\28\\457661444867369152154222473948088658627521n-144918.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Avatars\\2025\\03\\28\\457661444867369152154222473948088658627521n-144918.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\Uploads\\Avatars\\2025\\04\\14\\4811533905645640666379126955427467842025777n-154809.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Avatars\\2025\\04\\14\\4811533905645640666379126955427467842025777n-154809.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\Uploads\\Avatars\\2025\\04\\14\\4811533905645640666379126955427467842025777n-154850.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Avatars\\2025\\04\\14\\4811533905645640666379126955427467842025777n-154850.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\Uploads\\Avatars\\2025\\04\\17\\457661444867369152154222473948088658627521n-092521.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Avatars\\2025\\04\\17\\457661444867369152154222473948088658627521n-092521.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\Uploads\\Avatars\\2025\\04\\17\\457661444867369152154222473948088658627521n-092536.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Avatars\\2025\\04\\17\\457661444867369152154222473948088658627521n-092536.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\Uploads\\Avatars\\25239791-f304-4cfd-980e-09eb501d0c3f.png",
+      "PackagePath": "staticwebassets\\Uploads\\Avatars\\25239791-f304-4cfd-980e-09eb501d0c3f.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\Uploads\\Avatars\\4ffb33e6-d022-4029-8d11-56b540190a52.png",
+      "PackagePath": "staticwebassets\\Uploads\\Avatars\\4ffb33e6-d022-4029-8d11-56b540190a52.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\Uploads\\Avatars\\5f0baef8-d0b4-425b-9834-93d84b373933.png",
+      "PackagePath": "staticwebassets\\Uploads\\Avatars\\5f0baef8-d0b4-425b-9834-93d84b373933.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\Uploads\\Avatars\\6065ed7d-9e15-4441-911b-227f2ba640ca.png",
+      "PackagePath": "staticwebassets\\Uploads\\Avatars\\6065ed7d-9e15-4441-911b-227f2ba640ca.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\Uploads\\Avatars\\63c28311-096f-46e9-9bbf-3ed82c4c764e.png",
+      "PackagePath": "staticwebassets\\Uploads\\Avatars\\63c28311-096f-46e9-9bbf-3ed82c4c764e.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\Uploads\\Avatars\\f3bc83e5-9fb1-4154-a904-21131370b437.png",
+      "PackagePath": "staticwebassets\\Uploads\\Avatars\\f3bc83e5-9fb1-4154-a904-21131370b437.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\Uploads\\Avatars\\no-avatar.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Avatars\\no-avatar.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\Uploads\\Covers\\2025\\04\\14\\4900443015184082346630647313653306668009278n-154828.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Covers\\2025\\04\\14\\4900443015184082346630647313653306668009278n-154828.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\Uploads\\Covers\\2025\\04\\14\\4900443015184082346630647313653306668009278n-154845.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Covers\\2025\\04\\14\\4900443015184082346630647313653306668009278n-154845.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\Uploads\\Covers\\2025\\04\\14\\490592497518419197995301920400160284048465n-154821.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Covers\\2025\\04\\14\\490592497518419197995301920400160284048465n-154821.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\Uploads\\Covers\\2025\\04\\17\\4816578329463780677064912083380572015168105n-092544.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Covers\\2025\\04\\17\\4816578329463780677064912083380572015168105n-092544.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\css\\css.rar",
+      "PackagePath": "staticwebassets\\assets\\css\\css.rar"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\css\\func-calling\\segment.css",
+      "PackagePath": "staticwebassets\\assets\\css\\func-calling\\segment.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\select2.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\css\\theme-rtl.css",
+      "PackagePath": "staticwebassets\\assets\\css\\theme-rtl.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\css\\theme-rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\theme-rtl.css.map"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\css\\theme-rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\theme-rtl.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\css\\theme-rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\theme-rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\css\\theme.css",
+      "PackagePath": "staticwebassets\\assets\\css\\theme.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\css\\theme.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\theme.css.map"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\css\\theme.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\theme.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\css\\theme.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\theme.min.css.map"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\css\\user-rtl.css",
+      "PackagePath": "staticwebassets\\assets\\css\\user-rtl.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\css\\user-rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\user-rtl.css.map"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\css\\user-rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\user-rtl.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\css\\user-rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\user-rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\css\\user.css",
+      "PackagePath": "staticwebassets\\assets\\css\\user.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\css\\user.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\user.css.map"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\css\\user.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\user.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\css\\user.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\user.min.css.map"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\data\\usa.js",
+      "PackagePath": "staticwebassets\\assets\\data\\usa.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\data\\world.js",
+      "PackagePath": "staticwebassets\\assets\\data\\world.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\Loading-waitting.gif",
+      "PackagePath": "staticwebassets\\assets\\img\\Loading-waitting.gif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\animated-icons\\bm.json",
+      "PackagePath": "staticwebassets\\assets\\img\\animated-icons\\bm.json"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\animated-icons\\bouncing-ball.json",
+      "PackagePath": "staticwebassets\\assets\\img\\animated-icons\\bouncing-ball.json"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\animated-icons\\celebration.json",
+      "PackagePath": "staticwebassets\\assets\\img\\animated-icons\\celebration.json"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\animated-icons\\check-primary-light.json",
+      "PackagePath": "staticwebassets\\assets\\img\\animated-icons\\check-primary-light.json"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\animated-icons\\heart.json",
+      "PackagePath": "staticwebassets\\assets\\img\\animated-icons\\heart.json"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\animated-icons\\infinite-loop.json",
+      "PackagePath": "staticwebassets\\assets\\img\\animated-icons\\infinite-loop.json"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\animated-icons\\loading-animation.json",
+      "PackagePath": "staticwebassets\\assets\\img\\animated-icons\\loading-animation.json"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\animated-icons\\loading-balls.json",
+      "PackagePath": "staticwebassets\\assets\\img\\animated-icons\\loading-balls.json"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\animated-icons\\loading-circle-scale.json",
+      "PackagePath": "staticwebassets\\assets\\img\\animated-icons\\loading-circle-scale.json"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\animated-icons\\loading-square.json",
+      "PackagePath": "staticwebassets\\assets\\img\\animated-icons\\loading-square.json"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\animated-icons\\loading.json",
+      "PackagePath": "staticwebassets\\assets\\img\\animated-icons\\loading.json"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\animated-icons\\shopping-list.json",
+      "PackagePath": "staticwebassets\\assets\\img\\animated-icons\\shopping-list.json"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\animated-icons\\sleeping-404.json",
+      "PackagePath": "staticwebassets\\assets\\img\\animated-icons\\sleeping-404.json"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\animated-icons\\ss.json",
+      "PackagePath": "staticwebassets\\assets\\img\\animated-icons\\ss.json"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\animated-icons\\star-feedback.json",
+      "PackagePath": "staticwebassets\\assets\\img\\animated-icons\\star-feedback.json"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\animated-icons\\warning-light.json",
+      "PackagePath": "staticwebassets\\assets\\img\\animated-icons\\warning-light.json"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\chat\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\chat\\1.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\chat\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\chat\\10.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\chat\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\chat\\11.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\chat\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\chat\\12.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\chat\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\chat\\2.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\chat\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\chat\\3.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\chat\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\chat\\4.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\chat\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\chat\\5.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\chat\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\chat\\6.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\chat\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\chat\\7.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\chat\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\chat\\8.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\chat\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\chat\\9.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\crm\\call.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\crm\\call.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\crm\\email.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\crm\\email.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\crm\\india.png",
+      "PackagePath": "staticwebassets\\assets\\img\\crm\\india.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\crm\\nepal.png",
+      "PackagePath": "staticwebassets\\assets\\img\\crm\\nepal.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\crm\\other.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\crm\\other.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\crm\\social.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\crm\\social.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\crm\\thailand.png",
+      "PackagePath": "staticwebassets\\assets\\img\\crm\\thailand.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\crm\\uae.png",
+      "PackagePath": "staticwebassets\\assets\\img\\crm\\uae.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\doc\\bulk-select.png",
+      "PackagePath": "staticwebassets\\assets\\img\\doc\\bulk-select.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\ecommerce\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\ecommerce\\1.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\ecommerce\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\ecommerce\\2.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\ecommerce\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\ecommerce\\3.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\ecommerce\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\ecommerce\\4.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\ecommerce\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\ecommerce\\5.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\ecommerce\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\ecommerce\\6.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\ecommerce\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\ecommerce\\7.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\favicons\\android-chrome-192x192.png",
+      "PackagePath": "staticwebassets\\assets\\img\\favicons\\android-chrome-192x192.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\favicons\\android-chrome-512x512.png",
+      "PackagePath": "staticwebassets\\assets\\img\\favicons\\android-chrome-512x512.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\favicons\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\favicons\\apple-touch-icon.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\favicons\\browserconfig.xml",
+      "PackagePath": "staticwebassets\\assets\\img\\favicons\\browserconfig.xml"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\favicons\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\assets\\img\\favicons\\favicon-16x16.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\favicons\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\assets\\img\\favicons\\favicon-32x32.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\favicons\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\img\\favicons\\favicon.ico"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\favicons\\manifest.json",
+      "PackagePath": "staticwebassets\\assets\\img\\favicons\\manifest.json"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\favicons\\site.webmanifest",
+      "PackagePath": "staticwebassets\\assets\\img\\favicons\\site.webmanifest"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\gallery\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\1.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\gallery\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\2.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\gallery\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\3.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\gallery\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\4.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\gallery\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\5.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\1.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\10.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\11.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\12.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\13.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\14.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\14.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\15.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\15.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\16.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\16.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\17.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\17.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\18.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\18.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\19.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\19.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\2.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\20.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\20.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\3.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\4.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\5.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\6.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\7.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\8.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\9.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\Frame-14.png",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\Frame-14.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\attachment_icon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\attachment_icon.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\bg-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\bg-1.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\bg-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\bg-2.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\bg-navbar.png",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\bg-navbar.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\card.png",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\card.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\dashboard-alt-dark.png",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\dashboard-alt-dark.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\dashboard-alt.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\dashboard-alt.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\dashboard-alt.png",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\dashboard-alt.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\dashboard-old.png",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\dashboard-old.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\default.png",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\default.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\falcon-mode-dark.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\falcon-mode-dark.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\falcon-mode-default.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\falcon-mode-default.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\file.png",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\file.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\html-falcon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\html-falcon.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\image-file-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\image-file-2.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\inverted.png",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\inverted.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\link_icon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\link_icon.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\showcase-footer-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\showcase-footer-bg.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\generic\\vibrant.png",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\vibrant.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\arrows-h.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\arrows-h.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\calendar.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\calendar.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\chrome-logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\chrome-logo.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\cloud-download-.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\cloud-download-.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\cloud-download.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\cloud-download.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\cloud-upload.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\cloud-upload.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\connect-circle.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\connect-circle.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\cookie-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\cookie-1.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\cookie.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\cookie.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\copy.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\copy.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\docs.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\docs.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\edit-alt-.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\edit-alt-.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\edit-alt.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\edit-alt.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\firefox-logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\firefox-logo.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\folder-open-solid.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\folder-open-solid.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\folder-solid.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\folder-solid.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\free.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\free.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\icon-angle-right.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-angle-right.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\icon-payment-methods-grid.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-payment-methods-grid.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\icon-payment-methods.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-payment-methods.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\icon-paypal-full.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-paypal-full.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\image.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\image.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\leaflet\\layers-2x.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\leaflet\\layers-2x.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\leaflet\\layers.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\leaflet\\layers.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\leaflet\\marker-icon-2x.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\leaflet\\marker-icon-2x.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\leaflet\\marker-icon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\leaflet\\marker-icon.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\leaflet\\marker-shadow.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\leaflet\\marker-shadow.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\left-arrow-from-left.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\left-arrow-from-left.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\location.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\location.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\map-marker.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\map-marker.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\moon.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\moon.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\paragraph.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\paragraph.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\pro.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\pro.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\radarRect.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\radarRect.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\safari-logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\safari-logo.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\sent.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\sent.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\shield.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\shield.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\shield.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\shield.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\signal.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\signal.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\1.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\16.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\16.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\2.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\21.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\21.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\3.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\4.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\4.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\4.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\41.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\41.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\45.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\45.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\47.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\47.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\48.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\48.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\49.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\49.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\5.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\5.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\5.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\50.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\50.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\6.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\6.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\6.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\authentication-corner.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\authentication-corner.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\bg-shape.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\bg-shape.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\calendar.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\calendar.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\chatbot.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\chatbot.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\comment-active.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\comment-active.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\comment-inactive.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\comment-inactive.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\corner-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\corner-1.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\corner-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\corner-2.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\corner-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\corner-3.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\corner-4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\corner-4.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\corner-5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\corner-5.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\creating.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\creating.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\ecommerce-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\ecommerce-bg.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\editing.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\editing.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\envelope.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\envelope.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\falcon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\falcon.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\falcon_.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\falcon_.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\falcon__.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\falcon__.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\gifts.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\gifts.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\half-circle-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\half-circle-1.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\half-circle.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\half-circle.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\image.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\image.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\international-women-s-day-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\international-women-s-day-2.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\international-women-s-day.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\international-women-s-day.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\like-active.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\like-active.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\like-inactive.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\like-inactive.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\location.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\location.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\logo.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\logo.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\navbar-vertical.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\navbar-vertical.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\paper-plane.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\paper-plane.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\rocket.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\rocket.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\settings.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\settings.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\shape-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\shape-1.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\share-active.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\share-active.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\share-inactive.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\share-inactive.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\spot-illustrations\\startup.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spot-illustrations\\startup.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\star_on.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\star_on.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\sun.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\sun.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\verified-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\verified-bg.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\visa.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\visa.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\weather-icon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\weather-icon.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\weather-sm.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\weather-sm.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\weather.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\weather.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\icons\\zip.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\zip.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\1.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\2.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\3.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\4.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\4.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\4.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\5.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\5.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\5.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\6.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\6.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\6.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\authentication-corner.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\authentication-corner.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\bg-shape.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\bg-shape.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\calendar.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\calendar.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\chatbot.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\chatbot.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\comment-active.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\comment-active.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\comment-inactive.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\comment-inactive.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\corner-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\corner-1.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\corner-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\corner-2.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\corner-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\corner-3.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\corner-4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\corner-4.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\corner-5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\corner-5.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\creating.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\creating.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\crm-bar-chart.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\crm-bar-chart.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\crm-line-chart.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\crm-line-chart.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\ecommerce-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\ecommerce-bg.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\editing.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\editing.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\envelope.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\envelope.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\falcon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\falcon.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\gifts.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\gifts.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\half-circle-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\half-circle-1.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\half-circle.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\half-circle.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\image.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\image.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\international-women-s-day-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\international-women-s-day-2.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\international-women-s-day.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\international-women-s-day.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\like-active.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\like-active.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\like-inactive.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\like-inactive.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\location.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\location.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\navbar-vertical.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\navbar-vertical.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\paper-plane.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\paper-plane.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\rocket.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\rocket.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\settings.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\settings.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\shape-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\shape-1.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\share-active.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\share-active.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\share-inactive.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\share-inactive.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\illustrations\\startup.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\startup.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\kanban\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\kanban\\1.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\kanban\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\kanban\\2.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\kanban\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\kanban\\3.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\kanban\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\kanban\\4.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\adidas.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\adidas.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\adobe-creative-cloud.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\adobe-creative-cloud.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\amazon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\amazon.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\apple.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\apple.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\asana-logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\asana-logo.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\atlassian.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\atlassian.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\b&w\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\b&w\\1.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\b&w\\10.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\b&w\\10.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\b&w\\11.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\b&w\\11.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\b&w\\12.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\b&w\\12.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\b&w\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\b&w\\2.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\b&w\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\b&w\\3.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\b&w\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\b&w\\4.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\b&w\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\b&w\\5.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\b&w\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\b&w\\6.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\b&w\\7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\b&w\\7.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\b&w\\8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\b&w\\8.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\b&w\\9.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\b&w\\9.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\bs-5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\bs-5.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\bs-logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\bs-logo.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\cocacola.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\cocacola.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\coursera.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\coursera.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\digitalocean.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\digitalocean.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\echart.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\echart.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\facebook.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\facebook.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\g.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\g.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\github.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\github.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\gmail.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\gmail.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\goodreads.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\goodreads.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\google.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\google.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\harvard.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\harvard.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\hp.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\hp.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\hubstaff.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\hubstaff.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\intel-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\intel-2.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\intel.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\intel.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\js.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\js.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\logo-invoice-.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\logo-invoice-.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\logo-invoice.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\logo-invoice.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\mailbluster.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\mailbluster.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\medium.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\medium.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\netflix.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\netflix.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\nike.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\nike.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\nvidia.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\nvidia.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\oxford.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\oxford.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\paypal.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\paypal.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\pinterest.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\pinterest.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\pug.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\pug.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\samsung.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\samsung.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\spectrum.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\spectrum.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\spotify.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\spotify.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\stanford.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\stanford.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\staten.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\staten.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\stripe.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\stripe.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\techcrunch.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\techcrunch.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\technext.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\technext.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\tj-heigh-school.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\tj-heigh-school.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\twitter.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\twitter.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\unsplash.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\unsplash.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\logos\\youtube.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\youtube.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\management\\activity-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\management\\activity-1.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\management\\activity-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\management\\activity-2.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\management\\activity-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\management\\activity-3.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\management\\activity-4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\management\\activity-4.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\management\\activity-5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\management\\activity-5.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\management\\activity-6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\management\\activity-6.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\management\\activity-7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\management\\activity-7.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\management\\activity-8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\management\\activity-8.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\management\\activity-9.png",
+      "PackagePath": "staticwebassets\\assets\\img\\management\\activity-9.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\products\\1-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\1-2.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\products\\1-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\1-3.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\products\\1-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\1-4.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\products\\1-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\1-5.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\products\\1-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\1-6.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\products\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\1.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\products\\10.png",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\10.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\products\\11.png",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\11.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\products\\12.png",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\12.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\products\\13.png",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\13.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\products\\14.png",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\14.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\products\\2-thumb.png",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\2-thumb.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\products\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\2.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\products\\3-thumb.png",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\3-thumb.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\products\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\3.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\products\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\4.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\products\\5-thumb.png",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\5-thumb.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\products\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\5.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\products\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\6.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\products\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\7.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\products\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\8.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\products\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\9.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\1-thumb.png",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\1-thumb.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\1.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\10.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\11.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\12.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\13.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\14.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\14.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\15.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\15.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\16.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\16.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\17.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\17.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\18.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\18.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\19.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\19.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\2-thumb.png",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\2-thumb.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\2.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\20.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\20.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\21.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\21.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\22.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\22.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\23.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\23.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\24.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\24.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\25.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\25.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\3-thumb.png",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\3-thumb.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\3.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\4-thumb.png",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\4-thumb.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\4.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\5-thumb.png",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\5-thumb.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\5.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\6.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\7.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\8.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\9.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\avatar.png",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\avatar.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\img\\team\\empty-thumb.png",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\empty-thumb.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\ckeditor.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ckeditor.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\config.js",
+      "PackagePath": "staticwebassets\\assets\\js\\config.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\config.js.map",
+      "PackagePath": "staticwebassets\\assets\\js\\config.js.map"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\echart-example.js",
+      "PackagePath": "staticwebassets\\assets\\js\\echart-example.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\echart-example.js.map",
+      "PackagePath": "staticwebassets\\assets\\js\\echart-example.js.map"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\echarts-example.js",
+      "PackagePath": "staticwebassets\\assets\\js\\echarts-example.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\echarts-example.js.map",
+      "PackagePath": "staticwebassets\\assets\\js\\echarts-example.js.map"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\emoji-button.js",
+      "PackagePath": "staticwebassets\\assets\\js\\emoji-button.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\flatpickr.js",
+      "PackagePath": "staticwebassets\\assets\\js\\flatpickr.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\func-calling\\segment.js",
+      "PackagePath": "staticwebassets\\assets\\js\\func-calling\\segment.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\jQuery.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jQuery.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\jobman.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jobman.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\README.md",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\README.md"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\contrib\\auto-render.js",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\contrib\\auto-render.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\contrib\\auto-render.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\contrib\\auto-render.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\contrib\\auto-render.mjs",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\contrib\\auto-render.mjs"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\contrib\\copy-tex.js",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\contrib\\copy-tex.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\contrib\\copy-tex.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\contrib\\copy-tex.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\contrib\\copy-tex.mjs",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\contrib\\copy-tex.mjs"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\contrib\\mathtex-script-type.js",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\contrib\\mathtex-script-type.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\contrib\\mathtex-script-type.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\contrib\\mathtex-script-type.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\contrib\\mathtex-script-type.mjs",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\contrib\\mathtex-script-type.mjs"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\contrib\\mhchem.js",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\contrib\\mhchem.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\contrib\\mhchem.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\contrib\\mhchem.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\contrib\\mhchem.mjs",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\contrib\\mhchem.mjs"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\contrib\\render-a11y-string.js",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\contrib\\render-a11y-string.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\contrib\\render-a11y-string.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\contrib\\render-a11y-string.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\contrib\\render-a11y-string.mjs",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\contrib\\render-a11y-string.mjs"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_AMS-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_AMS-Regular.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_AMS-Regular.woff",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_AMS-Regular.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_AMS-Regular.woff2",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_AMS-Regular.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Caligraphic-Bold.ttf",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Caligraphic-Bold.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Caligraphic-Bold.woff",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Caligraphic-Bold.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Caligraphic-Bold.woff2",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Caligraphic-Bold.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Caligraphic-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Caligraphic-Regular.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Caligraphic-Regular.woff",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Caligraphic-Regular.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Caligraphic-Regular.woff2",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Caligraphic-Regular.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Fraktur-Bold.ttf",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Fraktur-Bold.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Fraktur-Bold.woff",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Fraktur-Bold.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Fraktur-Bold.woff2",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Fraktur-Bold.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Fraktur-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Fraktur-Regular.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Fraktur-Regular.woff",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Fraktur-Regular.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Fraktur-Regular.woff2",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Fraktur-Regular.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Main-Bold.ttf",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Main-Bold.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Main-Bold.woff",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Main-Bold.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Main-Bold.woff2",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Main-Bold.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Main-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Main-BoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Main-BoldItalic.woff",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Main-BoldItalic.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Main-BoldItalic.woff2",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Main-BoldItalic.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Main-Italic.ttf",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Main-Italic.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Main-Italic.woff",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Main-Italic.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Main-Italic.woff2",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Main-Italic.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Main-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Main-Regular.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Main-Regular.woff",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Main-Regular.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Main-Regular.woff2",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Main-Regular.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Math-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Math-BoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Math-BoldItalic.woff",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Math-BoldItalic.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Math-BoldItalic.woff2",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Math-BoldItalic.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Math-Italic.ttf",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Math-Italic.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Math-Italic.woff",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Math-Italic.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Math-Italic.woff2",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Math-Italic.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_SansSerif-Bold.ttf",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_SansSerif-Bold.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_SansSerif-Bold.woff",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_SansSerif-Bold.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_SansSerif-Bold.woff2",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_SansSerif-Bold.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_SansSerif-Italic.ttf",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_SansSerif-Italic.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_SansSerif-Italic.woff",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_SansSerif-Italic.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_SansSerif-Italic.woff2",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_SansSerif-Italic.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_SansSerif-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_SansSerif-Regular.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_SansSerif-Regular.woff",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_SansSerif-Regular.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_SansSerif-Regular.woff2",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_SansSerif-Regular.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Script-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Script-Regular.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Script-Regular.woff",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Script-Regular.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Script-Regular.woff2",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Script-Regular.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Size1-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Size1-Regular.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Size1-Regular.woff",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Size1-Regular.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Size1-Regular.woff2",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Size1-Regular.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Size2-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Size2-Regular.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Size2-Regular.woff",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Size2-Regular.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Size2-Regular.woff2",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Size2-Regular.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Size3-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Size3-Regular.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Size3-Regular.woff",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Size3-Regular.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Size3-Regular.woff2",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Size3-Regular.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Size4-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Size4-Regular.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Size4-Regular.woff",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Size4-Regular.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Size4-Regular.woff2",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Size4-Regular.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Typewriter-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Typewriter-Regular.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Typewriter-Regular.woff",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Typewriter-Regular.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\fonts\\KaTeX_Typewriter-Regular.woff2",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\fonts\\KaTeX_Typewriter-Regular.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\katex.css",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\katex.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\katex.js",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\katex.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\katex.min.css",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\katex.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\katex.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\katex.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\katex\\katex.mjs",
+      "PackagePath": "staticwebassets\\assets\\js\\katex\\katex.mjs"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\md-block\\Hooks.js",
+      "PackagePath": "staticwebassets\\assets\\js\\md-block\\Hooks.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\md-block\\Instance.js",
+      "PackagePath": "staticwebassets\\assets\\js\\md-block\\Instance.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\md-block\\Lexer.js",
+      "PackagePath": "staticwebassets\\assets\\js\\md-block\\Lexer.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\md-block\\Parser.js",
+      "PackagePath": "staticwebassets\\assets\\js\\md-block\\Parser.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\md-block\\Renderer.js",
+      "PackagePath": "staticwebassets\\assets\\js\\md-block\\Renderer.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\md-block\\Slugger.js",
+      "PackagePath": "staticwebassets\\assets\\js\\md-block\\Slugger.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\md-block\\TextRenderer.js",
+      "PackagePath": "staticwebassets\\assets\\js\\md-block\\TextRenderer.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\md-block\\Tokenizer.js",
+      "PackagePath": "staticwebassets\\assets\\js\\md-block\\Tokenizer.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\md-block\\defaults.js",
+      "PackagePath": "staticwebassets\\assets\\js\\md-block\\defaults.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\md-block\\helpers.js",
+      "PackagePath": "staticwebassets\\assets\\js\\md-block\\helpers.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\md-block\\marked.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\md-block\\marked.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\md-block\\md-block.js",
+      "PackagePath": "staticwebassets\\assets\\js\\md-block\\md-block.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\md-block\\prism.css",
+      "PackagePath": "staticwebassets\\assets\\js\\md-block\\prism.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\md-block\\prism.js",
+      "PackagePath": "staticwebassets\\assets\\js\\md-block\\prism.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\md-block\\purify.es.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\md-block\\purify.es.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\md-block\\rules.js",
+      "PackagePath": "staticwebassets\\assets\\js\\md-block\\rules.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\md-block\\style.css",
+      "PackagePath": "staticwebassets\\assets\\js\\md-block\\style.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\search.js",
+      "PackagePath": "staticwebassets\\assets\\js\\search.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\select2.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\theme.js",
+      "PackagePath": "staticwebassets\\assets\\js\\theme.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\theme.js.map",
+      "PackagePath": "staticwebassets\\assets\\js\\theme.js.map"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\theme.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\theme.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\theme.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\js\\theme.min.js.map"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\trainning.js",
+      "PackagePath": "staticwebassets\\assets\\js\\trainning.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\utils.js",
+      "PackagePath": "staticwebassets\\assets\\js\\utils.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\js\\utilsChart.js",
+      "PackagePath": "staticwebassets\\assets\\js\\utilsChart.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\video\\beach.jpg",
+      "PackagePath": "staticwebassets\\assets\\video\\beach.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\video\\beach.mp4",
+      "PackagePath": "staticwebassets\\assets\\video\\beach.mp4"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\assets\\video\\beach.webm",
+      "PackagePath": "staticwebassets\\assets\\video\\beach.webm"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\014ce670-1d0a-4b03-9914-386d5fffb42a.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\014ce670-1d0a-4b03-9914-386d5fffb42a.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\03768555-b47f-418c-b46e-08c05eb0c599.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\03768555-b47f-418c-b46e-08c05eb0c599.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\07af41f0-2f86-4155-b44f-bbf228cf4e23.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\07af41f0-2f86-4155-b44f-bbf228cf4e23.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\09002631-3003-4e70-98da-dc9d407cf29d.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\09002631-3003-4e70-98da-dc9d407cf29d.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\0cae6648-9696-43a5-b06c-361941cdc597.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\0cae6648-9696-43a5-b06c-361941cdc597.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\0f0f884d-dc04-431d-a834-01054d40a3af.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\0f0f884d-dc04-431d-a834-01054d40a3af.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\103f64ba-fd0f-4b6f-be56-8a017dafa2e4.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\103f64ba-fd0f-4b6f-be56-8a017dafa2e4.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\1069f516-df7e-4310-8201-a20c16528fd5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\1069f516-df7e-4310-8201-a20c16528fd5.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\11d75b75-4b2c-4e08-8beb-30b754ac63bf.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\11d75b75-4b2c-4e08-8beb-30b754ac63bf.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\1262a0e4-03b6-4f99-a2e5-67ba75a635fc.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\1262a0e4-03b6-4f99-a2e5-67ba75a635fc.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\16c6b9ff-8173-498f-ba5e-ccc5c666ef9a.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\16c6b9ff-8173-498f-ba5e-ccc5c666ef9a.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\17f49799-90ae-4e9d-9290-751b55a33433.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\17f49799-90ae-4e9d-9290-751b55a33433.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\1933092f-edb6-4749-81e0-c855b572b20e.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\1933092f-edb6-4749-81e0-c855b572b20e.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\1b863934-759f-46a4-8fb0-611d76271bb7.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\1b863934-759f-46a4-8fb0-611d76271bb7.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\22b60c31-cbd7-4f45-9940-5a0e5e0152a3.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\22b60c31-cbd7-4f45-9940-5a0e5e0152a3.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\24caa739-edbe-41f3-bf67-342feda30d37.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\24caa739-edbe-41f3-bf67-342feda30d37.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\28b1b972-de9a-4d58-8eb3-4a809aa0d16b.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\28b1b972-de9a-4d58-8eb3-4a809aa0d16b.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\2d10b736-7db7-4b74-8c11-caa61566afe6.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\2d10b736-7db7-4b74-8c11-caa61566afe6.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\2f7685f3-51dd-420e-9d86-51120e41ca9d.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\2f7685f3-51dd-420e-9d86-51120e41ca9d.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\31d2ba6f-45af-4ca3-9b03-0e7946639a56.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\31d2ba6f-45af-4ca3-9b03-0e7946639a56.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\322128bc-0fec-4734-85a6-5ad507a858e8.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\322128bc-0fec-4734-85a6-5ad507a858e8.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\373d7873-ea80-4204-ab55-da18f59f7644.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\373d7873-ea80-4204-ab55-da18f59f7644.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\3a691709-3f84-407e-9e8c-93c3db997c26.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\3a691709-3f84-407e-9e8c-93c3db997c26.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\3bd5bb2a-3bf5-4d4f-8177-f5890231691c.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\3bd5bb2a-3bf5-4d4f-8177-f5890231691c.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\3d65ab25-4ad4-4609-a893-d187a721dff0.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\3d65ab25-4ad4-4609-a893-d187a721dff0.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\3e2f9690-4a93-4d61-a2e3-63641f07f68d.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\3e2f9690-4a93-4d61-a2e3-63641f07f68d.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\416ef1a5-becf-41c0-89cd-40815818722b.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\416ef1a5-becf-41c0-89cd-40815818722b.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\428e22b6-877b-49f7-a370-419d60a42c67.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\428e22b6-877b-49f7-a370-419d60a42c67.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\460c7e45-2762-427d-9b25-9be9b493d3d8.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\460c7e45-2762-427d-9b25-9be9b493d3d8.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\55a57e62-3deb-4b03-917f-6c84ebf05047.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\55a57e62-3deb-4b03-917f-6c84ebf05047.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\5803ed6f-d79a-431f-a3b4-6d0310dbea9e.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\5803ed6f-d79a-431f-a3b4-6d0310dbea9e.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\5dbf8b5c-6191-435b-8f96-ac528cc4bb10.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\5dbf8b5c-6191-435b-8f96-ac528cc4bb10.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\5e39ed8e-8e7b-467c-8439-4db9fac27bc3.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\5e39ed8e-8e7b-467c-8439-4db9fac27bc3.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\62ffa52c-f913-4d18-8268-5407bc229f90.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\62ffa52c-f913-4d18-8268-5407bc229f90.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\640ac074-adea-4a72-bc89-5deaaf54361f.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\640ac074-adea-4a72-bc89-5deaaf54361f.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\649efa77-9eb5-4ae2-bb4b-ab3f28b39bb9.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\649efa77-9eb5-4ae2-bb4b-ab3f28b39bb9.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\6542a49f-d22e-4889-ae11-6944117fa8fc.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\6542a49f-d22e-4889-ae11-6944117fa8fc.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\6aab2c6a-240a-4618-8035-0995d2c7fb05.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\6aab2c6a-240a-4618-8035-0995d2c7fb05.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\70458d38-b792-4638-9614-58ee47abe6bf.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\70458d38-b792-4638-9614-58ee47abe6bf.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\7123345b-700d-4265-82bd-938b6d6b30e2.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\7123345b-700d-4265-82bd-938b6d6b30e2.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\76bc2a2e-63c6-47fc-b786-9a19721718fb.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\76bc2a2e-63c6-47fc-b786-9a19721718fb.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\7d7125be-2e6e-4329-9f13-1f6824b2b582.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\7d7125be-2e6e-4329-9f13-1f6824b2b582.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\88742a9c-196f-4eb7-8cdb-a231b312ee67.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\88742a9c-196f-4eb7-8cdb-a231b312ee67.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\8af1bfec-69d0-4c93-9a7c-34bd6aea7c81.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\8af1bfec-69d0-4c93-9a7c-34bd6aea7c81.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\8d20a65b-c983-4325-8678-ce25986624bf.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\8d20a65b-c983-4325-8678-ce25986624bf.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\8d7e6de6-f2fc-407d-a3fd-642704045cbc.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\8d7e6de6-f2fc-407d-a3fd-642704045cbc.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\8df9e8ed-5b32-4751-8c35-6af7300950d4.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\8df9e8ed-5b32-4751-8c35-6af7300950d4.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\8f230900-b873-45ac-b48d-faea8f66beb5.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\8f230900-b873-45ac-b48d-faea8f66beb5.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\997b531d-23ee-4d29-8f2a-b266aa416b7b.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\997b531d-23ee-4d29-8f2a-b266aa416b7b.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\9d1ac23a-9883-4051-8189-787006457ba8.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\9d1ac23a-9883-4051-8189-787006457ba8.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\9e4393f6-45a3-43ac-9827-6fa6a45e91ba.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\9e4393f6-45a3-43ac-9827-6fa6a45e91ba.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\a256bd9e-9709-4bfc-8d0d-3f4262f2bad5.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\a256bd9e-9709-4bfc-8d0d-3f4262f2bad5.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\a2a10a7f-2ffb-42dd-94f8-526b01c54fc2.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\a2a10a7f-2ffb-42dd-94f8-526b01c54fc2.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\a5a9d663-6887-4e2c-911e-4a035068fb76.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\a5a9d663-6887-4e2c-911e-4a035068fb76.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\a6efad8f-e8b6-4cad-b4e3-47d6b65ce7f2.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\a6efad8f-e8b6-4cad-b4e3-47d6b65ce7f2.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\a9099416-ca5c-40bb-b4fc-f0509b5de7cd.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\a9099416-ca5c-40bb-b4fc-f0509b5de7cd.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\a913176a-9748-458c-9db5-7ba80903aada.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\a913176a-9748-458c-9db5-7ba80903aada.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\ab01d470-98fe-47e4-8af9-a78aefb1d3bb.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\ab01d470-98fe-47e4-8af9-a78aefb1d3bb.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\abf265e2-43c1-4548-893f-f43f5d9038c8.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\abf265e2-43c1-4548-893f-f43f5d9038c8.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\ae705de9-c4c1-4b6d-8986-6605ac635d3b.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\ae705de9-c4c1-4b6d-8986-6605ac635d3b.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\b10df952-9e6d-4a23-8c83-00844ef0d1d3.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\b10df952-9e6d-4a23-8c83-00844ef0d1d3.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\b2501970-aaee-4d9d-8aac-1032e6860753.png",
+      "PackagePath": "staticwebassets\\images\\products\\b2501970-aaee-4d9d-8aac-1032e6860753.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\b6500445-83d6-477d-9975-67c0a3b58ff5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b6500445-83d6-477d-9975-67c0a3b58ff5.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\b66ed5c3-f8f6-40ed-983f-cf7fd37f0d79.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\b66ed5c3-f8f6-40ed-983f-cf7fd37f0d79.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\b7d5e843-ce6f-446e-8394-d948868e03a9.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b7d5e843-ce6f-446e-8394-d948868e03a9.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\bad2d7bf-ac66-40cc-a278-14fbe74b0f56.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\bad2d7bf-ac66-40cc-a278-14fbe74b0f56.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\be5caf6f-111f-4836-8b0b-ff3bfb791193.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\be5caf6f-111f-4836-8b0b-ff3bfb791193.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\c0013e06-a0dd-475a-a507-877310224919.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\c0013e06-a0dd-475a-a507-877310224919.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\c137d5c0-f106-44a3-bb8d-21253b1d740f.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\c137d5c0-f106-44a3-bb8d-21253b1d740f.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\c1eb5a1c-9ce3-4d60-9922-2345cf19c0eb.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\c1eb5a1c-9ce3-4d60-9922-2345cf19c0eb.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\c285d3d1-c82a-42da-a752-798fd7f2b0f3.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\c285d3d1-c82a-42da-a752-798fd7f2b0f3.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\c39fdc6a-06d4-4ba1-af67-6edd69a4eb38.webp",
+      "PackagePath": "staticwebassets\\images\\products\\c39fdc6a-06d4-4ba1-af67-6edd69a4eb38.webp"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\c3ce5c3a-4a02-4157-8949-7f5d26c68670.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\c3ce5c3a-4a02-4157-8949-7f5d26c68670.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\c63609ef-08e3-494c-a28f-81b389970391.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\c63609ef-08e3-494c-a28f-81b389970391.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\ca22c942-59b0-42c1-9092-3fc2b0847ef9.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\ca22c942-59b0-42c1-9092-3fc2b0847ef9.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\cda078f3-ecab-44f0-bf6c-c8100413295e.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\cda078f3-ecab-44f0-bf6c-c8100413295e.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\d47cdfd0-1cc1-4a56-8c3d-65a083568145.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\d47cdfd0-1cc1-4a56-8c3d-65a083568145.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\d4d29218-3c1a-42c7-985e-0e46d79a9a36.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\d4d29218-3c1a-42c7-985e-0e46d79a9a36.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\d6271ff3-7f9d-416a-a1ce-5d24110de7e8.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\d6271ff3-7f9d-416a-a1ce-5d24110de7e8.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\d6702e94-40c1-412c-a811-90fd91ea0148.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\d6702e94-40c1-412c-a811-90fd91ea0148.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\d805df11-3a9a-4dd4-98a1-38eee773f556.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\d805df11-3a9a-4dd4-98a1-38eee773f556.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\dae26b63-ac78-4b42-b9a4-3de9479be86d.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\dae26b63-ac78-4b42-b9a4-3de9479be86d.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\e24ab0a6-0b71-41b3-944c-e4b6e80e9200.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\e24ab0a6-0b71-41b3-944c-e4b6e80e9200.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\e38cf2bb-81d7-4adb-b65c-c9ee85c197b2.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\e38cf2bb-81d7-4adb-b65c-c9ee85c197b2.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\ea65a6cc-34dc-4212-8ed7-01238f9d5774.png",
+      "PackagePath": "staticwebassets\\images\\products\\ea65a6cc-34dc-4212-8ed7-01238f9d5774.png"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\f2905c35-9bee-49e1-a606-a46ddda29691.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\f2905c35-9bee-49e1-a606-a46ddda29691.jpg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\f66e49e7-7fa5-44b8-9988-a65e53986525.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\f66e49e7-7fa5-44b8-9988-a65e53986525.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\f767a587-2d5e-484d-8d24-1ef02c4d6eb1.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\f767a587-2d5e-484d-8d24-1ef02c4d6eb1.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\f8fc66a8-b0e3-42d3-a8e7-5e7266501279.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\f8fc66a8-b0e3-42d3-a8e7-5e7266501279.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\images\\products\\fd89c76c-b8f6-4c25-8de9-fb4e2fd5b42c.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\fd89c76c-b8f6-4c25-8de9-fb4e2fd5b42c.jfif"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\anchorjs\\anchor.min.js",
+      "PackagePath": "staticwebassets\\vendors\\anchorjs\\anchor.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\bootstrap\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendors\\bootstrap\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\bootstrap\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\vendors\\bootstrap\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\chart\\chart.min.js",
+      "PackagePath": "staticwebassets\\vendors\\chart\\chart.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\choices\\base.min.css",
+      "PackagePath": "staticwebassets\\vendors\\choices\\base.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\choices\\choices.min.css",
+      "PackagePath": "staticwebassets\\vendors\\choices\\choices.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\choices\\choices.min.js",
+      "PackagePath": "staticwebassets\\vendors\\choices\\choices.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\countup\\countUp.umd.js",
+      "PackagePath": "staticwebassets\\vendors\\countup\\countUp.umd.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\dayjs\\dayjs.min.js",
+      "PackagePath": "staticwebassets\\vendors\\dayjs\\dayjs.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\draggable\\draggable.bundle.legacy.js",
+      "PackagePath": "staticwebassets\\vendors\\draggable\\draggable.bundle.legacy.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\dropzone\\dropzone.min.css",
+      "PackagePath": "staticwebassets\\vendors\\dropzone\\dropzone.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\dropzone\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\vendors\\dropzone\\dropzone.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\echarts-countries-js\\map\\USA.js",
+      "PackagePath": "staticwebassets\\vendors\\echarts-countries-js\\map\\USA.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\echarts-countries-js\\map\\world.js",
+      "PackagePath": "staticwebassets\\vendors\\echarts-countries-js\\map\\world.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\echarts-countries-js\\world\\world.js",
+      "PackagePath": "staticwebassets\\vendors\\echarts-countries-js\\world\\world.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\echarts\\echarts.min.js",
+      "PackagePath": "staticwebassets\\vendors\\echarts\\echarts.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\flatpickr\\flatpickr.min.css",
+      "PackagePath": "staticwebassets\\vendors\\flatpickr\\flatpickr.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\fontawesome\\all.min.js",
+      "PackagePath": "staticwebassets\\vendors\\fontawesome\\all.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\fullcalendar\\main.js",
+      "PackagePath": "staticwebassets\\vendors\\fullcalendar\\main.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\fullcalendar\\main.min.css",
+      "PackagePath": "staticwebassets\\vendors\\fullcalendar\\main.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\fullcalendar\\main.min.js",
+      "PackagePath": "staticwebassets\\vendors\\fullcalendar\\main.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\glightbox\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\vendors\\glightbox\\glightbox.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\glightbox\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\vendors\\glightbox\\glightbox.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\is\\is.min.js",
+      "PackagePath": "staticwebassets\\vendors\\is\\is.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\README.md",
+      "PackagePath": "staticwebassets\\vendors\\katex\\README.md"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\contrib\\auto-render.js",
+      "PackagePath": "staticwebassets\\vendors\\katex\\contrib\\auto-render.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\contrib\\auto-render.min.js",
+      "PackagePath": "staticwebassets\\vendors\\katex\\contrib\\auto-render.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\contrib\\auto-render.mjs",
+      "PackagePath": "staticwebassets\\vendors\\katex\\contrib\\auto-render.mjs"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\contrib\\copy-tex.js",
+      "PackagePath": "staticwebassets\\vendors\\katex\\contrib\\copy-tex.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\contrib\\copy-tex.min.js",
+      "PackagePath": "staticwebassets\\vendors\\katex\\contrib\\copy-tex.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\contrib\\copy-tex.mjs",
+      "PackagePath": "staticwebassets\\vendors\\katex\\contrib\\copy-tex.mjs"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\contrib\\mathtex-script-type.js",
+      "PackagePath": "staticwebassets\\vendors\\katex\\contrib\\mathtex-script-type.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\contrib\\mathtex-script-type.min.js",
+      "PackagePath": "staticwebassets\\vendors\\katex\\contrib\\mathtex-script-type.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\contrib\\mathtex-script-type.mjs",
+      "PackagePath": "staticwebassets\\vendors\\katex\\contrib\\mathtex-script-type.mjs"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\contrib\\mhchem.js",
+      "PackagePath": "staticwebassets\\vendors\\katex\\contrib\\mhchem.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\contrib\\mhchem.min.js",
+      "PackagePath": "staticwebassets\\vendors\\katex\\contrib\\mhchem.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\contrib\\mhchem.mjs",
+      "PackagePath": "staticwebassets\\vendors\\katex\\contrib\\mhchem.mjs"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\contrib\\render-a11y-string.js",
+      "PackagePath": "staticwebassets\\vendors\\katex\\contrib\\render-a11y-string.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\contrib\\render-a11y-string.min.js",
+      "PackagePath": "staticwebassets\\vendors\\katex\\contrib\\render-a11y-string.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\contrib\\render-a11y-string.mjs",
+      "PackagePath": "staticwebassets\\vendors\\katex\\contrib\\render-a11y-string.mjs"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_AMS-Regular.ttf",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_AMS-Regular.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_AMS-Regular.woff",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_AMS-Regular.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_AMS-Regular.woff2",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_AMS-Regular.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Caligraphic-Bold.ttf",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Caligraphic-Bold.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Caligraphic-Bold.woff",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Caligraphic-Bold.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Caligraphic-Bold.woff2",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Caligraphic-Bold.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Caligraphic-Regular.ttf",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Caligraphic-Regular.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Caligraphic-Regular.woff",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Caligraphic-Regular.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Caligraphic-Regular.woff2",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Caligraphic-Regular.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Fraktur-Bold.ttf",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Fraktur-Bold.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Fraktur-Bold.woff",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Fraktur-Bold.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Fraktur-Bold.woff2",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Fraktur-Bold.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Fraktur-Regular.ttf",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Fraktur-Regular.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Fraktur-Regular.woff",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Fraktur-Regular.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Fraktur-Regular.woff2",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Fraktur-Regular.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Main-Bold.ttf",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Main-Bold.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Main-Bold.woff",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Main-Bold.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Main-Bold.woff2",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Main-Bold.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Main-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Main-BoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Main-BoldItalic.woff",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Main-BoldItalic.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Main-BoldItalic.woff2",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Main-BoldItalic.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Main-Italic.ttf",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Main-Italic.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Main-Italic.woff",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Main-Italic.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Main-Italic.woff2",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Main-Italic.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Main-Regular.ttf",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Main-Regular.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Main-Regular.woff",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Main-Regular.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Main-Regular.woff2",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Main-Regular.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Math-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Math-BoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Math-BoldItalic.woff",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Math-BoldItalic.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Math-BoldItalic.woff2",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Math-BoldItalic.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Math-Italic.ttf",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Math-Italic.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Math-Italic.woff",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Math-Italic.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Math-Italic.woff2",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Math-Italic.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_SansSerif-Bold.ttf",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_SansSerif-Bold.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_SansSerif-Bold.woff",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_SansSerif-Bold.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_SansSerif-Bold.woff2",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_SansSerif-Bold.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_SansSerif-Italic.ttf",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_SansSerif-Italic.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_SansSerif-Italic.woff",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_SansSerif-Italic.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_SansSerif-Italic.woff2",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_SansSerif-Italic.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_SansSerif-Regular.ttf",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_SansSerif-Regular.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_SansSerif-Regular.woff",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_SansSerif-Regular.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_SansSerif-Regular.woff2",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_SansSerif-Regular.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Script-Regular.ttf",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Script-Regular.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Script-Regular.woff",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Script-Regular.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Script-Regular.woff2",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Script-Regular.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Size1-Regular.ttf",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Size1-Regular.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Size1-Regular.woff",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Size1-Regular.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Size1-Regular.woff2",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Size1-Regular.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Size2-Regular.ttf",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Size2-Regular.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Size2-Regular.woff",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Size2-Regular.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Size2-Regular.woff2",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Size2-Regular.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Size3-Regular.ttf",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Size3-Regular.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Size3-Regular.woff",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Size3-Regular.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Size3-Regular.woff2",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Size3-Regular.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Size4-Regular.ttf",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Size4-Regular.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Size4-Regular.woff",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Size4-Regular.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Size4-Regular.woff2",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Size4-Regular.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Typewriter-Regular.ttf",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Typewriter-Regular.ttf"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Typewriter-Regular.woff",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Typewriter-Regular.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\fonts\\KaTeX_Typewriter-Regular.woff2",
+      "PackagePath": "staticwebassets\\vendors\\katex\\fonts\\KaTeX_Typewriter-Regular.woff2"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\katex.css",
+      "PackagePath": "staticwebassets\\vendors\\katex\\katex.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\katex.js",
+      "PackagePath": "staticwebassets\\vendors\\katex\\katex.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\katex.min.css",
+      "PackagePath": "staticwebassets\\vendors\\katex\\katex.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\katex.min.js",
+      "PackagePath": "staticwebassets\\vendors\\katex\\katex.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\katex\\katex.mjs",
+      "PackagePath": "staticwebassets\\vendors\\katex\\katex.mjs"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\leaflet.markercluster\\MarkerCluster.Default.css",
+      "PackagePath": "staticwebassets\\vendors\\leaflet.markercluster\\MarkerCluster.Default.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\leaflet.markercluster\\MarkerCluster.css",
+      "PackagePath": "staticwebassets\\vendors\\leaflet.markercluster\\MarkerCluster.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\leaflet.markercluster\\leaflet.markercluster.js",
+      "PackagePath": "staticwebassets\\vendors\\leaflet.markercluster\\leaflet.markercluster.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\leaflet.markercluster\\leaflet.markercluster.js.map",
+      "PackagePath": "staticwebassets\\vendors\\leaflet.markercluster\\leaflet.markercluster.js.map"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\leaflet.tilelayer.colorfilter\\leaflet-tilelayer-colorfilter.min.js",
+      "PackagePath": "staticwebassets\\vendors\\leaflet.tilelayer.colorfilter\\leaflet-tilelayer-colorfilter.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\leaflet\\leaflet.css",
+      "PackagePath": "staticwebassets\\vendors\\leaflet\\leaflet.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\leaflet\\leaflet.js",
+      "PackagePath": "staticwebassets\\vendors\\leaflet\\leaflet.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\leaflet\\leaflet.js.map",
+      "PackagePath": "staticwebassets\\vendors\\leaflet\\leaflet.js.map"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\list.js\\list.min.js",
+      "PackagePath": "staticwebassets\\vendors\\list.js\\list.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\list.js\\list.min.js.map",
+      "PackagePath": "staticwebassets\\vendors\\list.js\\list.min.js.map"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\lodash\\lodash.min.js",
+      "PackagePath": "staticwebassets\\vendors\\lodash\\lodash.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\lottie\\lottie.min.js",
+      "PackagePath": "staticwebassets\\vendors\\lottie\\lottie.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\overlayscrollbars\\OverlayScrollbars.min.css",
+      "PackagePath": "staticwebassets\\vendors\\overlayscrollbars\\OverlayScrollbars.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\overlayscrollbars\\OverlayScrollbars.min.js",
+      "PackagePath": "staticwebassets\\vendors\\overlayscrollbars\\OverlayScrollbars.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\plyr\\plyr.css",
+      "PackagePath": "staticwebassets\\vendors\\plyr\\plyr.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\plyr\\plyr.polyfilled.min.js",
+      "PackagePath": "staticwebassets\\vendors\\plyr\\plyr.polyfilled.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\plyr\\plyr.polyfilled.min.js.map",
+      "PackagePath": "staticwebassets\\vendors\\plyr\\plyr.polyfilled.min.js.map"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\popper\\popper.min.js",
+      "PackagePath": "staticwebassets\\vendors\\popper\\popper.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\popper\\popper.min.js.map",
+      "PackagePath": "staticwebassets\\vendors\\popper\\popper.min.js.map"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\prism\\prism-okaidia.css",
+      "PackagePath": "staticwebassets\\vendors\\prism\\prism-okaidia.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\prism\\prism.js",
+      "PackagePath": "staticwebassets\\vendors\\prism\\prism.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\rater-js\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\rater-js\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\rater-js\\rater-js.js",
+      "PackagePath": "staticwebassets\\vendors\\rater-js\\rater-js.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\rater-js\\star_0.svg",
+      "PackagePath": "staticwebassets\\vendors\\rater-js\\star_0.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\rater-js\\star_1.svg",
+      "PackagePath": "staticwebassets\\vendors\\rater-js\\star_1.svg"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\rater-js\\style.css",
+      "PackagePath": "staticwebassets\\vendors\\rater-js\\style.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\simplebar\\simplebar.min.css",
+      "PackagePath": "staticwebassets\\vendors\\simplebar\\simplebar.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\simplebar\\simplebar.min.js",
+      "PackagePath": "staticwebassets\\vendors\\simplebar\\simplebar.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\vendors\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\vendors\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tiny-slider\\tiny-slider.css",
+      "PackagePath": "staticwebassets\\vendors\\tiny-slider\\tiny-slider.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tiny-slider\\tiny-slider.css.map",
+      "PackagePath": "staticwebassets\\vendors\\tiny-slider\\tiny-slider.css.map"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tiny-slider\\tiny-slider.js",
+      "PackagePath": "staticwebassets\\vendors\\tiny-slider\\tiny-slider.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tiny-slider\\tiny-slider.scss",
+      "PackagePath": "staticwebassets\\vendors\\tiny-slider\\tiny-slider.scss"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\CHANGELOG.md"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\README.md",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\README.md"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\bower.json",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\bower.json"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\composer.json",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\composer.json"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\icons\\default\\icons.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\icons\\default\\icons.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\icons\\default\\icons.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\icons\\default\\icons.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\icons\\default\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\icons\\default\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\jquery.tinymce.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\jquery.tinymce.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\jquery.tinymce.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\jquery.tinymce.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\license.txt",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\license.txt"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\advlist\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\advlist\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\advlist\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\advlist\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\advlist\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\advlist\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\anchor\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\anchor\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\anchor\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\anchor\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\anchor\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\anchor\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\autolink\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\autolink\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\autolink\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\autolink\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\autolink\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\autolink\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\autoresize\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\autoresize\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\autoresize\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\autoresize\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\autoresize\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\autoresize\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\autosave\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\autosave\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\autosave\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\autosave\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\autosave\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\autosave\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\bbcode\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\bbcode\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\bbcode\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\bbcode\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\bbcode\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\bbcode\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\charmap\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\charmap\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\charmap\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\charmap\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\charmap\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\charmap\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\code\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\code\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\code\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\code\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\code\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\code\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\codesample\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\codesample\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\codesample\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\codesample\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\codesample\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\codesample\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\colorpicker\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\colorpicker\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\colorpicker\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\colorpicker\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\colorpicker\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\colorpicker\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\contextmenu\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\contextmenu\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\contextmenu\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\contextmenu\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\contextmenu\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\contextmenu\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\directionality\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\directionality\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\directionality\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\directionality\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\directionality\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\directionality\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\emoticons\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\emoticons\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\emoticons\\js\\emojiimages.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\emoticons\\js\\emojiimages.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\emoticons\\js\\emojis.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\emoticons\\js\\emojis.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\emoticons\\js\\emojis.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\emoticons\\js\\emojis.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\emoticons\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\emoticons\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\emoticons\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\emoticons\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\fullpage\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\fullpage\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\fullpage\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\fullpage\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\fullpage\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\fullpage\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\fullscreen\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\fullscreen\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\fullscreen\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\fullscreen\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\fullscreen\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\fullscreen\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\help\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\help\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\help\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\help\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\help\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\help\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\hr\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\hr\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\hr\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\hr\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\hr\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\hr\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\image\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\image\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\image\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\image\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\image\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\image\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\imagetools\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\imagetools\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\imagetools\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\imagetools\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\imagetools\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\imagetools\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\importcss\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\importcss\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\importcss\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\importcss\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\importcss\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\importcss\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\insertdatetime\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\insertdatetime\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\insertdatetime\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\insertdatetime\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\insertdatetime\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\insertdatetime\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\legacyoutput\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\legacyoutput\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\legacyoutput\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\legacyoutput\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\legacyoutput\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\legacyoutput\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\link\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\link\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\link\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\link\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\link\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\link\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\lists\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\lists\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\lists\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\lists\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\lists\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\lists\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\media\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\media\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\media\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\media\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\media\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\media\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\nonbreaking\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\nonbreaking\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\nonbreaking\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\nonbreaking\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\nonbreaking\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\nonbreaking\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\noneditable\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\noneditable\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\noneditable\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\noneditable\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\noneditable\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\noneditable\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\pagebreak\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\pagebreak\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\pagebreak\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\pagebreak\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\pagebreak\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\pagebreak\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\paste\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\paste\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\paste\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\paste\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\paste\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\paste\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\preview\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\preview\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\preview\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\preview\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\preview\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\preview\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\print\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\print\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\print\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\print\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\print\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\print\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\quickbars\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\quickbars\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\quickbars\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\quickbars\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\quickbars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\quickbars\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\save\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\save\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\save\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\save\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\save\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\save\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\searchreplace\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\searchreplace\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\searchreplace\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\searchreplace\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\searchreplace\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\searchreplace\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\spellchecker\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\spellchecker\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\spellchecker\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\spellchecker\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\spellchecker\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\spellchecker\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\tabfocus\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\tabfocus\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\tabfocus\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\tabfocus\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\tabfocus\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\tabfocus\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\table\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\table\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\table\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\table\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\table\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\table\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\template\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\template\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\template\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\template\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\template\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\template\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\textcolor\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\textcolor\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\textcolor\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\textcolor\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\textcolor\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\textcolor\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\textpattern\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\textpattern\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\textpattern\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\textpattern\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\textpattern\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\textpattern\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\toc\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\toc\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\toc\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\toc\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\toc\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\toc\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\visualblocks\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\visualblocks\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\visualblocks\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\visualblocks\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\visualblocks\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\visualblocks\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\visualchars\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\visualchars\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\visualchars\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\visualchars\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\visualchars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\visualchars\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\wordcount\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\wordcount\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\wordcount\\plugin.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\wordcount\\plugin.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\plugins\\wordcount\\plugin.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\plugins\\wordcount\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\content\\dark\\content.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\content\\dark\\content.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\content\\dark\\content.min.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\content\\dark\\content.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\content\\default\\content.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\content\\default\\content.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\content\\default\\content.min.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\content\\default\\content.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\content\\document\\content.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\content\\document\\content.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\content\\document\\content.min.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\content\\document\\content.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\content\\writer\\content.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\content\\writer\\content.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\content\\writer\\content.min.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\content\\writer\\content.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide-dark\\content.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide-dark\\content.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide-dark\\content.inline.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide-dark\\content.inline.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide-dark\\content.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide-dark\\content.mobile.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide-dark\\content.mobile.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide-dark\\content.mobile.min.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide-dark\\content.mobile.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide-dark\\fonts\\tinymce-mobile.woff",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide-dark\\fonts\\tinymce-mobile.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide-dark\\skin.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide-dark\\skin.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide-dark\\skin.mobile.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide-dark\\skin.mobile.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide-dark\\skin.mobile.min.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide-dark\\skin.mobile.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide\\content.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide\\content.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide\\content.inline.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide\\content.inline.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide\\content.inline.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide\\content.min.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide\\content.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide\\content.mobile.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide\\content.mobile.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide\\content.mobile.min.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide\\content.mobile.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide\\fonts\\tinymce-mobile.woff",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide\\fonts\\tinymce-mobile.woff"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide\\skin.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide\\skin.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide\\skin.min.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide\\skin.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide\\skin.mobile.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide\\skin.mobile.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide\\skin.mobile.min.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide\\skin.mobile.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\themes\\mobile\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\themes\\mobile\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\themes\\mobile\\theme.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\themes\\mobile\\theme.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\themes\\mobile\\theme.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\themes\\mobile\\theme.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\themes\\silver\\index.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\themes\\silver\\index.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\themes\\silver\\theme.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\themes\\silver\\theme.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\themes\\silver\\theme.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\themes\\silver\\theme.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\tinymce.d.ts",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\tinymce.d.ts"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\tinymce.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\tinymce.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\tinymce\\tinymce.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tinymce\\tinymce.min.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\typed.js\\typed.js",
+      "PackagePath": "staticwebassets\\vendors\\typed.js\\typed.js"
+    },
+    {
+      "Id": "D:\\ĐATN\\SPMKMN\\DATN\\CMS.WebApp\\wwwroot\\vendors\\validator\\validator.min.js",
+      "PackagePath": "staticwebassets\\vendors\\validator\\validator.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CMS.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CMS.WebApp.props",
+      "PackagePath": "build\\CMS.WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CMS.WebApp.props",
+      "PackagePath": "buildMultiTargeting\\CMS.WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CMS.WebApp.props",
+      "PackagePath": "buildTransitive\\CMS.WebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,25 @@
+﻿<form asp-action="index" asp-controller="function" method="get">
+    <div class="search-box">
+        <div class="position-relative" data-bs-toggle="search" data-bs-display="static">
+            <input class="form-control search-input fuzzy-search" name="keyword" value='@(ViewBag.Keyword == null ? string.Empty : ViewBag.Keyword)' type="search" placeholder="Search..." aria-label="Search" autocomplete="off" />
+            <span class="fas fa-search search-box-icon"></span>
+        </div>
+        <div class="btn-close-falcon-container position-absolute end-0 top-50 translate-middle shadow-none" data-bs-dismiss="search">
+            <div class="btn-close-falcon" aria-label="Close"></div>
+        </div>
+        <div class="dropdown-menu border font-base start-0 mt-2 py-0 overflow-hidden w-100">
+            <div class="scrollbar list py-3" style="max-height: 24rem; min-height:0px;">
+                <h6 class="dropdown-header fw-medium text-uppercase px-card fs--2 pt-0 pb-2">Advanced filter</h6>
+                <div class="fs--1 px-card py-1 mb-1">
+                    @Html.DropDownList(
+                            "parentId", ViewBag.Functions as SelectList,
+                           new { @class = "form-select", @name="parentId" }
+                        )
+                </div>
+                <div class="fs--1 px-card py-1 mb-2 mt-2">
+                    <button class="col-auto btn btn-primary w-100" type="submit">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

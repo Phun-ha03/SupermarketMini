@@ -1,0 +1,138 @@
+﻿@using CMS.BaseModels.Common
+@using CMS.Models.Supermarket.Orders;
+@using CMS.Utilities.Helpers
+@model PagedResult<OrderViewModel>
+@{
+    ViewData["Title"] = "Đơn hàng";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    int count = 0;
+}
+<div class="card mt-3 mb-3">
+    <div class="row g-3">
+        <div class="col-xxl-2 col-xl-3">
+            <div class="card scrollbar shadow-none shadow-show-xl">
+                <div class="card-header bg-body-tertiary d-none d-xl-block">
+                    <h5 class="mb-0">Lọc đơn hàng</h5>
+                </div>
+                <div class="card-body">
+                    <form method="get" asp-controller="Order" asp-action="Index">
+
+                        <div class="mb-3">
+                            <label class="mb-1">Lọc theo mã đơn hàng</label>
+                            <input type="text" class="form-control form-control-sm" name="keyword" placeholder="Nhập tên ..." value="@ViewBag.Keyword">
+                        </div>
+                        <div class="mb-3">
+                            <label class="mb-1">Ngày thanh toán</label>
+                            <input type="date" class="form-control form-control-sm" name="searchDate"
+                                    value="@(ViewBag.SearchDate != null ? ((DateTime)ViewBag.SearchDate).ToString("yyyy-MM-dd") : "")" />
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Lọc</button>
+                    </form>
+                </div>
+                <div class="card-footer border-top border-200 py-x1"></div>
+            </div>
+        </div>
+        <div class="col-xxl-10 col-xl-9">
+            <div class="card-header">
+                <div class="row flex-between-end">
+                    <div class="col-auto align-self-center">
+                        <span class="fs-1 fw-semi-bold">@ViewData["Title"]</span>
+                        <span>(<span style="font-size:15px; color:gray;"><font style="color:orange;">@Model.TotalRecords</font> records</span>)</span>
+                    </div>
+                     <div class="col-auto ms-auto">
+                        <form method="get" action="/Order/ExportOrders">
+                            <div class="row g-2 align-items-end">
+                                <div class="col-auto ">
+                                    <label for="fromDate">Từ ngày</label>
+                                    <input type="date" id="fromDate" name="fromDate" class="form-control btn btn-falcon-default btn-sm" required />
+                                </div>
+                                <div class="col-auto">
+                                    <label for="toDate">Đến ngày</label>
+                                    <input type="date" id="toDate" name="toDate" class="form-control btn btn-falcon-default btn-sm" required />
+                                </div>
+                                <div class="col-auto">
+                                    <button class="btn btn-falcon-default btn-sm" type="submit">
+                                        <span class="fas fa-external-link-alt" data-fa-transform="shrink-3 down-2"></span>
+                                        <span class="d-none d-sm-inline-block ms-1">Xuất</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div> 
+                </div>
+            </div>
+            <div class="card-body pt-0">
+                <div id="tableExample2">
+                    <div class="table-responsive scrollbar" style="max-height: calc(100vh - 12.5rem) !important;">
+                        <table class="table table-bordered table-striped table-hover overflow-hidden fs--1 mb-0">
+                            <thead class="bg-200">
+                                <tr>
+                                    <th class="text-nowrap" scope="col">Đơn Hàng</th>
+                                    <th class="text-nowrap" scope="col">Khách Hàng</th>
+                                    <th class="text-nowrap" scope="col">Số tiền</th>
+                                    <th class="text-nowrap" scope="col">Phương thức thanh toán</th>
+                                    <th class="text-nowrap" scope="col">Ngày thanh toán</th>
+                                </tr>
+                            </thead>
+                            <tbody class="list">
+                                @if (!string.IsNullOrEmpty(ViewBag.Error))
+                                {
+                                    <tr class="align-middle">
+                                        <td colspan="4" class="text-danger">@ViewBag.Error</td>
+                                    </tr>
+                                }
+                                else if (Model == null || Model.Items == null || Model.Items.Count <= 0)
+                                {
+                                    <tr class="align-middle hover-actions-trigger">
+                                        <td colspan="4" class="text-nowrap p-2 ps-3 text-danger">
+                                            Chưa có bản ghi
+                                        </td>
+                                    </tr>
+                                }
+                                else foreach (var item in Model.Items)
+                                    {
+                                        count++;
+                                        <tr class="align-middle hover-actions-trigger">
+                                            <td class="text-nowrap">
+                                                @Html.DisplayFor(modelItem => item.OrderID)
+                                            </td>
+                                            <td class="text-nowrap position-relative">
+                                                @Html.DisplayFor(modelItem => item.Name)
+
+                                            </td>
+                                            <td class="text-nowrap position-relative">
+                                                @item.TotalAmount.ToString("c0", new System.Globalization.CultureInfo("vi-VN"))
+                                            </td>
+                                            <td class="text-nowrap position-relative">
+                                                @Html.DisplayFor(modelItem => item.PaymenMethod)
+
+                                            </td>
+                                            <td class="text-nowrap position-relative">
+                                                @Html.DisplayFor(modelItem => item.CreateAt)
+
+                                            </td>
+                                            <td>
+                                                <a href="@Url.Action("Detail", "Order", new { id = item.OrderID })"
+                                                   class="btn btn-sm btn-primary"
+                                                   title="Xem chi tiết">
+                                                    <i class="fas fa-eye me-1"></i> Chi tiết
+                                                </a>
+                                                <div class="hover-actions end-0 top-50 h-100 ps-3 pe-3 translate-middle-y bg-danger">
+                                                   @*  <button onclick="openRemoteModal('@Url.Action("Edit", "Order", new {id = item.OrderID})', 'Cập nhật đơn hàng', '800px', '300px')" class="btn p-0 me-2" type="button" data-bs-toggle="" data-bs-placement="top" title="Sửa"><span class="text-white fas fa-edit"></span></button> *@
+                                                    <button onclick="openRemoteModal('@Url.Action("Delete", "Order", new {id = item.OrderID})', 'Xóa loại đơn hàng', '500px', '130px')" class="btn p-0" type="button" data-bs-toggle="" data-bs-placement="top" title="Xóa"><span class="text-white fas fa-trash-alt"></span></button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    }
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="d-flex justify-content-center mt-3">
+                        @await Component.InvokeAsync("Pager", Model)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

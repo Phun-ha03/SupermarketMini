@@ -1,0 +1,78 @@
+﻿@using CMS.Models.Supermarket.Suppliers;
+@using CMS.Utilities.Helpers
+@model SupplierCreateRequest
+@{
+    ViewData["Title"] = "Create Supplier";
+    Layout = "~/Views/Shared/_LayoutConfirm.cshtml";
+}
+
+<main class="main card-bg" id="top">
+    <div class="container-fluid" data-layout="container-fluid">
+        <div class="content pb-2">
+            <form asp-action="create" class="col-12">
+                @if (!string.IsNullOrEmpty(ViewBag.Error))
+                {
+                    <div class="alert alert-danger pt-2 pb-2 mt-1 mb-2" role="alert">
+                        @ViewBag.Error
+                    </div>
+                }
+                else if (!string.IsNullOrEmpty(ViewBag.Message))
+                {
+
+                    if (ViewBag.Message.Equals(ConstantHelper.UpdateSuccess)
+                    || ViewBag.Message.Equals(ConstantHelper.InsertSuccess)
+                    || ViewBag.Message.Equals(ConstantHelper.DeleteSuccess))
+                    {
+                        <script type="text/javascript">
+                            window.parent.closeDialog(true);
+                        </script>
+                    }
+                    else
+                    {
+                        <div class="alert alert-success pt-2 pb-2 mt-1 mb-2" role="alert">
+                            @ViewBag.Message
+                        </div>
+                    }
+                }
+               
+                <div class="mb-2 mt-1">
+                    <label asp-for="SupplierName" class="control-label"></label>
+                    <input asp-for="SupplierName" class="form-control" type="text" placeholder="" />
+                    <span asp-validation-for="SupplierName" class="text-danger"></span>
+                </div>
+                <div class="mb-2">
+                    <label asp-for="ContactPerson" class="control-label"></label>
+                    <input asp-for="ContactPerson" class="form-control" placeholder="" />
+                    <span asp-validation-for="ContactPerson" class="text-danger"></span>
+                </div>
+                <div>
+                    <label asp-for="Phone" class="control-label"></label>
+                    <input asp-for="Phone" class="form-control" placeholder="" />
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+                <div class="mb-2">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" placeholder="" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="mb-2">
+                    <label asp-for="Address" class="control-label"></label>
+                    <input asp-for="Address" class="form-control" placeholder="" />
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+
+
+                <div class="mt-5"></div>
+                <div class="row position-fixed bottom-0 bg-light w-100 pt-2">
+                    <div class="col d-flex justify-content-end align-items-center p-0 pe-3">
+                        <input type="button" value="Hủy" onclick="return onCancel_Click();" class="col-auto btn btn-danger" style="margin-left:10px !important; padding-left:30px; padding-right:30px;" />
+                        <input type="submit" value="Thêm" class="col-auto btn btn-primary ms-2" style="margin-left:10px !important; padding-left:30px; padding-right:30px;" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
+
+
+

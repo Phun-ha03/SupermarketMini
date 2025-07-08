@@ -1,0 +1,1 @@
+﻿[ {"Id":"1","Description":"System admin","Controler":"","Action":"","Icon":"","SortOrder":"1","IsShow":"1","ParentRoleId":"0","LevelId":"1","StatusId":"1","Name":"System admin","NormalizedName":"SYSTEM ADMIN","ConcurrencyStamp":"07f3975d-92b5-4055-a857-78ef40bb1df1"}]

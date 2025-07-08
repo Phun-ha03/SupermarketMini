@@ -1,0 +1,70 @@
+﻿@using CMS.BaseModels.Common
+@using CMS.Models.Authen.Roles
+@using CMS.Utilities.Helpers
+@model PagedResult<RoleViewModel>
+@{
+    ViewData["Title"] = "System roles";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+
+}
+<div class="card mt-3 mb-3">
+    <div class="card-header">
+        <div class="row flex-between-end">
+            <div class="col-auto align-self-center">
+                <span class="fs-1 fw-semi-bold">System roles</span>
+                <span>(<span class="text-warning">@Model.TotalRecords</span> records)</span>
+            </div>
+            <div class="col-auto ms-auto">
+                <button class="btn btn-sm btn-falcon-default me-2" onclick="openRemoteModal('@Url.Action("Create", "Role")', 'Thêm quyền', '800px', '300px')"><span class="fas fa-plus me-2"></span>Thêm quyền</button>
+            </div>
+        </div>
+    </div>
+    <div class="card-body pt-0">
+        <div id="tableExample2">
+            <div class="table-responsive scrollbar" style="max-height: calc(100vh - 11.5rem) !important;">
+                <table style="width:100%" class="table table-bordered table-striped table-hover overflow-hidden fs--1 mb-0">
+                    <thead class="bg-200">
+                        <tr>
+                            <th class="text-nowrap" scope="col">#</th>
+                            <th class="text-nowrap" scope="col">Tên</th>
+                            <th class="text-nowrap" scope="col">Mô tả</th>
+                            <th class="text-nowrap" scope="col">Chức năng</th>
+                            <th class="text-nowrap" scope="col">Trạng thái</th>
+                        </tr>
+                    </thead>
+                    <tbody class="list">
+                        @foreach (var item in Model.Items)
+                        {
+                            <tr class="align-middle hover-actions-trigger">
+                                <td class="text-nowrap">
+                                    @item.SortOrder
+                                </td>
+                                <td class="text-nowrap">
+                                    @item.Name
+                                </td>
+                                <td class="text-nowrap">
+                                    @item.Description
+                                </td>
+                                <td class="text-nowrap">
+                                    <a href="javascript:openRemoteModal('@Url.Action("AssignFunction", "Role", new {id = item.Id})', 'View/Assign functions', '1000px', '90%')">
+                                        view/assign
+                                    </a>
+                                </td>
+                                <td class="text-nowrap position-relative">
+                                    <span class="badge badge rounded-pill d-block p-2 @(item.StatusId == 1 ? "badge-soft-success" : "badge-soft-danger")">@(item.StatusId == 1 ? "Active" : "Suspended")<span class="ms-1 @(item.StatusId == 1 ? "fas fa-check" : "fas fa-ban")" data-fa-transform="shrink-2"></span></span>
+                                    <div class="hover-actions end-0 top-0 h-100 ps-3 pe-3 bg-danger">
+                                        <button onclick="openRemoteModal('@Url.Action("Edit", "Role", new {id = item.Id})', 'Cập nhật quyền', '800px', '300px')" class="btn p-0 me-2" type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Sửa"><span class="text-white fas fa-edit"></span></button>
+                                        <button onclick="openRemoteModal('@Url.Action("Delete", "Role", new {id = item.Id})', 'Xóa quyền', '500px', '130px')" class="btn p-0" type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Xóa"><span class="text-white fas fa-trash-alt"></span></button>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <div class="d-flex justify-content-center mt-3">
+                @await Component.InvokeAsync("Pager", Model)
+            </div>
+        </div>
+    </div>
+</div>

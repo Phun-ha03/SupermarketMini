@@ -1,0 +1,435 @@
+﻿@using CMS.Models.Supermarket.Orders;
+@using CMS.Utilities.Helpers
+@model OrderCreateRequest
+@{
+    ViewData["Title"] = "Create Order";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+<style>
+    .nav-tabs {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch; /* Cho trải nghiệm cuộn mượt hơn trên iOS */
+    }
+
+    .nav-item {
+        flex-shrink: 0; /* Ngăn các item co lại */
+    }
+
+    .nav-tabs::-webkit-scrollbar {
+        height: 5px; /* Điều chỉnh độ dày của thanh cuộn */
+    }
+
+    .nav-tabs::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.2); /* Màu sắc của thumb (phần kéo) và độ mờ */
+        border-radius: 5px; /* Bo tròn góc của thumb */
+    }
+
+    .nav-tabs::-webkit-scrollbar-track {
+        background-color: transparent; /* Màu nền của track (rãnh) - để trong suốt */
+    }
+
+    /* Cho Firefox */
+    .nav-tabs {
+        scrollbar-width: thin;
+        scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+    }
+</style>
+<div class="card mt-3 mb-3">
+    <div class="col-xxl-10 col-xl-9">
+        <div class="card-header bg-info-subtle text-info-emphasis">
+            <div class="d-flex align-items-center">
+                <div class="col-sm-3 me-2">
+                    <div class="input-group">
+                        <input id="productSearchInput" type="text" placeholder="Tìm sản phẩm..." onkeyup="onSearchBox_KeyPress()" class="form-control" />
+                    </div>
+                </div>
+                <div class="me-2">
+                    <button class="btn btn-sm btn-outline-primary" type="button" onclick="onCreateNewOrder()" title="Tạo hóa đơn mới">
+                        <span class="fas fa-plus"></span>
+                    </button>
+                </div>
+                <ul class="nav nav-tabs mb-3 mt-2" id="orderTabHeader" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="tab-btn-1" data-bs-toggle="tab" data-bs-target="#order-form-1" type="button" role="tab">Hóa đơn 1</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="productSuggestionList" class="dropdown-menu w-100 mt-1 p-2 shadow-sm"> </div>
+    </div>
+    <div class="card-body pt-0">
+        <div class="tab-content" id="orderTabContent">
+            <div class="tab-pane fade show active" id="order-form-1" role="tabpanel">
+                <form asp-action="Create" asp-controller="Order" id="formOrder-1" method="post">
+                    <div class="row g-3">
+                        <div class="col-xxl-10 col-xl-9">
+                            <div class="mb-4">
+                                <div class="table-responsive fs-10">
+                                    <table class="table table-striped border-bottom" id="productDetailsTable">
+                                        <thead class="bg-200">
+                                            <tr>
+                                                <th class="text-900 border-0">Sản phẩm</th>
+                                                <th class="text-900 border-0">Số lượng</th>
+                                                <th class="text-900 border-0">Giá </th>
+                                                <th class="text-900 border-0">Đơn vị</th>
+                                                <th class="text-900 border-0"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="productDetailsBody"></tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-2 col-xl-3">
+                            <div class="row">
+                                <div class="form-group mb-2">
+                                    <label for="phone-1">SĐT Khách hàng:</label> <div class="input-group">
+                                        <input type="text" id="phone-1" class="form-control phone-input" placeholder="Nhập số điện thoại" /> <button type="button" class="btn btn-primary" onclick="findCustomer('order-form-1')">Tìm</button>
+                                    </div>
+                                </div>
+
+                                <div id="customer-info-1" style="display: none;" class="mb-2 customer-info">
+                                    <p><strong>Tên:</strong> <span class="customer-name"></span></p> <p><strong>Điểm tích lũy:</strong> <span class="loyalty-points">0</span></p> <div class="form-group">
+                                        <label for="used-points-1">Sử dụng điểm:</label> <input type="number" class="form-control" id="used-points-1" value="0" min="0" />
+                                        <button type="button" class="btn btn-warning mt-1" onclick="applyPoints('order-form-1')">Dùng điểm</button>
+                                    </div>
+                                </div>
+
+                                <input type="hidden" class="customer-id" name="CustomerID" value="" /> <input type="hidden" id="usedPoints" name="UsedPoints" value="0" />
+                                <input type="hidden" class="loyaltyPointsBefore" /> <input type="hidden" class="customer-name-input" name="CustomerName" value="Khách lẻ" />
+                            </div>
+
+                            <div class="invoice-summary border p-3 mb-3">
+                                <div class="d-flex justify-content-between">
+                                    <span>Tổng tiền hàng</span>
+                                    <span id="totalAmount">0</span>
+                                </div>
+                                <div class="form-group mt-2">
+                                    <label for="discount">Giảm giá:</label>
+                                    <input type="number" class="form-control discount-input" id="discount" name="Discount" value="0" min="0" />
+                                </div>
+                                <div class="d-flex justify-content-between fw-bold mt-2">
+                                    <span>Cần trả</span>
+                                    <span class="text-primary" id="payableAmount">0</span>
+                                    <input type="hidden" id="payableAmountInput" name="TotalAmount" value="0" />
+                                </div>
+                                <div>
+                                    <label>Phương thức thanh toán</label>
+                                    <select asp-for="PaymentMethod" class="form-control">
+                                        <option value="Tiền mặt">Tiền mặt</option>
+                                        <option value="Chuyển khoản">Chuyển khoản</option>
+                                        <option value="Thẻ">Thẻ</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col d-flex justify-content-end align-items-center p-0 pe-3">
+                                <div class="col-auto btn btn-danger" onclick="onCancel_Click()">Hủy</div>
+                                <input class="col-auto btn btn-primary ms-2" type="submit" value="Thanh Toán" />
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        let tabIndex = 1;
+        let productIndexes = { 1: 0 }; // Key là tab ID, value là product index
+
+        function getActiveTabId() {
+            return $('.tab-pane.active').attr('id');
+        }
+
+        function getSelectorInTab(tabId, selector) {
+            return $(`#${tabId} ${selector}`);
+        }
+
+        // Search sản phẩm (chung cho tất cả tab)
+        function onSearchBox_KeyPress() {
+            const keyword = $('#productSearchInput').val();
+
+            $.ajax({
+                url: '/Order/GetProductsByKeywordAjax',
+                data: { keyword },
+                type: 'GET',
+                success: function (res) {
+                    const list = $('#productSuggestionList');
+                    list.empty().addClass('show');
+
+                    if (res.data.length === 0) {
+                        list.append('<div class="text-muted px-2">Không tìm thấy</div>');
+                    } else {
+                        res.data.forEach(product => {
+                            list.append(`
+                                                <div class="dropdown-item" onclick="onProductSelected(${product.productID}, '${product.name}', '${product.image}', '${product.barcode}', ${product.price})">
+                                                    <img src="${product.image}" class="me-2 rounded-circle" width="30" height="30" />
+                                                    ${product.name}
+                                                </div>
+                                            `);
+                        });
+                    }
+                }
+            });
+        }
+
+        // Chọn sản phẩm (thêm vào tab hiện tại)
+        function onProductSelected(id, name, img, barcode, price) {
+            const tabId = getActiveTabId();
+            const index = productIndexes[tabId] ?? 0;
+
+            $.ajax({
+                url: '/Order/GetUnitsByProductID',
+                data: { productID: id },
+                type: 'GET',
+                success: function (unitRes) {
+                    let unitOptions = '';
+                    let unitPrice = price;
+
+                    if (unitRes && unitRes.data && unitRes.data.length > 0) {
+                        unitRes.data.forEach((unit, i) => {
+                            unitOptions += `<option value="${unit.unitID}" data-price="${unit.unitPrice}">${unit.unitName}</option>`;
+                            if (i === 0 && unit.unitPrice !== null) unitPrice = unit.unitPrice;
+                        });
+                    } else {
+                        unitOptions += `<option value="">Không có</option>`;
+                    }
+
+                    const row = `
+                                                <tr class="border-200">
+                                                    <td class="align-middle">
+                                                        <input type="hidden" name="OrderDetails[${index}].ProductID" value="${id}" />
+                                                        <div class="d-flex align-items-center">
+                                                            <img src="${img}" alt="${name}" class="me-2 rounded-circle" width="40" height="40" />
+                                                            <span>${name}</span>
+                                                        </div>
+                                                    </td>
+                                                    <td class="align-middle text-center"><input type="number" class="form-control quantity-input" name="OrderDetails[${index}].Quantity" value="1" min="1" required></td>
+                                                    <td class="align-middle text-end"><input type="number" class="form-control costprice-input" name="OrderDetails[${index}].UnitPrice" value="${unitPrice}" min="0" step="0.01" required></td>
+                                                    <td class="align-middle text-end">
+                                                        <select class="form-select unit-select" name="OrderDetails[${index}].UnitID">
+                                                            ${unitOptions}
+                                                        </select>
+                                                    </td>
+                                                    <td class="align-middle text-end"><button type="button" class="btn btn-danger btn-sm remove-product-row">Xóa</button></td>
+                                                </tr>
+                                            `;
+
+                    getSelectorInTab(tabId, '#productDetailsBody').append(row);
+                    $('#productSuggestionList').removeClass('show').empty();
+                    $('#productSearchInput').val('');
+
+                    productIndexes[tabId] = index + 1;
+                    calculateTotal(tabId);
+                }
+            });
+        }
+
+        // Tìm khách hàng cho tab hiện tại
+        function findCustomer(tabId = getActiveTabId()) {
+            const phone = getSelectorInTab(tabId, '.phone-input').val();
+            const customerIdInput = getSelectorInTab(tabId, '.customer-id');
+            const customerNameSpan = getSelectorInTab(tabId, '.customer-name');
+            const loyaltyPointsSpan = getSelectorInTab(tabId, '.loyalty-points');
+            const loyaltyPointsBeforeInput = getSelectorInTab(tabId, '.loyaltyPointsBefore');
+            const customerInfoDiv = getSelectorInTab(tabId, '.customer-info');
+            const customerNameInputHidden = getSelectorInTab(tabId, '.customer-name-input');
+            const usedPointsInput = getSelectorInTab(tabId, `#used-points-${tabId.split('-').pop()}`);
+            const discountInput = getSelectorInTab(tabId, '#discount');
+
+            if (!phone) {
+                alert("Vui lòng nhập số điện thoại khách hàng.");
+                return;
+            }
+
+            $.ajax({
+                url: '/Order/GetCustomerByPhoneAjax',
+                type: 'GET',
+                data: { phone: phone },
+                success: function (res) {
+                    if (res.success && res.data) {
+                        const customer = res.data;
+                        customerIdInput.val(customer.id);
+                        customerNameSpan.text(customer.name);
+                        loyaltyPointsSpan.text(customer.loyaltyPoints);
+                        loyaltyPointsBeforeInput.val(customer.loyaltyPoints);
+                        customerInfoDiv.show();
+                        customerNameInputHidden.val(customer.name);
+                        usedPointsInput.val('0'); // Reset điểm đã sử dụng khi tìm thấy khách hàng mới
+                        discountInput.val('0'); // Reset giảm giá khi tìm thấy khách hàng mới
+                        calculateTotal(tabId); // Cập nhật lại tổng tiền
+                    } else {
+                        alert("Không tìm thấy khách hàng.");
+                        customerInfoDiv.hide();
+                        customerNameInputHidden.val('Khách lẻ');
+                        customerIdInput.val('');
+                        loyaltyPointsSpan.text('0');
+                        loyaltyPointsBeforeInput.val('');
+                        usedPointsInput.val('0');
+                        discountInput.val('0');
+                        calculateTotal(tabId);
+                    }
+                },
+                error: function () {
+                    alert("Có lỗi xảy ra khi tìm khách hàng.");
+                }
+            });
+        }
+
+        // Áp dụng điểm tích lũy cho tab hiện tại
+        function applyPoints(tabId = getActiveTabId()) {
+            const usedPointsInput = getSelectorInTab(tabId, `#used-points-${tabId.split('-').pop()}`);
+            const availablePointsSpan = getSelectorInTab(tabId, '.loyalty-points');
+            const discountInput = getSelectorInTab(tabId, '#discount');
+            const usedPointsHiddenInput = getSelectorInTab(tabId, '#usedPoints');
+
+            const usedPoints = parseFloat(usedPointsInput.val()) || 0;
+            const availablePoints = parseFloat(availablePointsSpan.text()) || 0;
+
+            if (usedPoints > availablePoints) {
+                alert("Không đủ điểm tích lũy.");
+                return;
+            }
+
+            const discountFromPoints = usedPoints * 1000; // Giả sử 1 điểm = 100 VND
+
+            discountInput.val(discountFromPoints);
+            usedPointsHiddenInput.val(usedPoints);
+
+            calculateTotal(tabId);
+        }
+
+        // Tính tổng cho tab hiện tại
+        function calculateTotal(tabId = getActiveTabId()) {
+            let total = 0;
+            getSelectorInTab(tabId, '#productDetailsBody tr').each(function () {
+                const qty = parseFloat($(this).find('.quantity-input').val()) || 0;
+                const price = parseFloat($(this).find('.costprice-input').val()) || 0;
+                total += qty * price;
+            });
+
+            const discount = parseFloat(getSelectorInTab(tabId, '#discount').val()) || 0;
+            const payable = Math.max(total - discount, 0);
+
+            getSelectorInTab(tabId, '#totalAmount').text(total.toLocaleString('vi-VN'));
+            getSelectorInTab(tabId, '#payableAmount').text(payable.toLocaleString('vi-VN'));
+            getSelectorInTab(tabId, '#payableAmountInput').val(payable.toFixed(2));
+        }
+
+        // Sự kiện thay đổi input (áp dụng cho tất cả tab)
+        $(document).on('input', '.quantity-input, .costprice-input, .discount-input', function () {
+            const tabId = $(this).closest('.tab-pane').attr('id');
+            calculateTotal(tabId);
+        });
+
+        // Xóa sản phẩm (áp dụng cho tất cả tab)
+        $(document).on('click', '.remove-product-row', function () {
+            const tabId = $(this).closest('.tab-pane').attr('id');
+            $(this).closest('tr').remove();
+            calculateTotal(tabId);
+            // Cập nhật lại index sản phẩm nếu cần (tùy logic backend)
+            updateProductIndexes(tabId);
+        });
+
+        function updateProductIndexes(tabId) {
+            const newIndexes = {};
+            getSelectorInTab(tabId, '#productDetailsBody tr').each(function (index) {
+                $(this).find('input[name^="OrderDetails["]').each(function () {
+                    const name = $(this).attr('name');
+                    const parts = name.split('[');
+                    if (parts.length > 1) {
+                        const originalIndex = parts[1].split(']')[0];
+                        const newName = name.replace(`[${originalIndex}]`, `[${index}]`);
+                        $(this).attr('name', newName);
+                    }
+                });
+            });
+            productIndexes[tabId] = getSelectorInTab(tabId, '#productDetailsBody tr').length;
+        }
+
+        // Thay đổi đơn vị (áp dụng cho tất cả tab)
+        $(document).on('change', '.unit-select', function () {
+            const tabId = $(this).closest('.tab-pane').attr('id');
+            const unitPrice = parseFloat($(this).find('option:selected').data('price')) || 0;
+            const row = $(this).closest('tr');
+            row.find('.costprice-input').val(unitPrice); // Loại bỏ toFixed(2) ở đây
+            calculateTotal(tabId);
+        });
+
+        // Tạo hóa đơn mới
+        function onCreateNewOrder() {
+            tabIndex++;
+            const newTabId = `order-form-${tabIndex}`;
+            productIndexes[newTabId] = 0;
+
+            const tabHeader = `<li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="tab-${tabIndex}" data-bs-toggle="tab" data-bs-target="#${newTabId}" type="button" role="tab">
+                                            Hóa đơn ${tabIndex}
+                                            <span class="ms-1 text-danger" onclick="closeOrderTab(event, '${newTabId}', 'tab-${tabIndex}')">&times;</span>
+                                        </button>
+                                    </li>`;
+            $('#orderTabHeader').append(tabHeader);
+
+            const originalTabContent = $('#order-form-1').clone(true); // Clone cả sự kiện
+            originalTabContent.attr('id', newTabId).removeClass('show active');
+
+            // Cập nhật ID và thuộc tính trong form mới
+            const newForm = originalTabContent.find('form').attr('id', `formOrder-${tabIndex}`);
+            const findCustomerButton = newForm.find('.btn-primary[onclick*="findCustomer"]');
+            const applyPointsButton = newForm.find('.btn-warning[onclick*="applyPoints"]');
+            const phoneInput = newForm.find('.phone-input');
+            const customerInfoDiv = newForm.find('.customer-info');
+            const usedPointsInput = newForm.find('#used-points-1');
+            const customerNameSpan = newForm.find('.customer-name');
+            const loyaltyPointsSpan = newForm.find('.loyalty-points');
+            const loyaltyPointsBeforeInput = newForm.find('.loyaltyPointsBefore');
+            const customerIdInput = newForm.find('.customer-id');
+            const customerNameInputHidden = newForm.find('.customer-name-input');
+            const totalAmountSpan = newForm.find('#totalAmount');
+            const payableAmountSpan = newForm.find('#payableAmount');
+            const payableAmountInputHidden = newForm.find('#payableAmountInput');
+            const discountInput = newForm.find('.discount-input');
+            const productDetailsBody = newForm.find('#productDetailsBody');
+            const usedPointsHidden = newForm.find('#usedPoints'); // Lấy input hidden usedPoints
+
+            // Đặt lại các thuộc tính và giá trị cho form mới
+            phoneInput.attr('id', `phone-${tabIndex}`).val('');
+            findCustomerButton.attr('onclick', `findCustomer('${newTabId}')`);
+            customerInfoDiv.attr('id', `customer-info-${tabIndex}`).hide();
+            usedPointsInput.attr('id', `used-points-${tabIndex}`).val('0');
+            applyPointsButton.attr('onclick', `applyPoints('${newTabId}')`);
+            customerNameSpan.text('');
+            loyaltyPointsSpan.text('0');
+            loyaltyPointsBeforeInput.val('');
+            customerIdInput.val('');
+            customerNameInputHidden.val('Khách lẻ');
+            totalAmountSpan.text('0');
+            payableAmountSpan.text('0');
+            payableAmountInputHidden.val('0');
+            discountInput.val('0');
+            productDetailsBody.empty();
+            usedPointsHidden.val('0'); // Reset giá trị điểm đã dùng trong input hidden
+
+            $('#orderTabContent').append(originalTabContent);
+            new bootstrap.Tab(document.getElementById(`tab-${tabIndex}`)).show();
+        }
+
+        // Đóng hóa đơn
+        function closeOrderTab(e, tabId, tabBtnId) {
+            e.stopPropagation();
+            const wasActive = $(`#${tabBtnId}`).hasClass('active');
+            $(`#${tabBtnId}`).parent().remove();
+            $(`#${tabId}`).remove();
+
+            if (wasActive) {
+                const firstTab = $('#orderTabHeader .nav-link').not(':contains("×")').first();
+                if (firstTab.length > 0) new bootstrap.Tab(firstTab[0]).show();
+            }
+        }
+    </script>
+}

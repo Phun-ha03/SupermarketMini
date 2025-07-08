@@ -1,0 +1,214 @@
+﻿@using CMS.Models.Supermarket.StockImports;
+@using CMS.Utilities.Helpers
+@model StockImportCreateRequest
+@{
+    ViewData["Title"] = "Create StockImport";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<div class="card mt-3 mb-3">
+    <div class="row g-3">
+
+        <div class="card-header">
+            <h3>Tạo phiếu nhập hàng</h3>
+        </div>
+
+        <div class="card-body pt-0">
+            <form asp-action="Create" asp-controller="StockImport" id="formStockImport" method="post">
+                @if (!string.IsNullOrEmpty(ViewBag.Error))
+                {
+                    <div class="alert alert-danger pt-2 pb-2 mt-1 mb-2" role="alert">
+                        @ViewBag.Error
+                    </div>
+                }
+                else if (!string.IsNullOrEmpty(ViewBag.Message))
+                {
+                    <div class="alert alert-success pt-2 pb-2 mt-1 mb-2" role="alert">
+                        @ViewBag.Message
+                    </div>
+                }
+                <div class="row g-3">
+                <div class="col-xxl-10 col-xl-9">
+                        <div class="card-header">
+                        </div>
+                    <!-- Ô tìm kiếm -->
+                    <div class="mb-4">
+                        <input id="productSearchInput" type="text" placeholder="Tìm sản phẩm..." onkeyup="onSearchBox_KeyPress()" class="form-control" />
+                            <div class="col-xxl-10 col-xl-9" id="productSuggestionList" class="dropdown-menu w-100 mt-1 p-2 shadow-sm">
+                            <!-- Sản phẩm gợi ý sẽ thêm bằng JS -->
+                        </div>
+                    </div>
+
+                    <!-- Bảng chi tiết sản phẩm -->
+                    <div class="mb-4">
+                        <table class="table" id="productDetailsTable">
+                            <thead>
+                                <tr>
+                                    <th>Sản phẩm</th>
+                                    <th>Số lượng</th>
+                                    <th>Giá nhập</th>
+                                    <th>Hạn sử dụng</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody id="productDetailsBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+                <!-- Thông tin nhà cung cấp và ngày -->
+                <div class="col-xxl-2 col-xl-3">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                                <label style="font-size: 1rem;" asp-for="SupplierID">Nhà cung cấp</label>
+                            @Html.DropDownListFor(
+                                     m => m.SupplierID,
+                                     ViewBag.Suppliers as SelectList,
+                                     new { @class = "form-select" }
+                                     )
+                            <span asp-validation-for="SupplierID" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                                <label style="font-size: 1rem;" for="importDate">Ngày nhập:</label>
+                            <input type="date" class="form-control" id="importDate" name="ImportDate"
+                                   value="@(Model.ImportDate.HasValue ? Model.ImportDate.Value.ToString("yyyy-MM-dd") : "")" required />
+                        </div>
+                    </div>
+
+                    <!-- Thanh toán -->
+                    <div class="invoice-summary border p-3 mb-3">
+                        <div class="d-flex justify-content-between">
+                            <span>Tổng tiền hàng</span>
+                            <span id="totalAmount">0</span>
+                        </div>
+                        <div class="form-group mt-2">
+                            <label for="discount">Giảm giá:</label>
+                            <input type="number" class="form-control" id="discount" name="DiscountAmount" value="0" min="0" />
+                        </div>
+                        <div class="d-flex justify-content-between fw-bold mt-2">
+                            <span>Cần trả</span>
+                            <span class="text-primary" id="payableAmount">0</span>
+                            <input type="hidden" id="payableAmountInput" name="TotalCost" value="0" />
+                        </div>
+                    </div>
+
+                    <div class="col d-flex justify-content-end align-items-center p-0 pe-3">
+                        <div class="col-auto btn btn-danger" onclick="onCancel_Click()">Hủy</div>
+                        <input class="col-auto btn btn-primary ms-2" type="submit" value="Thêm" />
+                    </div>
+                </div>
+                  </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+@section Scripts {
+    <script>
+        let productIndex = 0;
+
+        function onSearchBox_KeyPress() {
+            const keyword = $('#productSearchInput').val();
+
+            $.ajax({
+                url: '/StockImport/GetProductsByKeywordAjax',
+                data: { keyword },
+                type: 'GET',
+                success: function (res) {
+                    const list = $('#productSuggestionList');
+                    list.empty().addClass('show');
+
+                    if (res.data.length === 0) {
+                        list.append('<div class="text-muted px-2">Không tìm thấy</div>');
+                    } else {
+                        res.data.forEach(product => {
+                            list.append(`
+                                        <div class="dropdown-item" onclick="onProductSelected(${product.productID}, '${product.name}', '${product.image}', '${product.barcode}', ${product.price})">
+                                            <img src="${product.image}" class="me-2 rounded-circle" width="30" height="30" />
+                                            ${product.name}
+                                        </div>
+                                    `);
+                        });
+                    }
+                }
+            });
+        }
+
+        function onProductSelected(id, name, img, barcode, price) {
+            $.ajax({ // Lấy danh sách đơn vị tính cho sản phẩm
+                url: '/StockImport/GetUnitsByProductID',
+                data: { productID: id },
+                type: 'GET',
+                success: function (unitRes) {
+                    let unitOptions = '';
+                    if (unitRes && unitRes.data && unitRes.data.length > 0) {
+                        unitRes.data.forEach(unit => {
+                            unitOptions += `<option value="${unit.unitID}">${unit.unitName}</option>`; // unit.unitID và unit.unitName
+                        });
+                    }
+                    else {
+                        unitOptions += `<option value="">Không có</option>`;
+                    }
+
+                    const row = `
+                                <tr>
+                                    <td>
+                                        <input type="hidden" name="StockImportDetails[${productIndex}].ProductID" value="${id}" />
+                                        <div class="d-flex align-items-center">
+                                            <img src="${img}" alt="${name}" class="me-2 rounded-circle" width="40" height="40" />
+                                            <span>${name}</span>
+                                        </div>
+                                    </td>
+                                    <td><input type="number" class="form-control quantity-input" name="StockImportDetails[${productIndex}].Quantity" value="1" min="1" required></td>
+                                    <td><input type="number" class="form-control costprice-input" name="StockImportDetails[${productIndex}].CostPrice" value="${price}" min="0" step="0.01" required></td>
+                                    <td><input type="date" class="form-control" name="StockImportDetails[${productIndex}].ExpirationDate"></td>
+                                    <td>
+                                        <select class="form-select" name="StockImportDetails[${productIndex}].UnitID">
+                                            ${unitOptions}
+                                        </select>
+                                    </td>
+                                    <td><button type="button" class="btn btn-danger btn-sm remove-product-row">Xóa</button></td>
+                                </tr>
+                            `;
+
+                    $('#productDetailsBody').append(row);
+                    $('#productSuggestionList').removeClass('show').empty();
+                    $('#productSearchInput').val('');
+                    productIndex++;
+                    calculateTotal();
+                }
+            });
+        }
+
+        // Tính tổng
+        function calculateTotal() {
+            let total = 0;
+            $('#productDetailsBody tr').each(function () {
+                const qty = parseFloat($(this).find('.quantity-input').val()) || 0;
+                const price = parseFloat($(this).find('.costprice-input').val()) || 0;
+                total += qty * price;
+            });
+
+            const discount = parseFloat($('#discount').val()) || 0;
+            const payable = Math.max(total - discount, 0);
+
+            $('#totalAmount').text(payable.toLocaleString('vi-VN')); // Hiển thị luôn payable
+            $('#payableAmount').text(payable.toLocaleString('vi-VN'));
+
+            $('#payableAmountInput').val(payable.toFixed(2));
+        }
+
+        // Gọi tính tổng khi thay đổi số lượng hoặc giá
+        $(document).on('input', '.quantity-input, .costprice-input, #discount', calculateTotal);
+
+        // Xóa sản phẩm
+        $(document).on('click', '.remove-product-row', function () {
+            $(this).closest('tr').remove();
+            calculateTotal();
+        });
+    </script>
+}
+
+
+
+
+

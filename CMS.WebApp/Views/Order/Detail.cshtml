@@ -1,0 +1,64 @@
+﻿@using CMS.BaseModels.Common
+@using CMS.Models.Supermarket.Orders;
+@using CMS.Models.Supermarket.Suppliers
+@using CMS.Utilities.Helpers
+@model OrderViewModel
+@{
+    ViewData["Title"] = "Danh sách sản phẩm";
+    Layout = "~/Views/Shared/_LayoutConfirm.cshtml";
+}
+<div class="modal-dialog mt-6" role="document">
+<div class="modal-content border-0">
+    <div class="container p-5 my-5 border">
+        <div class="card-header">
+            <h3>Siêu Thị Mini</h3>
+            <h3>Địa chỉ</h3>
+            <h3>Chi tiết hóa đơn #@Model.OrderID</h3>
+        </div>
+        <div class="card-body p-0 pb-3">
+            <div class="row g-3">
+                <div class="mb-3">
+
+                    <p><strong>Khách hàng:</strong> @Model.Name</p>
+                    <p><strong>Ngày tạo:</strong> @Model.CreateAt.ToString("dd/MM/yyyy HH:mm")</p>
+                    <p><strong>Phương thức thanh toán:</strong> @Model.PaymenMethod</p>
+                </div>
+                <div class="mb-4">
+                    <div class="table-responsive fs-10">
+                        <table class="table table-striped border-bottom">
+                            <thead class="bg-200">
+
+                                <tr>
+                                    <th class="text-900 border-0">Sản phẩm</th>
+                                    <th class="text-900 border-0">Đơn vị</th>
+                                    <th class="text-900 border-0">Số lượng</th>
+                                    <th class="text-900 border-0">Đơn giá</th>
+                                    <th class="text-900 border-0">Thành tiền</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.OrderDetails)
+                                {
+                                    <tr>
+                                        <td>@item.Name</td>
+                                        <td>@item.UnitName</td>
+                                        <td>@item.Quantity</td>
+                                        <td>@item.UnitPrice.ToString("N0") đ</td>
+                                        <td>@item.TotalPrice.ToString("N0") đ</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                        <div class="mb-3">
+                            <p><strong>Giảm giá:</strong> @Model.Discount.ToString("N0") đ</p>
+                            <p><strong>Thanh toán:</strong> @Model.TotalAmount.ToString("N0") đ</p>
+                            <a href="javascript:window.print()" class="btn btn-primary">In hóa đơn</a>
+                            <a href="@Url.Action("Create", "Order")" class="btn btn-secondary">Quay về</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

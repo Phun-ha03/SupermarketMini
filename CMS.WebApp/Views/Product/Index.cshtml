@@ -1,0 +1,200 @@
+﻿@using CMS.BaseModels.Common
+@using CMS.Models.Supermarket.Categories
+@using CMS.Models.Supermarket.Products;
+@using CMS.Models.Supermarket.Suppliers
+@using CMS.Utilities.Helpers
+@model PagedResult<ProductViewModel>
+@{
+    ViewData["Title"] = "Danh sách sản phẩm";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    int count = 0;
+}
+<div class="card mt-3 mb-3">
+    <div class="row g-3">
+        <div class="col-xxl-2 col-xl-3">
+            <div class="card scrollbar shadow-none shadow-show-xl">
+                <div class="card-header bg-body-tertiary d-none d-xl-block">
+                    <h5 class="mb-0">Bộ lọc sản phẩm</h5>
+                </div>
+                <div class="card-body">
+                    <form method="get" asp-controller="Product" asp-action="Index">
+                        <div class="mb-3 mt-n2">
+                            <label class="mb-1">Danh mục</label>
+                            <select class="form-select form-select-sm" id="categoryFilter" name="CategoryID">
+                                @foreach (var category in (SelectList)ViewBag.Categories)
+                                {
+                                    <option value="@category.Value">@category.Text</option>
+                                }
+                            </select>
+
+                        </div>
+                        <div class="mb-3">
+                            <label class="mb-1 mt-2">Nhà cung cấp</label>
+                            <select class="form-select form-select-sm" id="supplierFilter" name="SupplierID">
+                                @foreach (var supplier in (SelectList)ViewBag.Suppliers)
+                                {
+                                    <option value="@supplier.Value">@supplier.Text</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="mb-1">Giá</label>
+                            <div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="priceFilter" value="" @(ViewBag.PriceFilter == "" ? "checked" : "")>
+                                    <label class="form-check-label" for="priceAll">Tất cả</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="priceFilter" value="0-100000" @(ViewBag.PriceFilter == "0-100000" ? "checked" : "")>
+                                    <label class="form-check-label" for="priceUnder100">Dưới 100K</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="priceFilter" value="100000-500000" @(ViewBag.PriceFilter == "100000-500000" ? "checked" : "")>
+                                    <label class="form-check-label" for="price100to500">100K - 500K</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="priceFilter" value="500000-999999999" @(ViewBag.PriceFilter == "500000-999999999" ? "checked" : "")>
+                                    <label class="form-check-label" for="priceOver500">Trên 500K</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="mb-1">Lọc theo tên</label>
+                            <input type="text" class="form-control form-control-sm" name="keyword" placeholder="Nhập tên sản phẩm..." value="@ViewBag.Keyword">
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Lọc</button>
+                    </form>
+                </div>
+                <div class="card-footer border-top border-200 py-x1"></div>
+            </div>
+        </div>
+        <div class="col-xxl-10 col-xl-9">
+            <div class="card-header">
+                <div class="row flex-between-end">
+                    <div class="col-auto align-self-center">
+                        <span class="fs-1 fw-semi-bold">@ViewData["Title"]</span>
+                        <span>
+                            (<span style="font-size:15px; color:gray;"><font style="color:orange;">@Model.TotalRecords</font> records</span>)
+                        </span>
+                    </div>
+
+                    <div class="col-auto ms-auto">
+                        <div class="col-8 col-sm-auto text-end ps-2">
+
+                            <div class="col-auto ms-auto">
+                               
+                                <button id="exportCsvBtn" class="btn btn-falcon-default btn-sm" type="button">
+                                    <span class="fas fa-external-link-alt" data-fa-transform="shrink-3 down-2"></span>
+                                    <span class="d-none d-sm-inline-block ms-1">Xuất</span>
+                                </button>
+
+                                <button class="btn btn-sm btn-falcon-default me-2" onclick="openRemoteModal('@Url.Action("Create", "Product")', 'Thêm loại sản phẩm', '800px', '650px')">
+                                    <span class="fas fa-plus me-2"></span>Thêm sản phẩm
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body pt-0">
+                <div id="tableExample2">
+                    <div class="table-responsive scrollbar" style="max-height: calc(100vh - 12.5rem) !important;">
+                        <table class="table table-bordered table-striped table-hover overflow-hidden fs--1 mb-0">
+                            <thead class="bg-200">
+                                <tr>
+                                    <th class="text-nowrap" scope="col">Tên loại</th>
+                                    <th class="text-nowrap" scope="col">Hình ảnh</th> 
+                                    <th class="text-nowrap" scope="col">Mã SP</th> 
+                                    <th class="text-nowrap" scope="col">Mô tả</th>
+                                    <th class="text-nowrap" scope="col">Giá</th>
+                                    <th class="text-nowrap" scope="col">Số lượng tồn</th>
+                                    <th class="text-nowrap" scope="col">Barcode </th>
+                                    <th class="text-nowrap" scope="col">Loại sản phẩm </th>
+                                    <th class="text-nowrap" scope="col">Nhà cung cấp </th>
+                                    <th class="text-nowrap" scope="col"> </th>
+                                </tr>
+                            </thead>
+                            <tbody class="list">
+                                @if (!string.IsNullOrEmpty(ViewBag.Error))
+                                {
+                                    <tr class="align-middle">
+                                        <td colspan="9" class="text-danger">@ViewBag.Error</td>
+                                    </tr>
+                                }
+                                else if (Model == null || Model.Items == null || Model.Items.Count <= 0)
+                                {
+                                    <tr class="align-middle hover-actions-trigger">
+                                        <td colspan="9" class="text-nowrap p-2 ps-3 text-danger">
+                                            Chưa có bản ghi
+                                        </td>
+                                    </tr>
+                                }
+                                else foreach (var item in Model.Items)
+                                    {
+                                        count++;
+                                        <tr class="align-middle hover-actions-trigger">
+                                            <td class="text-nowrap">
+                                                @Html.DisplayFor(modelItem => item.Name)
+                                            </td>
+                                            <td class="text-nowrap">
+                                                <img src="@item.Image" alt="Ảnh sản phẩm" width="80" height="80" /> 
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.ProductCode)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Description)
+                                            </td>
+
+                                            <td>
+                                                @item.Price.ToString("c0", new System.Globalization.CultureInfo("vi-VN"))
+                                            </td>
+
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.StockQuantity)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Barcode)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.CategoryName)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.SupplierName)
+                                            </td>
+                                            
+
+                                            <td>
+                                                <div class="hover-actions end-0 top-50 h-100 ps-3 pe-3 translate-middle-y bg-danger">
+                                                    <button onclick="openRemoteModal('@Url.Action("Edit", "Product", new {id = item.ProductID})', 'Cập nhật loại nguyên liệu', '800px', '650px')" class="btn p-0 me-2" type="button" data-bs-toggle="" data-bs-placement="top" title="Sửa"><span class="text-white fas fa-edit"></span></button>
+                                                    <button onclick="openRemoteModal('@Url.Action("Delete", "Product", new {id = item.ProductID})', 'Xóa loại nguyên liệu', '500px', '250px')" class="btn p-0" type="button" data-bs-toggle="" data-bs-placement="top" title="Xóa"><span class="text-white fas fa-trash-alt"></span></button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    }
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="d-flex justify-content-center mt-3">
+                        @await Component.InvokeAsync("Pager", Model)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@* <script>
+        document.getElementById("exportCsvBtn").addEventListener("click", function () {
+        window.location.href = "/Product/ExportCsv";
+    });
+</script>
+ *@
+<script>
+    document.getElementById("exportCsvBtn").addEventListener("click", function () {
+        window.location.href = '@Url.Action("ExportExcel", "Product")';
+    });
+</script>
+
