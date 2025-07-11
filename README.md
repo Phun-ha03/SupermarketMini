@@ -12,6 +12,8 @@
 - **Quản lý nhập kho :** Thêm phiếu nhập, sửa, xóa, xem chi tiết hóa đơn .
 - **Quản lý hóa đơn:** Tạo hóa đơn, tính tổng tiền, áp dụng tích điểm, in hóa đơn.
 - **Quản lý khách hàng:** Lưu trữ thông tin khách hàng và tính điểm tích lũy.
+- **Thiết lập giá và đơn vị:** thiết lập giá bán và đơn vị cơ sở của hàng hóa.
+- **Thanh toán:** Thanh toán hóa đơn mua.
 - **Phân quyền người dùng:** Tài khoản Admin và Thu ngân.
 - **Kiểm thử thủ công:** Viết test case và kiểm thử chức năng bằng tay.
 
